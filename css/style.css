@@ -1,0 +1,245 @@
+/* ============================================
+   ΣΥΝΑΝΘΡΩΠΙΑ – Under Construction Page
+   ============================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --teal-dark:   #0d5c52;
+  --teal:        #0e7066;
+  --teal-light:  #1a9485;
+  --white:       #ffffff;
+  --off-white:   #f7f9f8;
+  --text-dark:   #1a2e2b;
+  --text-muted:  #4a6b65;
+  --divider:     #d0e4e0;
+  --accent:      #e0f2ef;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  color: var(--text-dark);
+  background-color: var(--off-white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── HERO ─────────────────────────────────── */
+
+.hero {
+  position: relative;
+  background-color: var(--teal-dark);
+  padding: 5rem 2rem 4rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Subtle chevron pattern overlay */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 20 L20 0 L40 20 L20 40 Z' fill='none' stroke='rgba(255,255,255,0.06)' stroke-width='1'/%3E%3C/svg%3E");
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeDown 0.9s ease both;
+}
+
+.site-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.8rem, 8vw, 5.5rem);
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: 0.12em;
+  line-height: 1.1;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.25);
+}
+
+.site-subtitle {
+  font-size: clamp(0.95rem, 2.5vw, 1.15rem);
+  font-weight: 400;
+  color: rgba(255,255,255,0.78);
+  margin-top: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.pillars {
+  margin-top: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.6);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pillars .dot {
+  color: rgba(255,255,255,0.35);
+}
+
+/* ── UNDER CONSTRUCTION BANNER ────────────── */
+
+.under-construction {
+  text-align: center;
+  padding: 2.5rem 1rem 1rem;
+  animation: fadeUp 1s ease 0.2s both;
+}
+
+.under-construction .icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.under-label {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--teal-dark);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.45rem 1.2rem;
+  border-radius: 50px;
+  border: 1px solid var(--divider);
+}
+
+/* ── CONTACT LANGUAGES ────────────────────── */
+
+.content {
+  flex: 1;
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+
+.languages {
+  margin-top: 2.5rem;
+  background: var(--white);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(13,92,82,0.08);
+  overflow: hidden;
+  animation: fadeUp 1s ease 0.35s both;
+}
+
+.lang-block {
+  padding: 2.2rem 2.8rem;
+}
+
+.lang-block p {
+  color: var(--text-muted);
+  font-size: 0.97rem;
+  line-height: 1.7;
+  margin-bottom: 0.4rem;
+}
+
+.lang-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--teal-dark);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lang-flag {
+  font-size: 1.3rem;
+}
+
+.contact-list {
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 0.95rem;
+  color: var(--text-dark);
+}
+
+.contact-icon {
+  font-size: 1rem;
+  width: 1.4rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.contact-list a {
+  color: var(--teal);
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.2s;
+}
+
+.contact-list a:hover {
+  color: var(--teal-light);
+  text-decoration: underline;
+}
+
+.divider {
+  height: 1px;
+  background: var(--divider);
+  margin: 0 2.8rem;
+}
+
+/* ── FOOTER ───────────────────────────────── */
+
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--divider);
+  background: var(--white);
+}
+
+/* ── ANIMATIONS ───────────────────────────── */
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── RESPONSIVE ───────────────────────────── */
+
+@media (max-width: 600px) {
+  .lang-block {
+    padding: 1.8rem 1.4rem;
+  }
+
+  .divider {
+    margin: 0 1.4rem;
+  }
+}
