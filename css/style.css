@@ -28,7 +28,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 300;
   color: var(--text-dark);
-  background-color: var(--off-white);
+  background-color: var(--white);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,19 +38,16 @@ body {
 
 .hero {
   position: relative;
-  background-color: var(--teal-dark);
-  padding: 5rem 2rem 4rem;
+  background-color: var(--white);
+  padding: 3.2rem 2rem 2.2rem;
   text-align: center;
   overflow: hidden;
+  border-bottom: 1px solid var(--divider);
 }
 
 /* Subtle chevron pattern overlay */
 .hero-overlay {
-  position: absolute;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 20 L20 0 L40 20 L20 40 Z' fill='none' stroke='rgba(255,255,255,0.06)' stroke-width='1'/%3E%3C/svg%3E");
-  background-size: 40px 40px;
-  pointer-events: none;
+  display: none;
 }
 
 .hero-content {
@@ -61,29 +58,34 @@ body {
   animation: fadeDown 0.9s ease both;
 }
 
+.brand-logo-band {
+  width: fit-content;
+  margin: 0 auto 1.1rem;
+  padding: 0;
+  background: transparent;
+}
+
 .brand-logo {
   width: clamp(112px, 17vw, 170px);
   height: auto;
   display: block;
-  margin: 0 auto 1rem;
-  filter: drop-shadow(0 3px 16px rgba(0,0,0,0.2));
+  margin: 0 auto;
 }
 
 .site-title {
   font-family: 'Playfair Display', serif;
   font-size: clamp(2.8rem, 8vw, 5.5rem);
   font-weight: 700;
-  color: var(--white);
+  color: var(--teal-dark);
   letter-spacing: 0.12em;
   line-height: 1.1;
   max-width: 100%;
-  text-shadow: 0 2px 20px rgba(0,0,0,0.25);
 }
 
 .site-subtitle {
   font-size: clamp(0.95rem, 2.5vw, 1.15rem);
   font-weight: 400;
-  color: rgba(255,255,255,0.78);
+  color: var(--teal);
   margin-top: 0.9rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -93,7 +95,7 @@ body {
   margin-top: 1rem;
   font-size: clamp(0.82rem, 2vw, 0.98rem);
   font-weight: 400;
-  color: rgba(255,255,255,0.72);
+  color: var(--text-muted);
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -119,7 +121,7 @@ body {
 
 .under-construction {
   text-align: center;
-  padding: 2.5rem 1rem 1rem;
+  padding: 2rem 1rem 1rem;
   animation: fadeUp 1s ease 0.2s both;
 }
 
@@ -152,7 +154,7 @@ body {
 }
 
 .languages {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   background: var(--white);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(13,92,82,0.08);
@@ -258,7 +260,7 @@ body {
 
 @media (max-width: 900px) {
   .hero {
-    padding: 4.1rem 1.1rem 3.2rem;
+    padding: 2.7rem 1.1rem 2rem;
   }
 
   .site-title {
@@ -276,7 +278,7 @@ body {
 
 @media (max-width: 600px) {
   .hero {
-    padding: 3.6rem 1rem 3rem;
+    padding: 2.3rem 1rem 1.8rem;
   }
 
   .site-title {
