@@ -76,6 +76,7 @@ body {
   color: var(--white);
   letter-spacing: 0.12em;
   line-height: 1.1;
+  max-width: 100%;
   text-shadow: 0 2px 20px rgba(0,0,0,0.25);
 }
 
@@ -255,14 +256,32 @@ body {
 
 /* ── RESPONSIVE ───────────────────────────── */
 
+@media (max-width: 900px) {
+  .hero {
+    padding: 4.1rem 1.1rem 3.2rem;
+  }
+
+  .site-title {
+    font-size: clamp(1.95rem, 9.2vw, 3.8rem);
+    letter-spacing: 0.03em;
+    line-height: 1.04;
+  }
+
+  .site-translation {
+    max-width: 30ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (max-width: 600px) {
   .hero {
     padding: 3.6rem 1rem 3rem;
   }
 
   .site-title {
-    font-size: clamp(2rem, 13vw, 3.1rem);
-    letter-spacing: 0.04em;
+    font-size: clamp(1.7rem, 10.5vw, 2.8rem);
+    letter-spacing: 0.02em;
     line-height: 1.02;
     overflow-wrap: anywhere;
   }
@@ -288,7 +307,9 @@ body {
   .contact-list li:last-child {
     max-width: 24ch;
     margin: 0 auto;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .contact-list li:last-child a {
