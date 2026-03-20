@@ -61,6 +61,14 @@ body {
   animation: fadeDown 0.9s ease both;
 }
 
+.brand-logo {
+  width: clamp(112px, 17vw, 170px);
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
+  filter: drop-shadow(0 3px 16px rgba(0,0,0,0.2));
+}
+
 .site-title {
   font-family: 'Playfair Display', serif;
   font-size: clamp(2.8rem, 8vw, 5.5rem);
@@ -191,6 +199,7 @@ body {
 .contact-list li {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.65rem;
   font-size: 0.95rem;
   color: var(--text-dark);
@@ -247,8 +256,43 @@ body {
 /* ── RESPONSIVE ───────────────────────────── */
 
 @media (max-width: 600px) {
+  .hero {
+    padding: 3.6rem 1rem 3rem;
+  }
+
+  .site-title {
+    font-size: clamp(2rem, 13vw, 3.1rem);
+    letter-spacing: 0.04em;
+    line-height: 1.02;
+    overflow-wrap: anywhere;
+  }
+
+  .site-subtitle {
+    letter-spacing: 0.04em;
+    font-size: 1rem;
+  }
+
+  .site-translation {
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    line-height: 1.4;
+    max-width: 26ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .lang-block {
     padding: 1.8rem 1.4rem;
+  }
+
+  .contact-list li:last-child {
+    max-width: 24ch;
+    margin: 0 auto;
+    align-items: flex-start;
+  }
+
+  .contact-list li:last-child a {
+    text-align: center;
   }
 
   .divider {
