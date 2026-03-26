@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Synanthropia emblem</title>
+  <desc id="logoDesc">Round emblem with a protective tree, human and animal figures, and roots forming a circular planet-like frame.</desc>
+
+  <defs>
+    <style>
+      .line {
+        fill: none;
+        stroke: #f5fffd;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .fill {
+        fill: #f5fffd;
+      }
+    </style>
+  </defs>
+
+  <!-- Root circle (intentionally round, not oval) -->
+  <circle class="line" cx="400" cy="400" r="315" stroke-width="14" opacity="0.95" />
+
+  <!-- Braided root arcs that reinforce the circular form -->
+  <path class="line" stroke-width="10" opacity="0.92"
+    d="M121 488 C120 300 252 126 400 121 C548 126 680 300 679 488" />
+  <path class="line" stroke-width="8" opacity="0.85"
+    d="M137 512 C159 316 286 154 400 149 C514 154 641 316 663 512" />
+
+  <!-- Protective canopy (larger than figures below) -->
+  <path class="fill" opacity="0.96"
+    d="M194 384
+       C199 285 283 206 400 203
+       C517 206 601 285 606 384
+       C565 354 525 344 486 346
+       C451 347 423 357 400 377
+       C377 357 349 347 314 346
+       C275 344 235 354 194 384 Z" />
+
+  <!-- Canopy texture clusters -->
+  <g fill="#f5fffd" opacity="0.96">
+    <circle cx="246" cy="336" r="20" />
+    <circle cx="280" cy="307" r="24" />
+    <circle cx="321" cy="287" r="25" />
+    <circle cx="365" cy="276" r="24" />
+    <circle cx="400" cy="271" r="26" />
+    <circle cx="435" cy="276" r="24" />
+    <circle cx="479" cy="287" r="25" />
+    <circle cx="520" cy="307" r="24" />
+    <circle cx="554" cy="336" r="20" />
+    <circle cx="262" cy="368" r="18" />
+    <circle cx="310" cy="353" r="19" />
+    <circle cx="352" cy="343" r="18" />
+    <circle cx="448" cy="343" r="18" />
+    <circle cx="490" cy="353" r="19" />
+    <circle cx="538" cy="368" r="18" />
+  </g>
+
+  <!-- Trunk and main branches -->
+  <path class="fill"
+    d="M400 560
+       C384 548 372 526 369 498
+       C363 447 374 406 400 360
+       C426 406 437 447 431 498
+       C428 526 416 548 400 560 Z" />
+
+  <path class="line" stroke-width="10"
+    d="M400 406 C360 372 327 334 315 285
+       M400 406 C440 372 473 334 485 285
+       M400 430 C356 412 323 386 300 350
+       M400 430 C444 412 477 386 500 350" />
+
+  <!-- Human figure (smaller than tree) -->
+  <g class="fill" opacity="0.96">
+    <circle cx="266" cy="522" r="16" />
+    <path d="M234 588
+             C236 557 248 540 266 537
+             C283 535 300 545 307 561
+             C286 562 271 571 258 586
+             C249 597 239 597 234 588 Z" />
+    <path d="M295 556 C313 548 328 549 342 561 C324 563 310 567 298 575 Z" />
+  </g>
+
+  <!-- Animal figure (smaller than tree) -->
+  <g class="fill" opacity="0.96">
+    <path d="M516 589
+             C504 565 506 543 519 527
+             C533 510 556 500 582 503
+             C595 504 605 499 611 489
+             C614 507 610 521 600 532
+             C615 548 620 566 616 587
+             C602 572 587 565 572 564
+             C551 562 533 570 516 589 Z" />
+    <path d="M612 491 C624 496 632 506 636 520 C623 517 613 510 607 500 Z" />
+  </g>
+
+  <!-- Roots becoming the planet circle -->
+  <path class="line" stroke-width="11"
+    d="M400 560
+       C350 610 278 651 189 656
+       C168 657 149 654 132 646
+       M400 560
+       C450 610 522 651 611 656
+       C632 657 651 654 668 646" />
+
+  <path class="line" stroke-width="7" opacity="0.9"
+    d="M400 560
+       C332 612 255 635 178 623
+       M400 560
+       C468 612 545 635 622 623
+       M400 560
+       C310 593 220 585 151 553
+       M400 560
+       C490 593 580 585 649 553" />
+
+  <path class="line" stroke-width="5" opacity="0.82"
+    d="M400 560
+       C344 642 299 693 236 713
+       M400 560
+       C456 642 501 693 564 713
+       M400 560
+       C375 654 371 704 376 727
+       M400 560
+       C425 654 429 704 424 727" />
+</svg>

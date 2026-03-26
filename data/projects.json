@@ -1,0 +1,66 @@
+[
+  {
+    "status": "active",
+    "pillar": "environment",
+    "title": {
+      "el": "Καθαρισμός παραλίας Α",
+      "en": "Beach A cleanup",
+      "de": "Reinigung Strand A"
+    },
+    "summary": {
+      "el": "Οργάνωση μηνιαίου καθαρισμού με συμμετοχή εθελοντών και φορέων.",
+      "en": "Monthly cleanup effort with volunteers and local partners.",
+      "de": "Monatliche Reinigungsinitiative mit Freiwilligen und Partnern."
+    },
+    "budget": 1800,
+    "raised": 720
+  },
+  {
+    "status": "active",
+    "pillar": "human",
+    "title": {
+      "el": "Πακέτα βασικής υποστήριξης",
+      "en": "Essential support packages",
+      "de": "Pakete fuer Grundversorgung"
+    },
+    "summary": {
+      "el": "Στήριξη οικογενειών με τρόφιμα και είδη καθημερινής ανάγκης.",
+      "en": "Support for families with food and basic daily supplies.",
+      "de": "Unterstuetzung von Familien mit Lebensmitteln und Alltagsbedarf."
+    },
+    "budget": 2500,
+    "raised": 1430
+  },
+  {
+    "status": "future",
+    "pillar": "animals",
+    "title": {
+      "el": "Πρόγραμμα σίτισης αδέσποτων",
+      "en": "Stray feeding program",
+      "de": "Futterprogramm fuer Streunertiere"
+    },
+    "summary": {
+      "el": "Νέο πρόγραμμα με σημεία σίτισης και συνεργασία με κτηνιάτρους.",
+      "en": "New program with feeding points and veterinary collaboration.",
+      "de": "Neues Programm mit Fuetterungsstellen und tieraerztlicher Zusammenarbeit."
+    },
+    "budget": 1200,
+    "raised": 150
+  },
+  {
+    "status": "completed",
+    "pillar": "environment",
+    "title": {
+      "el": "Δενδροφύτευση κοινόχρηστου χώρου",
+      "en": "Community tree planting",
+      "de": "Baumpflanzung im Gemeinschaftsraum"
+    },
+    "summary": {
+      "el": "Ολοκληρωμένη δράση με πλήρη κάλυψη προϋπολογισμού.",
+      "en": "Completed initiative with full budget coverage.",
+      "de": "Abgeschlossenes Projekt mit voller Budgetdeckung."
+    },
+    "budget": 900,
+    "raised": 900
+  }
+]

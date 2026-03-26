@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Συνανθρωπιά - Αιτήσεις ενδιαφέροντος." />
+  <title>Συνανθρωπιά | Αιτήσεις</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Manrope:wght@300;400;500;700&family=Noto+Serif:wght@500;700&display=swap" rel="stylesheet" />
+  <script>
+    (function () {
+      try {
+        var lang = window.localStorage.getItem("synanthropia-lang");
+        if (lang && lang !== "el") {
+          document.documentElement.setAttribute("data-lang-pending", "true");
+        }
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="css/style.css?v=20260326-1" />
+</head>
+<body>
+  <header class="site-header" id="home">
+    <div class="header-inner">
+      <a class="brand" href="preview.html" aria-label="Synanthropia home">
+        <img class="brand-logo" src="images/logo-nb-square.png?v=2" alt="Λογότυπο Συνανθρωπιά" />
+        <span class="brand-name">Συνανθρωπιά</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a data-i18n="nav_home" href="preview.html">Αρχική</a>
+        <a data-i18n="nav_about" href="about.html">Σχετικά με εμάς</a>
+        <a data-i18n="nav_actions" href="actions.html">Δράσεις</a>
+        <a data-i18n="nav_projects" href="projects.html">Projects</a>
+        <a data-i18n="nav_members" href="members.html">Μέλη & Εταίροι</a>
+        <a data-i18n="nav_forms" href="forms.html">Αιτήσεις</a>
+        <a data-i18n="nav_donate" href="donate.html">Δωρεά</a>
+        <a data-i18n="nav_contact" href="contact.html">Επικοινωνία</a>
+      </nav>
+
+      <div class="language-switcher" aria-label="Language selector">
+        <button class="lang-btn active" data-lang="el" type="button">🇬🇷</button>
+        <button class="lang-btn" data-lang="en" type="button">🇬🇧</button>
+        <button class="lang-btn" data-lang="de" type="button">🇩🇪</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="forms section-pad">
+      <div class="container two-col forms-grid">
+        <article class="form-card" id="member-application">
+          <h2 data-i18n="member_form_title">Αίτηση μέλους</h2>
+          <form action="https://formspree.io/f/mgonbzqq" method="POST" accept-charset="UTF-8">
+            <input type="hidden" name="form_type" value="member_application" />
+            <input type="hidden" name="_subject" value="Νέα αίτηση μέλους - Synanthropia" />
+            <input type="hidden" name="_next" value="/forms.html?form-success=member" />
+            <input type="text" name="_gotcha" style="display:none;" aria-hidden="true" tabindex="-1" autocomplete="off" />
+            <label data-i18n="label_name" for="member-name">Ονοματεπώνυμο</label>
+            <input id="member-name" name="name" type="text" required />
+
+            <label>Email</label>
+            <input name="email" type="email" required />
+
+            <label data-i18n="label_phone">Τηλέφωνο</label>
+            <input name="phone" type="tel" required />
+
+            <label data-i18n="label_location">Περιοχή</label>
+            <input name="location" type="text" />
+
+            <label data-i18n="label_member_reason">Γιατί θέλετε να γίνετε μέλος;</label>
+            <textarea name="reason" rows="4" required></textarea>
+
+            <div style="display: flex; gap: 0.8rem; margin-top: 0.8rem;">
+              <button class="btn btn-primary" data-i18n="submit_interest" type="submit" style="flex: 1;">Αποστολή ενδιαφέροντος</button>
+              <button class="btn btn-outline" data-i18n="btn_clear" type="reset" style="flex: 1;">Καθαρισμός</button>
+            </div>
+          </form>
+        </article>
+
+        <article class="form-card" id="beneficiary-application">
+          <h2 data-i18n="beneficiary_form_title">Αίτηση ωφελούμενου</h2>
+          <form action="https://formspree.io/f/xjgadodk" method="POST" accept-charset="UTF-8">
+            <input type="hidden" name="form_type" value="beneficiary_application" />
+            <input type="hidden" name="_subject" value="Νέο αίτημα ωφελούμενου - Synanthropia" />
+            <input type="hidden" name="_next" value="/forms.html?form-success=beneficiary" />
+            <input type="text" name="_gotcha" style="display:none;" aria-hidden="true" tabindex="-1" autocomplete="off" />
+            <label data-i18n="label_name" for="beneficiary-name">Ονοματεπώνυμο</label>
+            <input id="beneficiary-name" name="name" type="text" required />
+
+            <label>Email</label>
+            <input name="email" type="email" required />
+
+            <label data-i18n="label_phone">Τηλέφωνο</label>
+            <input name="phone" type="tel" required />
+
+            <label data-i18n="label_help_type">Τύπος βοήθειας</label>
+            <select name="helpType" required>
+              <option value="" data-i18n="select_help">Επιλέξτε...</option>
+              <option value="food" data-i18n="help_food">Τρόφιμα</option>
+              <option value="medical" data-i18n="help_medical">Ιατρική υποστήριξη</option>
+              <option value="animals" data-i18n="help_animals">Υποστήριξη για ζώα</option>
+              <option value="other" data-i18n="help_other">Άλλο</option>
+            </select>
+
+            <label data-i18n="label_beneficiary_details">Σύντομη περιγραφή ανάγκης</label>
+            <textarea name="details" rows="4" required></textarea>
+
+            <div style="display: flex; gap: 0.8rem; margin-top: 0.8rem;">
+              <button class="btn btn-primary" data-i18n="submit_request" type="submit" style="flex: 1;">Υποβολή αιτήματος</button>
+              <button class="btn btn-outline" data-i18n="btn_clear" type="reset" style="flex: 1;">Καθαρισμός</button>
+            </div>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Συνανθρωπιά | AMKE</p>
+  </footer>
+
+  <script src="js/main.js?v=20260326-1"></script>
+</body>
+</html>
+

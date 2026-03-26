@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Συνανθρωπιά - Σχετικά με εμάς." />
+  <title>Συνανθρωπιά | Σχετικά με εμάς</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Manrope:wght@300;400;500;700&family=Noto+Serif:wght@500;700&display=swap" rel="stylesheet" />
+  <script>
+    (function () {
+      try {
+        var lang = window.localStorage.getItem("synanthropia-lang");
+        if (lang && lang !== "el") {
+          document.documentElement.setAttribute("data-lang-pending", "true");
+        }
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="css/style.css?v=20260326-1" />
+</head>
+<body>
+  <header class="site-header" id="home">
+    <div class="header-inner">
+      <a class="brand" href="preview.html" aria-label="Synanthropia home">
+        <img class="brand-logo" src="images/logo-nb-square.png?v=2" alt="Λογότυπο Συνανθρωπιά" />
+        <span class="brand-name">Συνανθρωπιά</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a data-i18n="nav_home" href="preview.html">Αρχική</a>
+        <a data-i18n="nav_about" href="about.html">Σχετικά με εμάς</a>
+        <a data-i18n="nav_actions" href="actions.html">Δράσεις</a>
+        <a data-i18n="nav_projects" href="projects.html">Έργα</a>
+        <a data-i18n="nav_members" href="members.html">Μέλη & Εταίροι</a>
+        <a data-i18n="nav_forms" href="forms.html">Αιτήσεις</a>
+        <a data-i18n="nav_donate" href="donate.html">Δωρεά</a>
+        <a data-i18n="nav_contact" href="contact.html">Επικοινωνία</a>
+      </nav>
+
+      <div class="language-switcher" aria-label="Language selector">
+        <button class="lang-btn active" data-lang="el" type="button">🇬🇷</button>
+        <button class="lang-btn" data-lang="en" type="button">🇬🇧</button>
+        <button class="lang-btn" data-lang="de" type="button">🇩🇪</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="members section-pad">
+      <div class="container two-col">
+        <article class="soft-card">
+          <h2 data-i18n="about_title">Σχετικά με εμάς</h2>
+          <p>
+            <span data-i18n="about_origin_prefix">Η ΑΜΚΕ Συνανθρωπιά αποτελεί τη φυσική συνέχεια και τον επίσημο εταίρο του ελβετικού σωματείου</span>
+            <a href="https://en.networkanthropia.org/" target="_blank" rel="noopener">Network Anthropia</a>
+            <span data-i18n="about_origin_suffix">στην Ελλάδα, διασφαλίζοντας τη συνέχεια ενός έργου που ξεκίνησε το 2016.</span>
+          </p>
+        </article>
+        <article class="soft-card">
+          <h2 data-i18n="founders_title">Ιδρυτές</h2>
+          <p style="margin-top: 0.6rem;"><strong>Renata Herger-Biel</strong><br><span data-i18n="founder_renata_role">Συνιδρύτρια</span></p>
+          <p style="margin-top: 0.6rem;"><strong data-i18n="founder_pavlos_name">Παύλος Δρίβας</strong><br><span data-i18n="founder_pavlos_role">Συνιδρυτής και Διαχειριστής</span></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="pillars section-pad">
+      <div class="container">
+        <div class="section-head" style="text-align: center; max-width: 100%;">
+          <h2 data-i18n="pillars_title">Τομείς δράσης</h2>
+          <p data-i18n="pillars_subtitle">Οι τρεις βασικοί πυλώνες μας</p>
+        </div>
+        <div class="pillar-grid">
+          <article class="pillar-card">
+            <h3 data-i18n="pillar_human_title">Άνθρωπος</h3>
+            <p data-i18n="pillar_human_body">Στήριξη ευάλωτων συμπολιτών, βασικές ανάγκες, κοινωνική ενδυνάμωση.</p>
+          </article>
+          <article class="pillar-card">
+            <h3 data-i18n="pillar_animals_title">Ζώα</h3>
+            <p data-i18n="pillar_animals_body">Φροντίδα, σίτιση, περίθαλψη και φιλοζωικές συνεργασίες στην τοπική κοινότητα.</p>
+          </article>
+          <article class="pillar-card">
+            <h3 data-i18n="pillar_env_title">Περιβάλλον</h3>
+            <p data-i18n="pillar_env_body">Καθαρισμοί, ευαισθητοποίηση και συμμετοχικές πρωτοβουλίες οικολογικής προστασίας.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Συνανθρωπιά | AMKE</p>
+  </footer>
+
+  <script src="js/main.js?v=20260326-1"></script>
+</body>
+</html>
+
