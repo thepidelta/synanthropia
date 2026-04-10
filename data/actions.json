@@ -2,7 +2,7 @@
   {
     "date": "2025-12-27",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-12-27-malakasa-distribution-rana-saeed/IMG_20251227_112933388_HDR.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-12-27-malakasa-distribution-rana-saeed/IMG_20251227_112933388_HDR.webp",
     "galleryManifest": "data/galleries/2025-12-27-malakasa-distribution-rana-saeed.json",
     "title": {
       "el": "Διανομή τροφίμων σε 2 οικογένειες στο camp της Μαλακάσας",
@@ -18,7 +18,7 @@
   {
     "date": "2025-12-18",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-12-18-donation-collection-dimoulaki/IMG_20251218_125138550_HDR.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-12-18-donation-collection-dimoulaki/IMG_20251218_125138550_HDR.webp",
     "galleryManifest": "data/galleries/2025-12-18-donation-collection-dimoulaki.json",
     "title": {
       "el": "Συγκέντρωση δωρεών από το Δημουλάκι",
@@ -34,7 +34,7 @@
   {
     "date": "2025-12-14",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-12-14-small-classic-car-rally-dimoulaki/IMG_20251214_131531266.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-12-14-small-classic-car-rally-dimoulaki/IMG_20251214_131531266.webp",
     "galleryManifest": "data/galleries/2025-12-14-small-classic-car-rally-dimoulaki.json",
     "title": {
       "el": "Ράλι μικρών κλασικών αυτοκινήτων στο Δημουλάκι",
@@ -50,7 +50,7 @@
   {
     "date": "2025-12-13",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-12-13-center-children-activities-cookies/IMG_20251213_124313724_HDR.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-12-13-center-children-activities-cookies/IMG_20251213_124313724_HDR.webp",
     "galleryManifest": "data/galleries/2025-12-13-center-children-activities-cookies.json",
     "title": {
       "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Ψήσιμο Μπισκότων!",
@@ -66,7 +66,7 @@
   {
     "date": "2025-12-07",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-12-07-krassa-sheltering-from-abusive-partner/IMG_20251207_163451799_HDR.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-12-07-krassa-sheltering-from-abusive-partner/IMG_20251207_163451799_HDR.webp",
     "galleryManifest": "data/galleries/2025-12-07-krassa-sheltering-from-abusive-partner.json",
     "title": {
       "el": "Στήριξη γυναίκας που αναζητά ασφάλεια",
@@ -80,25 +80,9 @@
     }
   },
   {
-    "date": "2025-12-05",
-    "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-12-05-lice/IMG_20251205_140036962_HDR.webp",
-    "galleryManifest": "data/galleries/2025-12-05-lice.json",
-    "title": {
-      "el": "Δωρεάν αντιμετώπιση ψειρών για παιδιά-ωφελούμενούς μας",
-      "en": "Free lice treatment for beneficiary children",
-      "de": "Kostenlose Laeuse-Behandlung fuer Kinder, die wir unterstuetzen"
-    },
-    "description": {
-      "el": "Παρείχαμε δωρεάν αντιμετώπιση ψειρών σε παιδιά-ωφελούμενούς μας στο κέντρο λειτουργίας μας, συμβάλλοντας στη φροντίδα της βασικής υγιεινής και της υγείας τους.",
-      "en": "We provided free lice treatment for beneficiary children at our activity centre, contributing to their basic hygiene and health care.",
-      "de": "Wir boten den von uns unterstuetzten Kindern in unserem Aktivitaetszentrum eine kostenlose Laeuse-Behandlung an und unterstuetzten damit ihre Grundhygiene und Gesundheitsversorgung."
-    }
-  },
-  {
     "date": "2025-12-04",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-12-04-donation-collection-markopoulo-plaka/IMG_20251204_172640573.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-12-04-donation-collection-markopoulo-plaka/IMG_20251204_172640573.webp",
     "galleryManifest": "data/galleries/2025-12-04-donation-collection-markopoulo-plaka.json",
     "title": {
       "el": "Συγκέντρωση δωρεών σε Μαρκόπουλο και Πλάκα",
@@ -114,7 +98,7 @@
   {
     "date": "2025-12-03",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-12-03-hospital-visit-and-milk-collection-for-rana/IMG_20251203_154621924_HDR.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-12-03-hospital-visit-and-milk-collection-for-rana/IMG_20251203_154621924_HDR.webp",
     "galleryManifest": "data/galleries/2025-12-03-hospital-visit-and-milk-collection-for-rana.json",
     "title": {
       "el": "Στο πλευρό της Rana για το νοσοκομειακό της ραντεβού",
@@ -130,7 +114,7 @@
   {
     "date": "2025-11-29",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-11-29-center-children-activities-clay/IMG_20251129_115752432_PORTRAIT.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-11-29-center-children-activities-clay/IMG_20251129_115752432_PORTRAIT.webp",
     "galleryManifest": "data/galleries/2025-11-29-center-children-activities-clay.json",
     "title": {
       "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Πηλός και Δημιουργία",
@@ -146,7 +130,7 @@
   {
     "date": "2025-11-22",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-11-22-donation-miazo/IMG_20251122_143648203_HDR.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-11-22-donation-miazo/IMG_20251122_143648203_HDR.webp",
     "galleryManifest": "data/galleries/2025-11-22-donation-miazo.json",
     "title": {
       "el": "Δωρεά στη ΜιΑΖω",
@@ -162,7 +146,7 @@
   {
     "date": "2025-11-09",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-11-09-center-children-activities-clay/IMG_20251109_124057027.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-11-09-center-children-activities-clay/IMG_20251109_124057027.webp",
     "galleryManifest": "data/galleries/2025-11-09-center-children-activities-clay.json",
     "title": {
       "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Πηλός και Δημιουργία",
@@ -178,7 +162,7 @@
   {
     "date": "2025-11-08",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-11-08-center-children-activities-our-solar-system/IMG_20251108_120903839_PORTRAIT.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-11-08-center-children-activities-our-solar-system/IMG_20251108_120903839_PORTRAIT.webp",
     "galleryManifest": "data/galleries/2025-11-08-center-children-activities-our-solar-system.json",
     "title": {
       "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Το Ηλιακό μας Σύστημα",
@@ -192,41 +176,9 @@
     }
   },
   {
-    "date": "2025-11-07",
-    "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-11-07-lice/IMG_20251107_145845044_HDR.webp",
-    "galleryManifest": "data/galleries/2025-11-07-lice.json",
-    "title": {
-      "el": "Δωρεάν αντιμετώπιση ψειρών για παιδιά-ωφελούμενούς μας",
-      "en": "Free lice treatment for beneficiary children",
-      "de": "Kostenlose Laeuse-Behandlung fuer Kinder, die wir unterstuetzen"
-    },
-    "description": {
-      "el": "Παρείχαμε δωρεάν αντιμετώπιση ψειρών σε παιδιά-ωφελούμενούς μας στο κέντρο λειτουργίας μας, συμβάλλοντας στη φροντίδα της βασικής υγιεινής και της υγείας τους.",
-      "en": "We provided free lice treatment for beneficiary children at our activity centre, contributing to their basic hygiene and health care.",
-      "de": "Wir boten den von uns unterstuetzten Kindern in unserem Aktivitaetszentrum eine kostenlose Laeuse-Behandlung an und unterstuetzten damit ihre Grundhygiene und Gesundheitsversorgung."
-    }
-  },
-  {
-    "date": "2025-10-24",
-    "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-10-24-lice/IMG_20251024_143327261_HDR.webp",
-    "galleryManifest": "data/galleries/2025-10-24-lice.json",
-    "title": {
-      "el": "Δωρεάν αντιμετώπιση ψειρών για παιδιά-ωφελούμενούς μας",
-      "en": "Free lice treatment for beneficiary children",
-      "de": "Kostenlose Laeuse-Behandlung fuer Kinder, die wir unterstuetzen"
-    },
-    "description": {
-      "el": "Παρείχαμε δωρεάν αντιμετώπιση ψειρών σε παιδιά-ωφελούμενούς μας στο κέντρο λειτουργίας μας, συμβάλλοντας στη φροντίδα της βασικής υγιεινής και της υγείας τους.",
-      "en": "We provided free lice treatment for beneficiary children at our activity centre, contributing to their basic hygiene and health care.",
-      "de": "Wir boten den von uns unterstuetzten Kindern in unserem Aktivitaetszentrum eine kostenlose Laeuse-Behandlung an und unterstuetzten damit ihre Grundhygiene und Gesundheitsversorgung."
-    }
-  },
-  {
     "date": "2025-10-23",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-10-23-food-distribution-lavrio/IMG_20251023_122004434_HDR.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-10-23-food-distribution-lavrio/IMG_20251023_122004434_HDR.webp",
     "galleryManifest": "data/galleries/2025-10-23-food-distribution-lavrio.json",
     "title": {
       "el": "Διανομή τροφίμων στο Λαύριο",
@@ -242,7 +194,7 @@
   {
     "date": "2025-09-28",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-09-28-center-children-activities-cooking-and-reading/IMG_20250928_113939347.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-09-28-center-children-activities-cooking-and-reading/IMG_20250928_113939347.webp",
     "galleryManifest": "data/galleries/2025-09-28-center-children-activities-cooking-and-reading.json",
     "title": {
       "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Μαγειρεύουμε και Διαβάζουμε",
@@ -258,7 +210,7 @@
   {
     "date": "2025-09-27",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-09-27-center-children-activities-learning-about-autumn/IMG_20250927_112524925.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-09-27-center-children-activities-learning-about-autumn/IMG_20250927_112524925.webp",
     "galleryManifest": "data/galleries/2025-09-27-center-children-activities-learning-about-autumn.json",
     "title": {
       "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Μαθαίνουμε για το Φθινόπωρο",
@@ -274,7 +226,7 @@
   {
     "date": "2025-09-25",
     "pillars": ["animals"],
-    "thumbnail": "images/actions/2025/2025-09-25-vounisioi-cat-enclosure/IMG_7277.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-09-25-vounisioi-cat-enclosure/IMG_7277.webp",
     "galleryManifest": "data/galleries/2025-09-25-vounisioi-cat-enclosure.json",
     "title": {
       "el": "Διαμόρφωση περιφραγμένου χώρου για γάτες για την ΑΜΚΕ Βουνίσιοι - Ορεσίβιοι",
@@ -290,7 +242,7 @@
   {
     "date": "2025-09-14",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-09-14-center-children-activities-learning-how-taste-works/IMG_6941.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-09-14-center-children-activities-learning-how-taste-works/IMG_6941.webp",
     "galleryManifest": "data/galleries/2025-09-14-center-children-activities-learning-how-taste-works.json",
     "title": {
       "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Μαθαίνουμε πώς λειτουργεί η Γεύση",
@@ -306,7 +258,7 @@
   {
     "date": "2025-09-13",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-09-13-school-supplies/IMG_6927.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-09-13-school-supplies/IMG_6927.webp",
     "galleryManifest": "data/galleries/2025-09-13-school-supplies.json",
     "title": {
       "el": "Στήριξη μαθητών με σχολικά είδη",
@@ -322,7 +274,7 @@
   {
     "date": "2025-09-13",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-09-13-center-children-activities-games/IMG_20250913_120735841.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-09-13-center-children-activities-games/IMG_20250913_120735841.webp",
     "galleryManifest": "data/galleries/2025-09-13-center-children-activities-games.json",
     "title": {
       "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Παιχνίδι και Ομαδικές Δραστηριότητες",
@@ -338,7 +290,7 @@
   {
     "date": "2025-08-27",
     "pillars": ["human", "environment"],
-    "thumbnail": "images/actions/2025/2025-08-27-dimoulaki-rubble-removal/IMG_6917.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-08-27-dimoulaki-rubble-removal/IMG_6917.webp",
     "galleryManifest": "data/galleries/2025-08-27-dimoulaki-rubble-removal.json",
     "title": {
       "el": "Απομάκρυνση μπάζων από τα καμμένα σπίτια στο Δημουλάκι και τη Συντερίνα μετά τη δασική πυρκαγιά της 8ης Αυγούστου 2025.",
@@ -354,23 +306,23 @@
   {
     "date": "2025-08-18",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-08-18-rana-jasem-birthday/IMG_6453.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-08-18-rana-jasem-birthday/IMG_6453.webp",
     "galleryManifest": "data/galleries/2025-08-18-rana-jasem-birthday.json",
     "title": {
-      "el": "Γιορτή γενεθλίων για τη Rana Jasem",
-      "en": "Birthday celebration for Rana Jasem",
-      "de": "Geburtstagsfeier fuer Rana Jasem"
+      "el": "Γιορτή γενεθλίων για τη Rana",
+      "en": "Birthday celebration for Rana",
+      "de": "Geburtstagsfeier fuer Rana"
     },
     "description": {
-      "el": "Είχαμε τη χαρά να γιορτάσουμε μαζί τη Rana Jasem, μοιράζοντας αγάπη, χαρά και γλυκές στιγμές.",
-      "en": "We had the joy of celebrating together with Rana Jasem, sharing love, happiness, and sweet moments.",
-      "de": "Mit grosser Freude feierten wir gemeinsam mit Rana Jasem und teilten Liebe, Freude und suesse Augenblicke."
+      "el": "Είχαμε τη χαρά να γιορτάσουμε μαζί τη Rana, μοιράζοντας αγάπη, χαρά και γλυκές στιγμές.",
+      "en": "We had the joy of celebrating together with Rana, sharing love, happiness, and sweet moments.",
+      "de": "Mit grosser Freude feierten wir gemeinsam mit Rana und teilten Liebe, Freude und suesse Augenblicke."
     }
   },
   {
     "date": "2025-06-01",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-06-01-distribution-wave-thessaloniki/IMG_5982.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-06-01-distribution-wave-thessaloniki/IMG_5982.webp",
     "galleryManifest": "data/galleries/2025-06-01-distribution-wave-thessaloniki.json",
     "title": {
       "el": "Δωρεά στην οργάνωση WAVE στη Θεσσαλονίκη",
@@ -386,7 +338,7 @@
   {
     "date": "2025-05-25",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-05-25-center-children-activities-t-shirts/IMG_20250525_122947092_AE.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-05-25-center-children-activities-t-shirts/IMG_20250525_122947092_AE.webp",
     "galleryManifest": "data/galleries/2025-05-25-center-children-activities-t-shirts.json",
     "title": {
       "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Κατασκευή T-shirts",
@@ -402,7 +354,7 @@
   {
     "date": "2025-01-23",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-01-23-food-distribution-malakasa-oinofyta/IMG_4518.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-01-23-food-distribution-malakasa-oinofyta/IMG_4518.webp",
     "galleryManifest": "data/galleries/2025-01-23-food-distribution-malakasa-oinofyta.json",
     "title": {
       "el": "Διανομή τροφίμων σε οικογένειες ωφελούμενων",
@@ -418,7 +370,7 @@
   {
     "date": "2025-01-12",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-01-12-center-children-activities/IMG_20250112_120138.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-01-12-center-children-activities/IMG_20250112_120138.webp",
     "galleryManifest": "data/galleries/2025-01-12-center-children-activities.json",
     "title": {
       "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Δημιουργικές Δραστηριότητες",
@@ -434,7 +386,7 @@
   {
     "date": "2025-01-11",
     "pillars": ["human"],
-    "thumbnail": "images/actions/2025/2025-01-11-center-children-activities-muffins/IMG_7193.webp",
+    "thumbnail": "images/actions-blurred/history/2025/2025-01-11-center-children-activities-muffins/IMG_7193.webp",
     "galleryManifest": "data/galleries/2025-01-11-center-children-activities-muffins.json",
     "title": {
       "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Ψήσιμο Muffins!",

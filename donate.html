@@ -23,16 +23,15 @@
 <body>
   <header class="site-header" id="home">
     <div class="header-inner">
-      <a class="brand" href="preview.html" aria-label="Synanthropia home">
+      <a class="brand" href="index.html" aria-label="Synanthropia home">
         <img class="brand-logo" src="images/logo-nb-square.png?v=2" alt="Λογότυπο Συνανθρωπιά" />
         <span class="brand-name">Συνανθρωπιά</span>
       </a>
 
       <nav class="main-nav" aria-label="Main navigation">
-        <a data-i18n="nav_home" href="preview.html">Αρχική</a>
+        <a data-i18n="nav_home" href="index.html">Αρχική</a>
         <a data-i18n="nav_about" href="about.html">Σχετικά με εμάς</a>
         <a data-i18n="nav_actions" href="actions.html">Δράσεις</a>
-        <a data-i18n="nav_projects" href="projects.html">Projects</a>
         <a data-i18n="nav_members" href="members.html">Μέλη & Εταίροι</a>
         <a data-i18n="nav_forms" href="forms.html">Αιτήσεις</a>
         <a data-i18n="nav_donate" href="donate.html">Δωρεά</a>
@@ -52,19 +51,50 @@
       <div class="container">
         <div class="section-head">
           <h2 data-i18n="donate_title">Στήριξη και δωρεές</h2>
-          <p data-i18n="donate_subtitle">Στην τρέχουσα φάση η ενίσχυση γίνεται με απευθείας κατάθεση ή εξωτερική πλατφόρμα.</p>
+          <p data-i18n="donate_subtitle">Δεχόμαστε οικονομικές δωρεές αλλά και δωρεές σε είδος, με στόχο να καλύπτουμε ουσιαστικές ανάγκες με αξιοπρέπεια και φροντίδα.</p>
         </div>
         <div class="donation-grid">
-          <article class="soft-card">
+          <article class="soft-card bank-card">
             <h3 data-i18n="bank_details_title">Στοιχεία τραπεζικού λογαριασμού</h3>
-            <p><strong>IBAN:</strong> <span>GR00 0000 0000 0000 0000 000</span></p>
-            <p><strong>BIC/SWIFT:</strong> <span>XXXXGRXX</span></p>
-            <p><strong data-i18n="beneficiary_label">Δικαιούχος:</strong> <span>Συνανθρωπιά ΑΜΚΕ</span></p>
+            <div class="bank-details-grid">
+              <strong>IBAN:</strong>
+              <span id="bank-iban">GR56 0172 1440 0051 4411 8185 072</span>
+              <button class="copy-btn" type="button" data-copy-target="bank-iban" data-copy-value="GR5601721440005144118185072" aria-label="Αντιγραφή" title="Αντιγραφή">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <rect x="8" y="4" width="11" height="15" rx="2.5"></rect>
+                  <rect x="5" y="7" width="11" height="15" rx="2.5"></rect>
+                </svg>
+              </button>
+              <strong>BIC/SWIFT:</strong>
+              <span id="bank-bic">PIRBGRAA</span>
+              <button class="copy-btn" type="button" data-copy-target="bank-bic" aria-label="Αντιγραφή" title="Αντιγραφή">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <rect x="8" y="4" width="11" height="15" rx="2.5"></rect>
+                  <rect x="5" y="7" width="11" height="15" rx="2.5"></rect>
+                </svg>
+              </button>
+              <strong data-i18n="beneficiary_label">Δικαιούχος:</strong>
+              <span id="bank-beneficiary">ΣΥΝΑΝΘΡΩΠΙΑ ΑΣΤΙΚΗ ΜΗ ΚΕΡΔΟΣΚΟΠΙΚΗ ΕΤΑΙΡΕΙΑ</span>
+              <button class="copy-btn" type="button" data-copy-target="bank-beneficiary" aria-label="Αντιγραφή" title="Αντιγραφή">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <rect x="8" y="4" width="11" height="15" rx="2.5"></rect>
+                  <rect x="5" y="7" width="11" height="15" rx="2.5"></rect>
+                </svg>
+              </button>
+            </div>
           </article>
           <article class="soft-card">
-            <h3 data-i18n="online_support_title">Online υποστήριξη</h3>
-            <p data-i18n="online_support_body">Μπορείτε να προσθέσετε σύνδεσμο PayPal ή Donorbox χωρίς backend. Το κουμπί παραμένει placeholder μέχρι να οριστεί τελικός λογαριασμός.</p>
-            <a class="btn btn-outline" href="#" data-i18n="online_support_cta">Σύντομα διαθέσιμο</a>
+            <h3 data-i18n="in_kind_title">Δωρεές σε είδος</h3>
+            <p data-i18n="in_kind_body">Δεχόμαστε είδη που μπορούν να δοθούν άμεσα σε ανθρώπους που τα χρειάζονται, αρκεί να είναι καθαρά, σε καλή κατάσταση και πλήρως λειτουργικά.</p>
+            <ul style="margin: 0.9rem 0 0; line-height: 1.7; padding-left: 1.2rem;">
+              <li data-i18n="in_kind_item_1">Ρούχα και παπούτσια</li>
+              <li data-i18n="in_kind_item_2">Είδη οικοσκευής και ηλεκτρικές συσκευές</li>
+              <li data-i18n="in_kind_item_3">Έπιπλα, ηλεκτρονικές συσκευές και παιχνίδια</li>
+            </ul>
+            <p data-i18n="in_kind_note" style="margin-top: 0.9rem; color: var(--ink-soft);">Δεν δεχόμαστε αντικείμενα που προορίζονται για απόρριψη ή δεν μπορούν να χρησιμοποιηθούν άμεσα.</p>
+            <div class="donate-cta-row">
+              <a class="btn btn-outline" data-i18n="donate_schedule_cta" href="forms.html#donation-application">Προγραμματισμός δωρεάς</a>
+            </div>
           </article>
         </div>
       </div>

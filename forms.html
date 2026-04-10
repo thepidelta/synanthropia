@@ -23,16 +23,15 @@
 <body>
   <header class="site-header" id="home">
     <div class="header-inner">
-      <a class="brand" href="preview.html" aria-label="Synanthropia home">
+      <a class="brand" href="index.html" aria-label="Synanthropia home">
         <img class="brand-logo" src="images/logo-nb-square.png?v=2" alt="Λογότυπο Συνανθρωπιά" />
         <span class="brand-name">Συνανθρωπιά</span>
       </a>
 
       <nav class="main-nav" aria-label="Main navigation">
-        <a data-i18n="nav_home" href="preview.html">Αρχική</a>
+        <a data-i18n="nav_home" href="index.html">Αρχική</a>
         <a data-i18n="nav_about" href="about.html">Σχετικά με εμάς</a>
         <a data-i18n="nav_actions" href="actions.html">Δράσεις</a>
-        <a data-i18n="nav_projects" href="projects.html">Projects</a>
         <a data-i18n="nav_members" href="members.html">Μέλη & Εταίροι</a>
         <a data-i18n="nav_forms" href="forms.html">Αιτήσεις</a>
         <a data-i18n="nav_donate" href="donate.html">Δωρεά</a>
@@ -49,10 +48,20 @@
 
   <main>
     <section class="forms section-pad">
-      <div class="container two-col forms-grid">
-        <article class="form-card" id="member-application">
-          <h2 data-i18n="member_form_title">Αίτηση μέλους</h2>
+      <div class="container forms-stack">
+        <div class="section-head" style="text-align: center; max-width: 70ch; margin: 0 auto 1.3rem;">
+          <h2 data-i18n="forms_intro_title">Εκδήλωση ενδιαφέροντος</h2>
+          <p data-i18n="forms_intro_body">Σε αυτή την ενότητα μπορείτε να εκδηλώσετε το ενδιαφέρον σας είτε να προσφέρετε ως μέλος, εθελοντής ή δωρητής είτε να ζητήσετε υποστήριξη ως ωφελούμενος. Κάθε αίτηση εξετάζεται με προσοχή και θα επικοινωνήσουμε μαζί σας για τα επόμενα βήματα.</p>
+        </div>
+
+        <details class="form-accordion" id="member-application">
+          <summary data-i18n="member_form_title">Αίτηση μέλους</summary>
+          <div class="form-accordion-body">
+          <article class="form-card">
+          <p class="form-note" data-i18n="member_form_info">Ως μέλος της Συνανθρωπιάς μπορείτε να στηρίζετε σταθερά το έργο μας μέσω μηνιαίας συνδρομής. Η συμμετοχή αυτή θα συνοδεύεται από πρόσβαση σε επιπλέον περιεχόμενο και δυνατότητα να μοιράζεστε ιδέες και προτάσεις για μελλοντικές δράσεις. Οι προτάσεις αυτές εξετάζονται με προσοχή από την οργάνωση, ενώ η ευθύνη των αποφάσεων παραμένει στην ομάδα διοίκησης.</p>
+          <p class="form-note form-note-muted" data-i18n="member_form_coming_soon">Η δυνατότητα υποβολής αίτησης μέλους θα είναι σύντομα διαθέσιμη.</p>
           <form action="https://formspree.io/f/mgonbzqq" method="POST" accept-charset="UTF-8">
+            <fieldset class="form-disabled-group" disabled>
             <input type="hidden" name="form_type" value="member_application" />
             <input type="hidden" name="_subject" value="Νέα αίτηση μέλους - Synanthropia" />
             <input type="hidden" name="_next" value="/forms.html?form-success=member" />
@@ -69,8 +78,44 @@
             <label data-i18n="label_location">Περιοχή</label>
             <input name="location" type="text" />
 
-            <label data-i18n="label_member_reason">Γιατί θέλετε να γίνετε μέλος;</label>
+            <label data-i18n="label_member_reason">Πείτε μας λίγα λόγια για το ενδιαφέρον σας</label>
             <textarea name="reason" rows="4" required></textarea>
+
+            <div style="display: flex; gap: 0.8rem; margin-top: 0.8rem;">
+              <button class="btn btn-primary" data-i18n="submit_interest_soon" type="submit" style="flex: 1;">Σύντομα διαθέσιμο</button>
+            </div>
+            </fieldset>
+          </form>
+        </article>
+        </div>
+        </details>
+
+        <details class="form-accordion" id="volunteer-application">
+          <summary data-i18n="volunteer_form_title">Αίτηση εθελοντή</summary>
+          <div class="form-accordion-body">
+          <article class="form-card">
+          <form action="https://formspree.io/f/meepdlbn" method="POST" accept-charset="UTF-8">
+            <input type="hidden" name="form_type" value="volunteer_application" />
+            <input type="hidden" name="_subject" value="Νέα αίτηση εθελοντή - Synanthropia" />
+            <input type="hidden" name="_next" value="/forms.html?form-success=volunteer" />
+            <input type="text" name="_gotcha" style="display:none;" aria-hidden="true" tabindex="-1" autocomplete="off" />
+            <label data-i18n="label_name" for="volunteer-name">Ονοματεπώνυμο</label>
+            <input id="volunteer-name" name="name" type="text" required />
+
+            <label>Email</label>
+            <input name="email" type="email" required />
+
+            <label data-i18n="label_phone">Τηλέφωνο</label>
+            <input name="phone" type="tel" required />
+
+            <label data-i18n="label_location">Περιοχή</label>
+            <input name="location" type="text" />
+
+            <label data-i18n="label_volunteer_reason">Πώς θα θέλατε να προσφέρετε;</label>
+            <textarea name="volunteerReason" rows="4" required></textarea>
+
+            <label data-i18n="label_volunteer_availability">Διαθεσιμότητα</label>
+            <input name="availability" type="text" />
 
             <div style="display: flex; gap: 0.8rem; margin-top: 0.8rem;">
               <button class="btn btn-primary" data-i18n="submit_interest" type="submit" style="flex: 1;">Αποστολή ενδιαφέροντος</button>
@@ -78,9 +123,52 @@
             </div>
           </form>
         </article>
+        </div>
+        </details>
 
-        <article class="form-card" id="beneficiary-application">
-          <h2 data-i18n="beneficiary_form_title">Αίτηση ωφελούμενου</h2>
+        <details class="form-accordion" id="donation-application">
+          <summary data-i18n="donation_form_title">Δωρεά σε είδος</summary>
+          <div class="form-accordion-body">
+          <article class="form-card">
+          <form action="https://formspree.io/f/xgopqpvl" method="POST" accept-charset="UTF-8">
+            <input type="hidden" name="form_type" value="donation_application" />
+            <input type="hidden" name="_subject" value="Νέος προγραμματισμός δωρεάς - Synanthropia" />
+            <input type="hidden" name="_next" value="/forms.html?form-success=donation" />
+            <input type="text" name="_gotcha" style="display:none;" aria-hidden="true" tabindex="-1" autocomplete="off" />
+            <label data-i18n="label_name" for="donation-name">Ονοματεπώνυμο</label>
+            <input id="donation-name" name="name" type="text" required />
+
+            <label>Email</label>
+            <input name="email" type="email" required />
+
+            <label data-i18n="label_phone">Τηλέφωνο</label>
+            <input name="phone" type="tel" required />
+
+            <label data-i18n="label_donation_items">Τι θα θέλατε να προσφέρετε;</label>
+            <textarea name="donationItems" rows="4" required></textarea>
+
+            <label data-i18n="label_donation_availability">Πότε μπορείτε να τα διαθέσετε;</label>
+            <input name="availability" type="text" required />
+
+            <label data-i18n="label_donation_location">Σε ποιο σημείο βρίσκονται;</label>
+            <input name="location" type="text" required />
+
+            <label data-i18n="label_donation_notes">Επιπλέον πληροφορίες</label>
+            <textarea name="notes" rows="3"></textarea>
+
+            <div style="display: flex; gap: 0.8rem; margin-top: 0.8rem;">
+              <button class="btn btn-primary" data-i18n="submit_donation_plan" type="submit" style="flex: 1;">Αποστολή προγραμματισμού</button>
+              <button class="btn btn-outline" data-i18n="btn_clear" type="reset" style="flex: 1;">Καθαρισμός</button>
+            </div>
+          </form>
+        </article>
+        </div>
+        </details>
+
+        <details class="form-accordion" id="beneficiary-application">
+          <summary data-i18n="beneficiary_form_title">Αίτηση ωφελούμενου</summary>
+          <div class="form-accordion-body">
+          <article class="form-card">
           <form action="https://formspree.io/f/xjgadodk" method="POST" accept-charset="UTF-8">
             <input type="hidden" name="form_type" value="beneficiary_application" />
             <input type="hidden" name="_subject" value="Νέο αίτημα ωφελούμενου - Synanthropia" />
@@ -95,15 +183,6 @@
             <label data-i18n="label_phone">Τηλέφωνο</label>
             <input name="phone" type="tel" required />
 
-            <label data-i18n="label_help_type">Τύπος βοήθειας</label>
-            <select name="helpType" required>
-              <option value="" data-i18n="select_help">Επιλέξτε...</option>
-              <option value="food" data-i18n="help_food">Τρόφιμα</option>
-              <option value="medical" data-i18n="help_medical">Ιατρική υποστήριξη</option>
-              <option value="animals" data-i18n="help_animals">Υποστήριξη για ζώα</option>
-              <option value="other" data-i18n="help_other">Άλλο</option>
-            </select>
-
             <label data-i18n="label_beneficiary_details">Σύντομη περιγραφή ανάγκης</label>
             <textarea name="details" rows="4" required></textarea>
 
@@ -113,6 +192,8 @@
             </div>
           </form>
         </article>
+        </div>
+        </details>
       </div>
     </section>
   </main>

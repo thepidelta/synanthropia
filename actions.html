@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Συνανθρωπιά - Δράσεις και timeline." />
+  <meta name="description" content="Συνανθρωπιά - Χρονολόγιο δράσεων και πρωτοβουλιών." />
   <title>Συνανθρωπιά | Δράσεις</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,21 +18,20 @@
       } catch (error) {}
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=20260326-1" />
+  <link rel="stylesheet" href="css/style.css?v=20260410-1" />
 </head>
 <body>
   <header class="site-header" id="home">
     <div class="header-inner">
-      <a class="brand" href="preview.html" aria-label="Synanthropia home">
+      <a class="brand" href="index.html" aria-label="Synanthropia home">
         <img class="brand-logo" src="images/logo-nb-square.png?v=2" alt="Λογότυπο Συνανθρωπιά" />
         <span class="brand-name">Συνανθρωπιά</span>
       </a>
 
       <nav class="main-nav" aria-label="Main navigation">
-        <a data-i18n="nav_home" href="preview.html">Αρχική</a>
+        <a data-i18n="nav_home" href="index.html">Αρχική</a>
         <a data-i18n="nav_about" href="about.html">Σχετικά με εμάς</a>
         <a data-i18n="nav_actions" href="actions.html">Δράσεις</a>
-        <a data-i18n="nav_projects" href="projects.html">Projects</a>
         <a data-i18n="nav_members" href="members.html">Μέλη & Εταίροι</a>
         <a data-i18n="nav_forms" href="forms.html">Αιτήσεις</a>
         <a data-i18n="nav_donate" href="donate.html">Δωρεά</a>
@@ -48,19 +47,39 @@
   </header>
 
   <main>
-    <section class="timeline section-pad">
-      <div class="container">
-        <div class="section-head" style="text-align: center; max-width: 100%;">
-          <h2 data-i18n="timeline_title">Χρονολόγιο δράσεων</h2>
-          <p data-i18n="timeline_subtitle">Νεότερες δράσεις στην κορυφή. Με κύλιση προς τα κάτω βλέπεις παλαιότερες.</p>
+    <section class="section-pad">
+      <div class="container actions-page">
+        <div class="section-head">
+          <h2 data-i18n="nav_actions">Δράσεις</h2>
+          <p data-i18n="actions_intro_body">Προσωρινή εσωτερική προβολή του αρχείου δράσεων, ώστε να ελέγξουμε τη χρονολογική πληρότητα και το διαθέσιμο υλικό πριν από τη δημόσια δημοσίευση.</p>
         </div>
-        <div class="timeline-controls" role="toolbar" aria-label="Timeline filters" style="justify-content: center;">
-          <button class="filter-btn active" data-filter="all" data-i18n="filter_all" type="button">Όλα</button>
-          <button class="filter-btn" data-filter="human" data-i18n="filter_human" type="button">Άνθρωπος</button>
-          <button class="filter-btn" data-filter="animals" data-i18n="filter_animals" type="button">Ζώα</button>
-          <button class="filter-btn" data-filter="environment" data-i18n="filter_environment" type="button">Περιβάλλον</button>
+
+        <div class="actions-tabs" role="tablist" aria-label="Actions views">
+          <button class="actions-tab-btn active" id="actions-tab-current" type="button" role="tab" aria-selected="true" aria-controls="actions-panel-current" data-tab="current" data-i18n="actions_tab_current_short">Τρέχουσες</button>
+          <button class="actions-tab-btn" id="actions-tab-history" type="button" role="tab" aria-selected="false" aria-controls="actions-panel-history" data-tab="history" data-i18n="actions_tab_history_short">Ιστορικό</button>
         </div>
-        <div id="timeline-list" class="timeline-list" aria-live="polite"></div>
+
+        <section class="actions-tab-panel active" id="actions-panel-current" role="tabpanel" aria-labelledby="actions-tab-current">
+          <div class="actions-panel-head">
+            <p data-i18n="actions_current_intro">Εδώ συγκεντρώνουμε πρωτοβουλίες που εξελίσσονται τώρα ή ετοιμάζονται άμεσα και χρειάζονται στήριξη, συμμετοχή ή υλικά μέσα.</p>
+          </div>
+          <div class="project-columns" id="project-columns" data-project-groups="active,future" data-empty-key="current_actions_empty" data-hide-group-headings="true"></div>
+        </section>
+
+        <section class="actions-tab-panel" id="actions-panel-history" role="tabpanel" aria-labelledby="actions-tab-history" hidden>
+          <div class="actions-panel-head">
+            <p data-i18n="actions_history_intro">Χρονολογική προβολή των δράσεων που έχουν ήδη υλοποιηθεί, ώστε να παρακολουθούμε τη συνέχεια και το αρχείο του έργου μας.</p>
+          </div>
+
+          <div class="timeline-controls" aria-label="Action filters">
+            <button class="filter-btn active" data-filter="all" type="button" data-i18n="filter_all">Όλα</button>
+            <button class="filter-btn" data-filter="human" type="button" data-i18n="filter_human">Άνθρωπος</button>
+            <button class="filter-btn" data-filter="animals" type="button" data-i18n="filter_animals">Ζώα</button>
+            <button class="filter-btn" data-filter="environment" type="button" data-i18n="filter_environment">Περιβάλλον</button>
+          </div>
+
+          <div class="timeline-list" id="timeline-list" aria-live="polite"></div>
+        </section>
       </div>
     </section>
   </main>
@@ -69,7 +88,7 @@
     <p>&copy; <span id="year"></span> Συνανθρωπιά | AMKE</p>
   </footer>
 
-  <script src="js/main.js?v=20260326-1"></script>
+  <script src="js/main.js?v=20260410-4"></script>
 </body>
 </html>
 

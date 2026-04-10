@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Συνανθρωπιά - Projects." />
-  <title>Συνανθρωπιά | Projects</title>
+  <meta name="description" content="Συνανθρωπιά - Ο τομέας έργα έχει ενσωματωθεί στις δράσεις." />
+  <title>Συνανθρωπιά | Έργα</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Manrope:wght@300;400;500;700&family=Noto+Serif:wght@500;700&display=swap" rel="stylesheet" />
@@ -23,16 +23,15 @@
 <body>
   <header class="site-header" id="home">
     <div class="header-inner">
-      <a class="brand" href="preview.html" aria-label="Synanthropia home">
+      <a class="brand" href="index.html" aria-label="Synanthropia home">
         <img class="brand-logo" src="images/logo-nb-square.png?v=2" alt="Λογότυπο Συνανθρωπιά" />
         <span class="brand-name">Συνανθρωπιά</span>
       </a>
 
       <nav class="main-nav" aria-label="Main navigation">
-        <a data-i18n="nav_home" href="preview.html">Αρχική</a>
+        <a data-i18n="nav_home" href="index.html">Αρχική</a>
         <a data-i18n="nav_about" href="about.html">Σχετικά με εμάς</a>
         <a data-i18n="nav_actions" href="actions.html">Δράσεις</a>
-        <a data-i18n="nav_projects" href="projects.html">Projects</a>
         <a data-i18n="nav_members" href="members.html">Μέλη & Εταίροι</a>
         <a data-i18n="nav_forms" href="forms.html">Αιτήσεις</a>
         <a data-i18n="nav_donate" href="donate.html">Δωρεά</a>
@@ -48,13 +47,16 @@
   </header>
 
   <main>
-    <section class="projects section-pad">
-      <div class="container">
-        <div class="section-head">
-          <h2 data-i18n="projects_title">Τρέχοντα και μελλοντικά projects</h2>
-          <p data-i18n="projects_subtitle">Παρακολούθηση στόχων και χρηματοδότησης με διαφάνεια.</p>
+    <section class="section-pad">
+      <div class="container" style="max-width: 860px; text-align: center;">
+        <div class="soft-card" style="padding: 2rem 1.5rem;">
+          <p style="display: inline-flex; align-items: center; justify-content: center; min-height: 40px; padding: 0.42rem 1.45rem; border: 1px solid #b5d6d2; border-radius: 999px; background: #c7dfdc; color: var(--teal-700); font-weight: 700; letter-spacing: 0.08em; font-size: 1.04rem;">
+            <span data-i18n="under_construction">ΥΠΟ ΚΑΤΑΣΚΕΥΗ</span>
+          </p>
+          <h2 data-i18n="projects_merged_title" style="margin-top: 1rem;">Ο τομέας Έργα έχει ενσωματωθεί στις Δράσεις</h2>
+          <p data-i18n="projects_merged_body" style="margin: 0.9rem auto 0; max-width: 58ch; color: var(--ink-soft);">Οι πρωτοβουλίες και τα μελλοντικά σχέδιά μας θα παρουσιάζονται πλέον μέσα από την ενότητα Δράσεις. Η σχετική παρουσίαση ενημερώνεται αυτή την περίοδο.</p>
+          <p style="margin-top: 1.2rem;"><a class="btn btn-primary" data-i18n="nav_actions" href="actions.html">Δράσεις</a></p>
         </div>
-        <div id="project-columns" class="project-columns" aria-live="polite"></div>
       </div>
     </section>
   </main>
@@ -63,7 +65,7 @@
     <p>&copy; <span id="year"></span> Συνανθρωπιά | AMKE</p>
   </footer>
 
-  <script src="js/main.js?v=20260326-1"></script>
+  <script src="js/main.js?v=20260327-2"></script>
 </body>
 </html>
 

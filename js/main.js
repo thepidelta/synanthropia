@@ -6,61 +6,90 @@ const previewAccessValue = "granted";
 const previewUsername = "board";
 const previewPassword = "Synanthropia2026";
 const previewProtectedPages = new Set([
-  "preview.html",
-  "about.html",
-  "actions.html",
-  "projects.html",
-  "members.html",
-  "forms.html",
-  "donate.html",
-  "contact.html"
+  "preview.html"
 ]);
 
 const i18n = {
   el: {
     org_name: "ΣΥΝΑΝΘΡΩΠΙΑ",
     under_construction: "ΥΠΟ ΚΑΤΑΣΚΕΥΗ",
+    actions_under_construction_title: "Το τμήμα Δράσεις είναι υπό κατασκευή",
+    actions_under_construction_body: "Η σελίδα ενημερώνεται και θα επανέλθει σύντομα με προσεκτικά επιλεγμένο δημόσιο περιεχόμενο.",
+    actions_intro_body: "Εδώ μπορείτε να δείτε τις δράσεις μας. Για δράσεις που έχουν ολοκληρωθεί, επιλέξτε «Ιστορικό».",
+    actions_tab_current_short: "Τρέχουσες",
+    actions_tab_history_short: "Ιστορικό",
+    actions_tab_current: "Τρέχουσες δράσεις",
+    actions_tab_history: "Ιστορικό δράσεων",
+    actions_current_intro: "Εδώ συγκεντρώνουμε πρωτοβουλίες που εξελίσσονται τώρα ή ετοιμάζονται άμεσα και χρειάζονται στήριξη, συμμετοχή ή υλικά μέσα.",
+    actions_history_intro: "Χρονολογική προβολή των δράσεων που έχουν ήδη υλοποιηθεί.",
+    current_actions_empty: "Δεν υπάρχουν ακόμη τρέχουσες δράσεις σε αυτή την ενότητα.",
     nav_home: "Αρχική",
     nav_about: "Σχετικά με εμάς",
     nav_actions: "Δράσεις",
-    nav_projects: "Έργα",
     nav_members: "Μέλη & Εταίροι",
     nav_forms: "Αιτήσεις",
     nav_donate: "Δωρεά",
     nav_contact: "Επικοινωνία",
     hero_kicker: "Αστική Μη Κερδοσκοπική Εταιρεία",
-    hero_title: "Μια κοινότητα φροντίδας για άνθρωπο, ζώα και περιβάλλον.",
+    hero_title: "Μια κοινότητα φροντίδας για ανθρώπους, ζώα και περιβάλλον.",
     hero_lead: "Η Συνανθρωπιά οργανώνει και στηρίζει δράσεις αλληλεγγύης με διαφάνεια, συνέχεια και σεβασμό στον τόπο.",
     cta_view_actions: "Δες τις δράσεις",
     cta_donate: "Στήριξε με δωρεά",
     mission_title: "Αποστολή",
-    mission_body: "Να ενώνουμε ανθρώπους και φορείς σε πρακτικές δράσεις κοινωνικής υποστήριξης, φιλοζωίας και περιβαλλοντικής προστασίας.",
-    mission_item_1: "Συνεργασία με εθελοντές και εταίρους",
-    mission_item_2: "Στοχευμένες παρεμβάσεις με μετρήσιμο αποτέλεσμα",
-    mission_item_3: "Ανοιχτή ενημέρωση για δράσεις και έργα",
+    mission_body: "Αποστολή μας είναι να προσφέρουμε βοήθεια εκεί όπου υπάρχει πραγματική ανάγκη, χωρίς διακρίσεις και χωρίς αποκλεισμούς. Στηρίζουμε ανθρώπους, ζώα και το περιβάλλον, ενώνοντας φορείς, εθελοντές και ωφελούμενους ή παρεμβαίνοντας άμεσα όπου αυτό απαιτείται. Κάθε δράση μας βασίζεται στη διαφάνεια, τη συνεργασία και τον σεβασμό προς κάθε μορφή ζωής και τον κοινό μας τόπο.",
+    quick_actions_title: "Χρειάζεστε βοήθεια ή θέλετε να προσφέρετε;",
+    path_help_title: "Χρειάζομαι βοήθεια",
+    path_help_body: "Αν χρειάζεστε στήριξη, μπορείτε να μας στείλετε το αίτημά σας και θα επικοινωνήσουμε μαζί σας.",
+    path_offer_title: "Θέλω να προσφέρω",
+    path_offer_body: "Αν θέλετε να βοηθήσετε ως εθελοντής, μέλος ή υποστηρικτής, δείτε τους τρόπους συμμετοχής.",
+    quick_action_receive: "Αίτημα υποστήριξης",
+    quick_action_member: "Θέλω να γίνω μέλος",
+    quick_action_volunteer: "Θέλω να γίνω εθελοντής",
+    quick_action_donate: "Θέλω να κάνω δωρεά",
     pillars_title: "Τομείς δράσης",
     pillars_subtitle: "Οι τρεις βασικοί πυλώνες μας",
     pillar_human_title: "Άνθρωπος",
-    pillar_human_body: "Στήριξη ευάλωτων συμπολιτών, βασικές ανάγκες, κοινωνική ενδυνάμωση.",
+    pillar_human_body: "Στεκόμαστε δίπλα σε συνανθρώπους που χρειάζονται ουσιαστική στήριξη και κοινωνική ενδυνάμωση.",
+    pillar_human_item_1: "Στήριξη με τρόφιμα και είδη πρώτης ανάγκης",
+    pillar_human_item_2: "Παροχή ρούχων, παπουτσιών, επίπλων και βασικού οικιακού εξοπλισμού",
+    pillar_human_item_3: "Κάλυψη δαπανών που ενισχύουν την αυτονομία και την κοινωνική ενδυνάμωση",
+    pillar_human_item_4: "Βοήθεια σε νομικά θέματα, κυρίως σε ζητήματα μετανάστευσης, και υποστήριξη στη χρήση βασικών κρατικών υπηρεσιών",
+    pillar_human_item_5: "Μαθήματα ελληνικών για ενήλικες πρόσφυγες",
+    pillar_human_item_6: "Δραστηριότητες για παιδιά με στόχο την ένταξη στην τοπική κοινωνία και την ενίσχυση της κοινωνικής τους ανάπτυξης",
     pillar_animals_title: "Ζώα",
-    pillar_animals_body: "Φροντίδα, σίτιση, περίθαλψη και φιλοζωικές συνεργασίες στην τοπική κοινότητα.",
+    pillar_animals_body: "Στον τομέα των ζώων, η δράση μας βασίζεται σήμερα στη συνεργασία και την έμπρακτη στήριξη τοπικών φιλοζωικών φορέων.",
+    pillar_animals_item_1: "Στήριξη με τροφές και άλλα βασικά εφόδια",
+    pillar_animals_item_2: "Βοήθεια για βελτιώσεις σε χώρους φιλοξενίας και κτηριακή υποδομή",
+    pillar_animals_item_3: "Συνδρομή σε μεταφορές ζώων όταν υπάρχει ανάγκη",
+    pillar_animals_item_4: "Υποστήριξη σε οργανωτικά και γραφειοκρατικά ζητήματα",
     pillar_env_title: "Περιβάλλον",
-    pillar_env_body: "Καθαρισμοί, ευαισθητοποίηση και συμμετοχικές πρωτοβουλίες οικολογικής προστασίας.",
+    pillar_env_body: "Στον τομέα του περιβάλλοντος βρισκόμαστε ακόμη σε αρχικό στάδιο δράσης και θέλουμε να αναπτύξουμε ουσιαστικές συνεργασίες με τοπικούς φορείς και κοινότητες.",
+    pillar_env_item_1: "Βοήθεια σε πληγείσες περιοχές από φυσικές καταστροφές",
+    pillar_env_item_2: "Συνεργασίες με τοπικούς φορείς και κοινότητες",
+    pillar_env_item_3: "Καθαρισμοί και παρεμβάσεις αποκατάστασης",
+    pillar_env_item_4: "Μελλοντικές δράσεις αναδάσωσης και περιβαλλοντικής φροντίδας",
     timeline_title: "Χρονολόγιο δράσεων",
     timeline_subtitle: "Νεότερες δράσεις στην κορυφή. Με κύλιση προς τα κάτω βλέπεις παλαιότερες.",
     filter_all: "Όλα",
     filter_human: "Άνθρωπος",
     filter_animals: "Ζώα",
     filter_environment: "Περιβάλλον",
-    projects_title: "Τρέχοντα και μελλοντικά έργα",
-    projects_subtitle: "Παρακολούθηση στόχων και χρηματοδότησης με διαφάνεια.",
+    projects_title: "Έργα",
+    projects_subtitle: "Ο τομέας αυτός έχει ενσωματωθεί στις δράσεις μας.",
+    projects_merged_title: "Ο τομέας Έργα έχει ενσωματωθεί στις Δράσεις",
+    projects_merged_body: "Οι πρωτοβουλίες και τα μελλοντικά σχέδιά μας θα παρουσιάζονται πλέον μέσα από την ενότητα Δράσεις. Η σχετική παρουσίαση ενημερώνεται αυτή την περίοδο.",
     about_title: "Σχετικά με εμάς",
-    founders_title: "Ιδρυτές",
+    founders_title: "Η ομάδα μας",
     founder_renata_role: "Συνιδρύτρια",
     founder_pavlos_name: "Παύλος Δρίβας",
     founder_pavlos_role: "Συνιδρυτής και Διαχειριστής",
-    about_origin_prefix: "Η ΑΜΚΕ Συνανθρωπιά αποτελεί τη φυσική συνέχεια και τον επίσημο εταίρο του ελβετικού σωματείου",
-    about_origin_suffix: "στην Ελλάδα, διασφαλίζοντας τη συνέχεια ενός έργου που ξεκίνησε το 2016.",
+    about_origin_prefix: "Η ΑΜΚΕ Συνανθρωπιά αποτελεί τη φυσική συνέχεια και τον επίσημο εταίρο του ελβετικού φιλανθρωπικού σωματείου",
+    about_origin_suffix: "στην Ελλάδα, διασφαλίζοντας τη συνέχεια ενός έργου που ξεκίνησε το 2017.",
+    legal_tax_id_label: "ΑΦΜ:",
+    legal_gemi_label: "ΓΕΜΗ:",
+    legal_address_label: "Νομική έδρα:",
+    legal_address_value: "Θυμάρι Παλαιάς Φώκαιας, συμβολή Σόλωνος και Σεφέρη, 19013",
+    legal_statement_body: "Η ΣΥΝΑΝΘΡΩΠΙΑ ΑΣΤΙΚΗ ΜΗ ΚΕΡΔΟΣΚΟΠΙΚΗ ΕΤΑΙΡΕΙΑ λειτουργεί στην Ελλάδα ως καταχωρημένη ΑΜΚΕ με ΑΦΜ 803122300 και αριθμό ΓΕΜΗ 190082001000.",
     about_body: "Δραστηριοποιούμαστε με στόχο τη βιώσιμη κοινωνική υποστήριξη, τη φροντίδα των ζώων και την προστασία του περιβάλλοντος, μέσα από συνεργασίες με εθελοντές και τοπικούς φορείς.",
     about_values_title: "Η προσέγγισή μας",
     about_values_body: "Λειτουργούμε με διαφάνεια, συνέπεια και μετρήσιμα αποτελέσματα, ώστε κάθε δράση να έχει ουσιαστικό αντίκτυπο στην κοινότητα.",
@@ -68,14 +97,28 @@ const i18n = {
     members_body: "Στην παρούσα φάση η σελίδα λειτουργεί ενημερωτικά. Σύντομα θα προστεθούν ψηφιακές υπηρεσίες για μέλη, συνδρομές και εργαλεία συνεργασίας με εταίρους.",
     forms_title: "Αιτήσεις ενδιαφέροντος",
     forms_body: "Μέχρι να ενεργοποιηθεί πλήρες σύστημα μελών, μπορείς να υποβάλεις αίτηση ενδιαφέροντος.",
+    forms_intro_title: "Εκδήλωση ενδιαφέροντος",
+    forms_intro_body: "Σε αυτή την ενότητα μπορείτε να εκδηλώσετε το ενδιαφέρον σας είτε να προσφέρετε ως μέλος, εθελοντής ή δωρητής είτε να ζητήσετε υποστήριξη ως ωφελούμενος. Κάθε αίτηση εξετάζεται με προσοχή και θα επικοινωνήσουμε μαζί σας για τα επόμενα βήματα.",
     member_application_link: "Αίτηση μέλους",
     beneficiary_application_link: "Αίτηση ωφελούμενου",
+    volunteer_application_link: "Αίτηση εθελοντή",
+    donation_application_link: "Δωρεά σε είδος",
     member_form_title: "Αίτηση μέλους",
+    member_form_info: "Ως μέλος της Συνανθρωπιάς μπορείτε να στηρίζετε σταθερά το έργο μας μέσω μηνιαίας συνδρομής. Η συμμετοχή αυτή θα συνοδεύεται από πρόσβαση σε επιπλέον περιεχόμενο και δυνατότητα να μοιράζεστε ιδέες και προτάσεις για μελλοντικές δράσεις. Οι προτάσεις αυτές εξετάζονται με προσοχή από την οργάνωση, ενώ η ευθύνη των αποφάσεων παραμένει στην ομάδα διοίκησης.",
+    member_form_coming_soon: "Η δυνατότητα υποβολής αίτησης μέλους θα είναι σύντομα διαθέσιμη.",
     beneficiary_form_title: "Αίτηση ωφελούμενου",
+    volunteer_form_title: "Αίτηση εθελοντή",
+    donation_form_title: "Δωρεά σε είδος",
     label_name: "Ονοματεπώνυμο",
     label_phone: "Τηλέφωνο",
     label_location: "Περιοχή",
-    label_member_reason: "Γιατί θέλετε να γίνετε μέλος;",
+    label_member_reason: "Πείτε μας λίγα λόγια για το ενδιαφέρον σας",
+    label_volunteer_reason: "Πώς θα θέλατε να προσφέρετε;",
+    label_volunteer_availability: "Διαθεσιμότητα",
+    label_donation_items: "Τι θα θέλατε να προσφέρετε;",
+    label_donation_availability: "Πότε μπορείτε να τα διαθέσετε;",
+    label_donation_location: "Σε ποιο σημείο βρίσκονται;",
+    label_donation_notes: "Επιπλέον πληροφορίες",
     label_help_type: "Τύπος βοήθειας",
     label_beneficiary_details: "Σύντομη περιγραφή ανάγκης",
     select_help: "Επιλέξτε...",
@@ -84,22 +127,34 @@ const i18n = {
     help_animals: "Υποστήριξη για ζώα",
     help_other: "Άλλο",
     submit_interest: "Αποστολή ενδιαφέροντος",
+    submit_interest_soon: "Σύντομα διαθέσιμο",
     btn_clear: "Καθαρισμός",
     submit_request: "Υποβολή αιτήματος",
+    submit_donation_plan: "Αποστολή προγραμματισμού",
     form_success_title: "Ευχαριστούμε!",
     form_success_member: "Η αίτησή σας για μέλος λήφθηκε. Θα επικοινωνήσουμε μαζί σας σύντομα.",
     form_success_beneficiary: "Το αίτημά σας προστέθηκε στα αρχεία μας. Θα επικοινωνήσουμε για την επόμενη διαδικασία.",
+    form_success_volunteer: "Η αίτησή σας για εθελοντισμό λήφθηκε. Θα επικοινωνήσουμε μαζί σας σύντομα.",
+    form_success_donation: "Ο προγραμματισμός της δωρεάς σας λήφθηκε. Θα επικοινωνήσουμε μαζί σας σύντομα για τα επόμενα βήματα.",
     form_error: "Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξανά.",
     donate_title: "Στήριξη και δωρεές",
-    donate_subtitle: "Στην τρέχουσα φάση η ενίσχυση γίνεται με απευθείας κατάθεση ή εξωτερική πλατφόρμα.",
+    donate_subtitle: "Δεχόμαστε οικονομικές δωρεές αλλά και δωρεές σε είδος, με στόχο να καλύπτουμε ουσιαστικές ανάγκες με αξιοπρέπεια και φροντίδα.",
+    donate_schedule_cta: "Προγραμματισμός δωρεάς",
     bank_details_title: "Στοιχεία τραπεζικού λογαριασμού",
     beneficiary_label: "Δικαιούχος:",
-    online_support_title: "Online υποστήριξη",
-    online_support_body: "Μπορείτε να προσθέσετε σύνδεσμο PayPal ή Donorbox χωρίς backend. Το κουμπί παραμένει placeholder μέχρι να οριστεί τελικός λογαριασμός.",
-    online_support_cta: "Σύντομα διαθέσιμο",
+    copy_label: "Αντιγραφή",
+    copy_success: "Αντιγράφηκε",
+    copy_error: "Σφάλμα",
+    in_kind_title: "Δωρεές σε είδος",
+    in_kind_body: "Δεχόμαστε είδη που μπορούν να δοθούν άμεσα σε ανθρώπους που τα χρειάζονται, αρκεί να είναι καθαρά, σε καλή κατάσταση και πλήρως λειτουργικά.",
+    in_kind_item_1: "Ρούχα και παπούτσια",
+    in_kind_item_2: "Είδη οικοσκευής και ηλεκτρικές συσκευές",
+    in_kind_item_3: "Έπιπλα, ηλεκτρονικές συσκευές και παιχνίδια",
+    in_kind_note: "Δεν δεχόμαστε αντικείμενα που προορίζονται για απόρριψη ή δεν μπορούν να χρησιμοποιηθούν άμεσα.",
     contact_title: "Επικοινωνία",
     social_title: "Social media",
-    location_value: "Άγιος Κωνσταντίνος Λαυρεωτικής, Ελλάδα",
+    social_coming_soon: "Σύντομα διαθέσιμο",
+    location_value: "Κέντρο δραστηριοτήτων και γραφεία: Άγιος Κωνσταντίνος Λαυρεωτικής, Ελλάδα",
     project_group_active: "Ενεργά",
     project_group_future: "Μελλοντικά",
     project_group_completed: "Ολοκληρωμένα",
@@ -117,10 +172,19 @@ const i18n = {
   en: {
     org_name: "SYNANTHROPIA",
     under_construction: "UNDER CONSTRUCTION",
+    actions_under_construction_title: "The Actions section is under construction",
+    actions_under_construction_body: "This page is being updated and will return soon with carefully selected public content.",
+    actions_intro_body: "Here you can view our actions. For actions that have already been completed, choose \"History\".",
+    actions_tab_current_short: "Current",
+    actions_tab_history_short: "History",
+    actions_tab_current: "Current actions",
+    actions_tab_history: "Action history",
+    actions_current_intro: "This tab gathers initiatives that are currently in progress or being prepared for immediate launch and need support, participation, or donated items.",
+    actions_history_intro: "A chronological view of actions that have already been carried out, helping us track continuity and preserve the record of our work.",
+    current_actions_empty: "There are no current actions in this section yet.",
     nav_home: "Home",
     nav_about: "About us",
     nav_actions: "Actions",
-    nav_projects: "Projects",
     nav_members: "Members & Partners",
     nav_forms: "Applications",
     nav_donate: "Donate",
@@ -131,33 +195,60 @@ const i18n = {
     cta_view_actions: "View actions",
     cta_donate: "Support with a donation",
     mission_title: "Mission",
-    mission_body: "To connect people and organizations in practical initiatives for social support, animal welfare, and environmental protection.",
-    mission_item_1: "Collaboration with volunteers and partners",
-    mission_item_2: "Targeted interventions with measurable impact",
-    mission_item_3: "Open updates about actions and projects",
+    mission_body: "Our mission is to offer help wherever there is real need, without discrimination or exclusion. We support people, animals, and the environment by connecting organizations, volunteers, and beneficiaries, or by intervening directly wherever this is needed. Every action we take is grounded in transparency, collaboration, and respect for every form of life and for the place we all share.",
+    quick_actions_title: "Do you need support or would you like to help?",
+    path_help_title: "I need support",
+    path_help_body: "If you need support, you can send us your request and we will contact you.",
+    path_offer_title: "I want to help",
+    path_offer_body: "If you would like to contribute as a volunteer, member, or supporter, see the available ways to participate.",
+    quick_action_receive: "Support request",
+    quick_action_member: "I want to become a member",
+    quick_action_volunteer: "I want to volunteer",
+    quick_action_donate: "I want to donate",
     pillars_title: "Action pillars",
     pillars_subtitle: "Our three core pillars",
     pillar_human_title: "People",
-    pillar_human_body: "Support for vulnerable people, essential needs, and social empowerment.",
+    pillar_human_body: "We stand beside people who need meaningful support and social empowerment.",
+    pillar_human_item_1: "Support with food and essential supplies",
+    pillar_human_item_2: "Provision of clothing, shoes, furniture, and basic household equipment",
+    pillar_human_item_3: "Coverage of costs that strengthen autonomy and social empowerment",
+    pillar_human_item_4: "Help with legal matters, mainly migration-related issues, and support in using basic public services",
+    pillar_human_item_5: "Greek language lessons for adult refugees",
+    pillar_human_item_6: "Activities for children that support local integration and strengthen their social development",
     pillar_animals_title: "Animals",
-    pillar_animals_body: "Care, feeding, treatment, and local animal welfare collaborations.",
+    pillar_animals_body: "In the area of animal welfare, our work currently focuses on cooperation with and practical support for local animal welfare groups.",
+    pillar_animals_item_1: "Support with food and other essential supplies",
+    pillar_animals_item_2: "Help with improvements to shelters and facility infrastructure",
+    pillar_animals_item_3: "Assistance with animal transport when needed",
+    pillar_animals_item_4: "Support with organizational and administrative matters",
     pillar_env_title: "Environment",
-    pillar_env_body: "Cleanups, awareness, and participatory environmental initiatives.",
+    pillar_env_body: "In the area of the environment, we are still at an early stage and aim to build meaningful collaborations with local organizations and communities.",
+    pillar_env_item_1: "Support in areas affected by natural disasters",
+    pillar_env_item_2: "Partnerships with local organizations and communities",
+    pillar_env_item_3: "Cleanups and restoration interventions",
+    pillar_env_item_4: "Future reforestation and environmental care actions",
     timeline_title: "Action timeline",
     timeline_subtitle: "Newest actions first. Scroll down for older entries.",
     filter_all: "All",
     filter_human: "People",
     filter_animals: "Animals",
     filter_environment: "Environment",
-    projects_title: "Current and upcoming projects",
-    projects_subtitle: "Track goals and funding progress transparently.",
+    projects_title: "Projects",
+    projects_subtitle: "This area has now been integrated into our Actions.",
+    projects_merged_title: "The Projects area has been integrated into Actions",
+    projects_merged_body: "Our initiatives and future plans will now be presented through the Actions section. This presentation is currently being updated.",
     about_title: "About us",
-    founders_title: "Founders",
+    founders_title: "Our team",
     founder_renata_role: "Co-founder",
     founder_pavlos_name: "Pavlos Drivas",
     founder_pavlos_role: "Co-founder & Administrator",
-    about_origin_prefix: "Synanthropia NPO is the natural continuation and official partner of the Swiss association",
-    about_origin_suffix: "in Greece, ensuring continuity of work that began in 2016.",
+    about_origin_prefix: "Synanthropia NPO is the natural continuation and official partner of the Swiss charitable association",
+    about_origin_suffix: "in Greece, ensuring continuity of work that began in 2017.",
+    legal_tax_id_label: "Tax ID (AFM):",
+    legal_gemi_label: "GEMI No.:",
+    legal_address_label: "Registered office:",
+    legal_address_value: "Thymari, Palaia Fokaia, corner of Solonos and Seferi, 19013",
+    legal_statement_body: "SYNANTHROPIA CIVIL NON-PROFIT COMPANY operates in Greece as a registered non-profit entity with Tax ID 803122300 and GEMI number 190082001000.",
     about_body: "We work toward sustainable social support, animal care, and environmental protection through collaboration with volunteers and local partners.",
     about_values_title: "Our approach",
     about_values_body: "We operate with transparency, consistency, and measurable outcomes so that every action has meaningful impact in the community.",
@@ -165,14 +256,28 @@ const i18n = {
     members_body: "At this stage, the website is informational. Digital services for members and partner workflows will be added next.",
     forms_title: "Interest applications",
     forms_body: "Until full member services are enabled, you can submit an interest application.",
+    forms_intro_title: "Expression of interest",
+    forms_intro_body: "In this section you can express your interest either in offering support as a member, volunteer, or donor, or in requesting support as a beneficiary. Each application is reviewed carefully and we will contact you with the next steps.",
     member_application_link: "Member application",
     beneficiary_application_link: "Beneficiary application",
+    volunteer_application_link: "Volunteer application",
+    donation_application_link: "In-kind donation",
     member_form_title: "Member application",
+    member_form_info: "As a member of Synanthropia, you can support our work on an ongoing basis through a monthly contribution. Membership will include access to additional content and the opportunity to share ideas and proposals for future actions. These proposals are reviewed carefully by the organization, while decision-making remains with the leadership team.",
+    member_form_coming_soon: "The ability to submit a member application will be available soon.",
     beneficiary_form_title: "Beneficiary application",
+    volunteer_form_title: "Volunteer application",
+    donation_form_title: "In-kind donation",
     label_name: "Full name",
     label_phone: "Phone",
     label_location: "Location",
-    label_member_reason: "Why do you want to become a member?",
+    label_member_reason: "Tell us a few words about your interest",
+    label_volunteer_reason: "How would you like to contribute?",
+    label_volunteer_availability: "Availability",
+    label_donation_items: "What would you like to offer?",
+    label_donation_availability: "When can you make it available?",
+    label_donation_location: "Where is it located?",
+    label_donation_notes: "Additional information",
     label_help_type: "Type of support",
     label_beneficiary_details: "Brief description of need",
     select_help: "Please select...",
@@ -181,22 +286,34 @@ const i18n = {
     help_animals: "Animal support",
     help_other: "Other",
     submit_interest: "Submit interest",
+    submit_interest_soon: "Coming soon",
     btn_clear: "Clear",
     submit_request: "Submit request",
+    submit_donation_plan: "Send scheduling request",
     form_success_title: "Thank you!",
     form_success_member: "Your member application has been received. We will be in touch soon.",
     form_success_beneficiary: "Your request has been received. We will contact you with next steps.",
+    form_success_volunteer: "Your volunteer application has been received. We will contact you soon.",
+    form_success_donation: "Your donation scheduling request has been received. We will contact you soon with the next steps.",
     form_error: "Something went wrong. Please try again.",
     donate_title: "Support and donations",
-    donate_subtitle: "At this stage, support is available through bank transfer or external platforms.",
+    donate_subtitle: "We accept both financial donations and in-kind donations in order to respond to real needs with dignity and care.",
+    donate_schedule_cta: "Donation scheduling",
     bank_details_title: "Bank account details",
     beneficiary_label: "Beneficiary:",
-    online_support_title: "Online support",
-    online_support_body: "You can add a PayPal or Donorbox link without a backend. This button remains a placeholder until final setup.",
-    online_support_cta: "Available soon",
+    copy_label: "Copy",
+    copy_success: "Copied",
+    copy_error: "Error",
+    in_kind_title: "In-kind donations",
+    in_kind_body: "We accept items that can be given directly to people who need them, as long as they are clean, in good condition, and fully functional.",
+    in_kind_item_1: "Clothes and shoes",
+    in_kind_item_2: "Household items and electrical appliances",
+    in_kind_item_3: "Furniture, electronic devices, and toys",
+    in_kind_note: "We do not accept items that are meant for disposal or cannot be used immediately.",
     contact_title: "Contact",
     social_title: "Social media",
-    location_value: "Agios Konstantinos Lavreotiki, Greece",
+    social_coming_soon: "Coming soon",
+    location_value: "Activity centre and offices: Agios Konstantinos Lavreotiki, Greece",
     project_group_active: "Active",
     project_group_future: "Upcoming",
     project_group_completed: "Completed",
@@ -214,10 +331,19 @@ const i18n = {
   de: {
     org_name: "SYNANTHROPIA",
     under_construction: "IM AUFBAU",
+    actions_under_construction_title: "Der Bereich Aktionen befindet sich im Aufbau",
+    actions_under_construction_body: "Diese Seite wird derzeit aktualisiert und erscheint bald mit sorgfaeltig ausgewaehlten oeffentlichen Inhalten wieder.",
+    actions_intro_body: "Hier koennen Sie unsere Aktionen sehen. Fuer bereits abgeschlossene Aktionen waehlen Sie \"Verlauf\".",
+    actions_tab_current_short: "Aktuell",
+    actions_tab_history_short: "Verlauf",
+    actions_tab_current: "Aktuelle Aktionen",
+    actions_tab_history: "Aktionsverlauf",
+    actions_current_intro: "Hier sammeln wir Initiativen, die aktuell laufen oder unmittelbar vorbereitet werden und Unterstuetzung, Beteiligung oder Sachspenden brauchen.",
+    actions_history_intro: "Eine chronologische Ansicht der bereits umgesetzten Aktionen, damit wir die Kontinuitaet und das Archiv unserer Arbeit nachvollziehen koennen.",
+    current_actions_empty: "In diesem Bereich gibt es noch keine aktuellen Aktionen.",
     nav_home: "Start",
     nav_about: "Ueber uns",
     nav_actions: "Aktionen",
-    nav_projects: "Projekte",
     nav_members: "Mitglieder & Partner",
     nav_forms: "Antraege",
     nav_donate: "Spende",
@@ -228,33 +354,60 @@ const i18n = {
     cta_view_actions: "Aktionen ansehen",
     cta_donate: "Mit Spende unterstuetzen",
     mission_title: "Mission",
-    mission_body: "Menschen und Organisationen in praktischen Initiativen fuer soziale Hilfe, Tierschutz und Umweltschutz verbinden.",
-    mission_item_1: "Zusammenarbeit mit Freiwilligen und Partnern",
-    mission_item_2: "Gezielte Massnahmen mit messbarer Wirkung",
-    mission_item_3: "Offene Information zu Aktionen und Projekten",
+    mission_body: "Unsere Mission ist es, dort Hilfe zu leisten, wo wirklicher Bedarf besteht, ohne Diskriminierung und ohne Ausgrenzung. Wir unterstuetzen Menschen, Tiere und die Umwelt, indem wir Organisationen, Freiwillige und Beguenstigte zusammenbringen oder dort direkt eingreifen, wo es erforderlich ist. Jede unserer Handlungen basiert auf Transparenz, Zusammenarbeit und Respekt vor jeder Form des Lebens und vor dem gemeinsamen Lebensraum.",
+    quick_actions_title: "Brauchen Sie Hilfe oder moechten Sie helfen?",
+    path_help_title: "Ich brauche Hilfe",
+    path_help_body: "Wenn Sie Unterstuetzung brauchen, koennen Sie uns Ihr Anliegen senden und wir werden uns bei Ihnen melden.",
+    path_offer_title: "Ich moechte helfen",
+    path_offer_body: "Wenn Sie sich als Freiwillige/r, Mitglied oder Unterstuetzer/in einbringen moechten, finden Sie hier die passenden Wege.",
+    quick_action_receive: "Unterstuetzung anfragen",
+    quick_action_member: "Ich moechte Mitglied werden",
+    quick_action_volunteer: "Ich moechte mich ehrenamtlich engagieren",
+    quick_action_donate: "Ich moechte spenden",
     pillars_title: "Handlungsfelder",
     pillars_subtitle: "Unsere drei Grundpfeiler",
     pillar_human_title: "Menschen",
-    pillar_human_body: "Unterstuetzung beduerftiger Menschen, Grundversorgung und soziale Staerkung.",
+    pillar_human_body: "Wir stehen Menschen zur Seite, die konkrete Unterstuetzung und soziale Staerkung brauchen.",
+    pillar_human_item_1: "Unterstuetzung mit Lebensmitteln und Dingen des taeglichen Bedarfs",
+    pillar_human_item_2: "Bereitstellung von Kleidung, Schuhen, Moebeln und grundlegender Haushaltsausstattung",
+    pillar_human_item_3: "Uebernahme von Kosten, die Selbststaendigkeit und soziale Staerkung foerdern",
+    pillar_human_item_4: "Hilfe bei rechtlichen Fragen, vor allem bei Migrationsthemen, und Unterstuetzung bei der Nutzung grundlegender staatlicher Dienste",
+    pillar_human_item_5: "Griechischunterricht fuer erwachsene Gefluechtete",
+    pillar_human_item_6: "Aktivitaeten fuer Kinder zur Foerderung lokaler Integration und ihrer sozialen Entwicklung",
     pillar_animals_title: "Tiere",
-    pillar_animals_body: "Pflege, Fuetterung, Behandlung und lokale Tierschutzkooperationen.",
+    pillar_animals_body: "Im Bereich Tierschutz konzentriert sich unsere Arbeit derzeit auf die Zusammenarbeit mit lokalen Tierschutzinitiativen und deren praktische Unterstuetzung.",
+    pillar_animals_item_1: "Unterstuetzung mit Futter und anderen grundlegenden Bedarfsguetern",
+    pillar_animals_item_2: "Hilfe bei Verbesserungen von Unterbringungsorten und Infrastruktur",
+    pillar_animals_item_3: "Unterstuetzung bei Tiertransporten, wenn Bedarf besteht",
+    pillar_animals_item_4: "Hilfe bei organisatorischen und buerokratischen Fragen",
     pillar_env_title: "Umwelt",
-    pillar_env_body: "Reinigungsaktionen, Sensibilisierung und partizipative Umweltinitiativen.",
+    pillar_env_body: "Im Bereich Umwelt befinden wir uns noch in einer fruehen Phase und moechten tragfaehige Kooperationen mit lokalen Akteuren und Gemeinschaften aufbauen.",
+    pillar_env_item_1: "Hilfe in von Naturkatastrophen betroffenen Gebieten",
+    pillar_env_item_2: "Zusammenarbeit mit lokalen Akteuren und Gemeinschaften",
+    pillar_env_item_3: "Reinigungsaktionen und Massnahmen zur Wiederherstellung",
+    pillar_env_item_4: "Zukuenftige Aufforstungs- und Umweltpflegeprojekte",
     timeline_title: "Aktions-Timeline",
     timeline_subtitle: "Neueste Aktionen zuerst. Beim Scrollen nach unten erscheinen aeltere Eintraege.",
     filter_all: "Alle",
     filter_human: "Menschen",
     filter_animals: "Tiere",
     filter_environment: "Umwelt",
-    projects_title: "Aktuelle und kommende Projekte",
-    projects_subtitle: "Ziele und Finanzierungsfortschritt transparent verfolgen.",
+    projects_title: "Projekte",
+    projects_subtitle: "Dieser Bereich wurde in unsere Aktionen integriert.",
+    projects_merged_title: "Der Bereich Projekte wurde in die Aktionen integriert",
+    projects_merged_body: "Unsere Initiativen und kuenftigen Vorhaben werden kuenftig in der Rubrik Aktionen praesentiert. Diese Darstellung wird derzeit aktualisiert.",
     about_title: "Ueber uns",
-    founders_title: "Gründer",
+    founders_title: "Unser Team",
     founder_renata_role: "Mitgründerin",
     founder_pavlos_name: "Pavlos Drivas",
     founder_pavlos_role: "Mitgründer und Geschäftsführer",
-    about_origin_prefix: "Die NPO Synanthropia ist die natuerliche Fortsetzung und der offizielle Partner des Schweizer Vereins",
-    about_origin_suffix: "in Griechenland und sichert die Kontinuitaet einer Arbeit, die 2016 begonnen hat.",
+    about_origin_prefix: "Die NPO Synanthropia ist die natuerliche Fortsetzung und der offizielle Partner des Schweizer gemeinnuetzigen Vereins",
+    about_origin_suffix: "in Griechenland und sichert die Kontinuitaet einer Arbeit, die 2017 begonnen hat.",
+    legal_tax_id_label: "Steuer-ID (AFM):",
+    legal_gemi_label: "GEMI-Nr.:",
+    legal_address_label: "Rechtlicher Sitz:",
+    legal_address_value: "Thymari, Palaia Fokaia, Ecke Solonos und Seferi, 19013",
+    legal_statement_body: "SYNANTHROPIA ZIVILE GEMEINNÜTZIGE GESELLSCHAFT ist in Griechenland als eingetragene gemeinnützige Organisation mit Steuer-ID 803122300 und GEMI-Nummer 190082001000 tätig.",
     about_body: "Wir arbeiten fuer nachhaltige soziale Unterstuetzung, Tierschutz und Umweltschutz durch Zusammenarbeit mit Freiwilligen und lokalen Partnern.",
     about_values_title: "Unser Ansatz",
     about_values_body: "Wir arbeiten mit Transparenz, Verlaesslichkeit und messbaren Ergebnissen, damit jede Aktion eine echte Wirkung in der Gemeinschaft hat.",
@@ -262,14 +415,28 @@ const i18n = {
     members_body: "In dieser Phase ist die Website informativ. Digitale Mitgliedsdienste und Partnerfunktionen folgen spaeter.",
     forms_title: "Interessensantraege",
     forms_body: "Bis zur Aktivierung voller Mitgliedsdienste koennen Sie Ihr Interesse ueber ein Formular senden.",
+    forms_intro_title: "Interesse bekunden",
+    forms_intro_body: "In diesem Bereich koennen Sie Ihr Interesse bekunden, entweder als Mitglied, Freiwillige/r oder Spender/in Unterstuetzung anzubieten oder als Beguenstigte/r Hilfe anzufragen. Jede Anfrage wird sorgfaeltig geprueft und wir melden uns mit den naechsten Schritten bei Ihnen.",
     member_application_link: "Mitgliedsantrag",
     beneficiary_application_link: "Antrag als Beguenstigter",
+    volunteer_application_link: "Antrag als Freiwillige/r",
+    donation_application_link: "Sachspende",
     member_form_title: "Mitgliedsantrag",
+    member_form_info: "Als Mitglied von Synanthropia koennen Sie unsere Arbeit durch einen monatlichen Beitrag dauerhaft unterstuetzen. Die Mitgliedschaft wird Zugang zu zusaetzlichen Inhalten und die Moeglichkeit bieten, Ideen und Vorschlaege fuer kuenftige Aktionen einzubringen. Diese Vorschlaege werden von der Organisation sorgfaeltig geprueft, waehrend die Verantwortung fuer Entscheidungen beim Leitungsteam bleibt.",
+    member_form_coming_soon: "Die Moeglichkeit, einen Mitgliedsantrag einzureichen, wird bald verfuegbar sein.",
     beneficiary_form_title: "Antrag als Beguenstigter",
+    volunteer_form_title: "Antrag als Freiwillige/r",
+    donation_form_title: "Sachspende",
     label_name: "Vollstaendiger Name",
     label_phone: "Telefon",
     label_location: "Ort",
-    label_member_reason: "Warum moechten Sie Mitglied werden?",
+    label_member_reason: "Erzaehlen Sie uns kurz von Ihrem Interesse",
+    label_volunteer_reason: "Wie moechten Sie sich einbringen?",
+    label_volunteer_availability: "Verfuegbarkeit",
+    label_donation_items: "Was moechten Sie anbieten?",
+    label_donation_availability: "Wann koennen Sie es zur Verfuegung stellen?",
+    label_donation_location: "Wo befindet es sich?",
+    label_donation_notes: "Zusaetzliche Informationen",
     label_help_type: "Art der Unterstuetzung",
     label_beneficiary_details: "Kurze Beschreibung des Bedarfs",
     select_help: "Bitte auswaehlen...",
@@ -278,22 +445,34 @@ const i18n = {
     help_animals: "Unterstuetzung fuer Tiere",
     help_other: "Andere",
     submit_interest: "Interesse senden",
+    submit_interest_soon: "Bald verfuegbar",
     btn_clear: "Leeren",
     submit_request: "Antrag senden",
+    submit_donation_plan: "Planung senden",
     form_success_title: "Vielen Dank!",
     form_success_member: "Ihre Mitgliedsanfrage wurde empfangen. Wir werden uns in Kürze bei Ihnen melden.",
     form_success_beneficiary: "Ihre Anfrage wurde empfangen. Wir kontaktieren Sie mit weiteren Schritten.",
+    form_success_volunteer: "Ihre Anfrage fuer freiwilliges Engagement wurde empfangen. Wir melden uns in Kuerze bei Ihnen.",
+    form_success_donation: "Ihre Anfrage zur Spendenplanung wurde empfangen. Wir melden uns in Kuerze mit den naechsten Schritten.",
     form_error: "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut.",
     donate_title: "Unterstuetzung und Spenden",
-    donate_subtitle: "In dieser Phase erfolgt Unterstuetzung per Ueberweisung oder externer Plattform.",
+    donate_subtitle: "Wir nehmen sowohl finanzielle Spenden als auch Sachspenden an, um konkrete Bedarfe mit Würde und Sorgfalt zu decken.",
+    donate_schedule_cta: "Spende planen",
     bank_details_title: "Bankverbindung",
     beneficiary_label: "Empfaenger:",
-    online_support_title: "Online-Unterstuetzung",
-    online_support_body: "Ein PayPal- oder Donorbox-Link kann ohne Backend eingebunden werden. Die Schaltflaeche bleibt bis zur finalen Einrichtung ein Platzhalter.",
-    online_support_cta: "Demnaechst verfuegbar",
+    copy_label: "Kopieren",
+    copy_success: "Kopiert",
+    copy_error: "Fehler",
+    in_kind_title: "Sachspenden",
+    in_kind_body: "Wir nehmen Dinge an, die direkt an Menschen weitergegeben werden koennen, sofern sie sauber, in gutem Zustand und voll funktionsfaehig sind.",
+    in_kind_item_1: "Kleidung und Schuhe",
+    in_kind_item_2: "Haushaltsgegenstaende und Elektrogeraete",
+    in_kind_item_3: "Moebel, elektronische Geraete und Spielzeug",
+    in_kind_note: "Wir nehmen keine Gegenstaende an, die fuer die Entsorgung bestimmt sind oder nicht sofort genutzt werden koennen.",
     contact_title: "Kontakt",
     social_title: "Soziale Medien",
-    location_value: "Agios Konstantinos Lavreotiki, Griechenland",
+    social_coming_soon: "Bald verfügbar",
+    location_value: "Aktivitätszentrum und Büros: Agios Konstantinos Lavreotiki, Griechenland",
     project_group_active: "Aktiv",
     project_group_future: "Geplant",
     project_group_completed: "Abgeschlossen",
@@ -314,6 +493,7 @@ const state = {
   lang: defaultLang,
   actions: [],
   projects: [],
+  actionsTab: "current",
   timelineFilter: "all",
   visibleActions: [],
   galleryCache: {},
@@ -489,10 +669,13 @@ const setLanguage = (lang) => {
     }
   });
 
+  syncCopyButtonsLanguage();
+
   document.documentElement.removeAttribute("data-lang-pending");
 
   renderTimeline();
   renderProjects();
+  renderActionsTabs();
 };
 
 const timelineTagClass = (pillar) => `tag-${pillar}`;
@@ -764,25 +947,36 @@ const renderProjects = () => {
     return;
   }
 
-  const groups = ["active", "future", "completed"];
+  const groupsAttr = target.dataset.projectGroups;
+  const hideGroupHeadings = target.dataset.hideGroupHeadings === "true";
+  const groups = groupsAttr
+    ? groupsAttr.split(",").map((group) => group.trim()).filter(Boolean)
+    : ["active", "future", "completed"];
 
   const html = groups
     .map((group) => {
       const groupItems = state.projects.filter((item) => item.status === group);
+      if (!groupItems.length) {
+        return "";
+      }
+
       const cards = groupItems
         .map((item) => {
           const title = item.title?.[state.lang] || item.title?.el || "";
           const summary = item.summary?.[state.lang] || item.summary?.el || "";
-          const pct = Math.min(100, Math.round((item.raised / item.budget) * 100));
+          const hasFinance = Number.isFinite(item.budget) && item.budget > 0 && Number.isFinite(item.raised);
+          const pct = hasFinance ? Math.min(100, Math.round((item.raised / item.budget) * 100)) : null;
 
           return `
             <article class="project-card">
               <h4>${title}</h4>
-              <p>${summary}</p>
+              ${summary ? `<p>${summary}</p>` : ""}
+              ${hasFinance ? `
               <div class="progress-bar">
                 <div class="progress-fill" style="width:${pct}%"></div>
               </div>
               <div class="progress-meta">${i18n[state.lang].project_finance}: ${pct}% (${fmtCurrency(item.raised, state.lang)} / ${fmtCurrency(item.budget, state.lang)})</div>
+              ` : ""}
             </article>
           `;
         })
@@ -790,14 +984,35 @@ const renderProjects = () => {
 
       return `
         <section class="project-column">
-          <h3>${i18n[state.lang][`project_group_${group}`]}</h3>
+          ${hideGroupHeadings ? "" : `<h3>${i18n[state.lang][`project_group_${group}`]}</h3>`}
           <div class="project-stack">${cards || ""}</div>
         </section>
       `;
     })
     .join("");
 
-  target.innerHTML = html;
+  const emptyKey = target.dataset.emptyKey || "timeline_no_items";
+  target.innerHTML = html || `<p class="timeline-empty-media">${i18n[state.lang][emptyKey] || i18n[defaultLang][emptyKey] || ""}</p>`;
+};
+
+const renderActionsTabs = () => {
+  const buttons = document.querySelectorAll(".actions-tab-btn");
+  const panels = document.querySelectorAll(".actions-tab-panel");
+  if (!buttons.length || !panels.length) {
+    return;
+  }
+
+  buttons.forEach((btn) => {
+    const isActive = btn.dataset.tab === state.actionsTab;
+    btn.classList.toggle("active", isActive);
+    btn.setAttribute("aria-selected", isActive ? "true" : "false");
+  });
+
+  panels.forEach((panel) => {
+    const isActive = panel.id === `actions-panel-${state.actionsTab}`;
+    panel.classList.toggle("active", isActive);
+    panel.hidden = !isActive;
+  });
 };
 
 const wireLanguageButtons = () => {
@@ -819,6 +1034,22 @@ const wireNavigationLinks = () => {
       }
     });
   }
+};
+
+const handleHashTarget = () => {
+  const hash = window.location.hash;
+  if (!hash) return;
+
+  const target = document.querySelector(hash);
+  if (!target) return;
+
+  if (target.tagName === "DETAILS") {
+    target.open = true;
+  }
+
+  window.setTimeout(() => {
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 50);
 };
 
 const wireActiveNavLink = () => {
@@ -847,13 +1078,84 @@ const wireTimelineFilters = () => {
   });
 };
 
+const wireActionsTabs = () => {
+  document.querySelectorAll(".actions-tab-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.actionsTab = btn.dataset.tab || "current";
+      renderActionsTabs();
+    });
+  });
+};
+
+const syncCopyButtonsLanguage = () => {
+  document.querySelectorAll(".copy-btn").forEach((btn) => {
+    const label = i18n[state.lang].copy_label || i18n[defaultLang].copy_label;
+    btn.setAttribute("aria-label", label);
+    btn.setAttribute("title", label);
+  });
+};
+
+const copyTextToClipboard = async (text) => {
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+
+  const helper = document.createElement("textarea");
+  helper.value = text;
+  helper.setAttribute("readonly", "");
+  helper.style.position = "absolute";
+  helper.style.left = "-9999px";
+  document.body.appendChild(helper);
+  helper.select();
+  document.execCommand("copy");
+  document.body.removeChild(helper);
+};
+
+const wireCopyButtons = () => {
+  document.querySelectorAll(".copy-btn[data-copy-target]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const targetId = btn.dataset.copyTarget;
+      const target = targetId ? document.getElementById(targetId) : null;
+      if (!target) return;
+      const copyValue = btn.dataset.copyValue || target.textContent || "";
+
+      const originalLabel = i18n[state.lang].copy_label || i18n[defaultLang].copy_label;
+
+      try {
+        await copyTextToClipboard(copyValue);
+        btn.setAttribute("aria-label", i18n[state.lang].copy_success || i18n[defaultLang].copy_success);
+        btn.setAttribute("title", i18n[state.lang].copy_success || i18n[defaultLang].copy_success);
+        btn.classList.add("copied");
+      } catch (error) {
+        console.error(error);
+        btn.setAttribute("aria-label", i18n[state.lang].copy_error || i18n[defaultLang].copy_error);
+        btn.setAttribute("title", i18n[state.lang].copy_error || i18n[defaultLang].copy_error);
+        btn.classList.remove("copied");
+      }
+
+      window.setTimeout(() => {
+        btn.setAttribute("aria-label", originalLabel);
+        btn.setAttribute("title", originalLabel);
+        btn.classList.remove("copied");
+      }, 1800);
+    });
+  });
+};
+
 const handleFormSuccess = () => {
   const params = new URLSearchParams(window.location.search);
   const formSuccess = params.get("form-success");
 
   if (!formSuccess) return;
 
-  const formType = formSuccess === "member" ? "member-application" : "beneficiary-application";
+  const formType = formSuccess === "member"
+    ? "member-application"
+    : formSuccess === "volunteer"
+      ? "volunteer-application"
+      : formSuccess === "donation"
+        ? "donation-application"
+        : "beneficiary-application";
   const card = document.getElementById(formType);
   const form = card ? card.querySelector("form") : null;
 
@@ -862,7 +1164,17 @@ const handleFormSuccess = () => {
   }
 
   if (card) {
-    const successKey = formSuccess === "member" ? "form_success_member" : "form_success_beneficiary";
+    if (card.tagName === "DETAILS") {
+      card.open = true;
+    }
+
+    const successKey = formSuccess === "member"
+      ? "form_success_member"
+      : formSuccess === "volunteer"
+        ? "form_success_volunteer"
+        : formSuccess === "donation"
+          ? "form_success_donation"
+          : "form_success_beneficiary";
     const successMsg = i18n[state.lang][successKey] || i18n[defaultLang][successKey];
     const titleMsg = i18n[state.lang].form_success_title || i18n[defaultLang].form_success_title;
 
@@ -904,7 +1216,10 @@ const init = async () => {
   wireNavigationLinks();
   wireActiveNavLink();
   wireTimelineFilters();
+  wireActionsTabs();
+  wireCopyButtons();
   wireTimelineCarousel();
+  handleHashTarget();
 
   try {
     const [actions, projects] = await Promise.all([

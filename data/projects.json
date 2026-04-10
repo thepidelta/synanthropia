@@ -1,66 +1,44 @@
 [
   {
     "status": "active",
-    "pillar": "environment",
+    "pillar": "human",
     "title": {
-      "el": "Καθαρισμός παραλίας Α",
-      "en": "Beach A cleanup",
-      "de": "Reinigung Strand A"
+      "el": "Ανακαίνιση του νέου μας κέντρου λειτουργίας",
+      "en": "Renovation of our new operations centre",
+      "de": "Renovierung unseres neuen Betriebszentrums"
     },
     "summary": {
-      "el": "Οργάνωση μηνιαίου καθαρισμού με συμμετοχή εθελοντών και φορέων.",
-      "en": "Monthly cleanup effort with volunteers and local partners.",
-      "de": "Monatliche Reinigungsinitiative mit Freiwilligen und Partnern."
-    },
-    "budget": 1800,
-    "raised": 720
+      "el": "Προετοιμάζουμε τον νέο χώρο ώστε να φιλοξενεί σταθερά δράσεις, συναντήσεις και υποστηρικτικές υπηρεσίες.",
+      "en": "We are preparing the new space to host actions, meetings, and support services on a stable basis.",
+      "de": "Wir bereiten den neuen Raum darauf vor, dauerhaft Aktionen, Treffen und unterstuetzende Angebote aufzunehmen."
+    }
   },
   {
     "status": "active",
     "pillar": "human",
     "title": {
-      "el": "Πακέτα βασικής υποστήριξης",
-      "en": "Essential support packages",
-      "de": "Pakete fuer Grundversorgung"
+      "el": "Πασχαλινά καλαθάκια για τους ωφελούμενούς μας",
+      "en": "Easter baskets for our beneficiaries",
+      "de": "Osterkoerbchen fuer unsere Beguenstigten"
     },
     "summary": {
-      "el": "Στήριξη οικογενειών με τρόφιμα και είδη καθημερινής ανάγκης.",
-      "en": "Support for families with food and basic daily supplies.",
-      "de": "Unterstuetzung von Familien mit Lebensmitteln und Alltagsbedarf."
-    },
-    "budget": 2500,
-    "raised": 1430
+      "el": "Συγκεντρώνουμε είδη και ετοιμάζουμε πασχαλινά καλαθάκια για ανθρώπους και οικογένειες που στηρίζουμε.",
+      "en": "We are collecting items and preparing Easter baskets for the people and families we support.",
+      "de": "Wir sammeln Sachspenden und bereiten Osterkoerbchen fuer die Menschen und Familien vor, die wir unterstuetzen."
+    }
   },
   {
-    "status": "future",
-    "pillar": "animals",
+    "status": "active",
+    "pillar": "human",
     "title": {
-      "el": "Πρόγραμμα σίτισης αδέσποτων",
-      "en": "Stray feeding program",
-      "de": "Futterprogramm fuer Streunertiere"
+      "el": "Μαθήματα ελληνικής γλώσσας σε ενήλικες",
+      "en": "Greek language lessons for adults",
+      "de": "Griechischunterricht fuer Erwachsene"
     },
     "summary": {
-      "el": "Νέο πρόγραμμα με σημεία σίτισης και συνεργασία με κτηνιάτρους.",
-      "en": "New program with feeding points and veterinary collaboration.",
-      "de": "Neues Programm mit Fuetterungsstellen und tieraerztlicher Zusammenarbeit."
-    },
-    "budget": 1200,
-    "raised": 150
-  },
-  {
-    "status": "completed",
-    "pillar": "environment",
-    "title": {
-      "el": "Δενδροφύτευση κοινόχρηστου χώρου",
-      "en": "Community tree planting",
-      "de": "Baumpflanzung im Gemeinschaftsraum"
-    },
-    "summary": {
-      "el": "Ολοκληρωμένη δράση με πλήρη κάλυψη προϋπολογισμού.",
-      "en": "Completed initiative with full budget coverage.",
-      "de": "Abgeschlossenes Projekt mit voller Budgetdeckung."
-    },
-    "budget": 900,
-    "raised": 900
+      "el": "Συνεχίζουμε μαθήματα ελληνικής γλώσσας για ενήλικες με στόχο την καθημερινή αυτονομία και την κοινωνική ένταξη.",
+      "en": "We continue Greek language lessons for adults to strengthen everyday autonomy and social inclusion.",
+      "de": "Wir setzen den Griechischunterricht fuer Erwachsene fort, um alltaegliche Selbststaendigkeit und soziale Teilhabe zu staerken."
+    }
   }
 ]
