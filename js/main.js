@@ -3,6 +3,16 @@ const defaultLang = "el";
 const languageStorageKey = "synanthropia-lang";
 const previewAccessStorageKey = "synanthropia-preview-access";
 const previewAccessValue = "granted";
+const languageButtonLabels = {
+  el: "Ελληνικά",
+  en: "English",
+  de: "Deutsch"
+};
+const languageButtonIcons = {
+  el: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" fill="#0d5ecf"></rect><rect x="2" y="4.2" width="20" height="2.2" fill="#ffffff"></rect><rect x="2" y="8.6" width="20" height="2.2" fill="#ffffff"></rect><rect x="2" y="13" width="20" height="2.2" fill="#ffffff"></rect><rect x="2" y="17.4" width="20" height="2.2" fill="#ffffff"></rect><rect x="2" y="2" width="9.2" height="9.2" fill="#0d5ecf"></rect><rect x="5.45" y="2" width="2.3" height="9.2" fill="#ffffff"></rect><rect x="2" y="5.45" width="9.2" height="2.3" fill="#ffffff"></rect></svg>',
+  en: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" fill="#0a3a8a"></rect><polygon points="2,4 4,2 22,20 20,22" fill="#ffffff"></polygon><polygon points="20,2 22,4 4,22 2,20" fill="#ffffff"></polygon><polygon points="2,5.2 5.2,2 22,18.8 18.8,22" fill="#c8102e"></polygon><polygon points="18.8,2 22,5.2 5.2,22 2,18.8" fill="#c8102e"></polygon><rect x="10" y="2" width="4" height="20" fill="#ffffff"></rect><rect x="2" y="10" width="20" height="4" fill="#ffffff"></rect><rect x="10.8" y="2" width="2.4" height="20" fill="#c8102e"></rect><rect x="2" y="10.8" width="20" height="2.4" fill="#c8102e"></rect></svg>',
+  de: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="6.67" fill="#111111"></rect><rect x="2" y="8.67" width="20" height="6.67" fill="#c8102e"></rect><rect x="2" y="15.34" width="20" height="6.66" fill="#f2c300"></rect></svg>'
+};
 const previewUsername = "board";
 const previewPassword = "Synanthropia2026";
 const previewProtectedPages = new Set([
@@ -678,6 +688,21 @@ const setLanguage = (lang) => {
   renderActionsTabs();
 };
 
+const renderLanguageButtons = () => {
+  document.querySelectorAll(".lang-btn").forEach((btn) => {
+    const lang = btn.dataset.lang || defaultLang;
+    const icon = languageButtonIcons[lang];
+    const label = languageButtonLabels[lang] || lang.toUpperCase();
+
+    if (icon) {
+      btn.innerHTML = icon;
+    }
+
+    btn.setAttribute("aria-label", label);
+    btn.setAttribute("title", label);
+  });
+};
+
 const timelineTagClass = (pillar) => `tag-${pillar}`;
 
 const getItemPillars = (item) => {
@@ -1212,6 +1237,7 @@ const init = async () => {
   const yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
+  renderLanguageButtons();
   wireLanguageButtons();
   wireNavigationLinks();
   wireActiveNavLink();
