@@ -40,5 +40,19 @@
       "en": "We continue Greek language lessons for adults to strengthen everyday autonomy and social inclusion.",
       "de": "Wir setzen den Griechischunterricht fuer Erwachsene fort, um alltaegliche Selbststaendigkeit und soziale Teilhabe zu staerken."
     }
+  },
+  {
+    "status": "active",
+    "pillar": "human",
+    "title": {
+      "el": "Δημιουργία freeshop ρούχων και παπουτσιών",
+      "en": "Creation of a freeshop for clothes and shoes",
+      "de": "Aufbau eines Freeshops fuer Kleidung und Schuhe"
+    },
+    "summary": {
+      "el": "Οργανώνουμε έναν ανοιχτό χώρο όπου ρούχα και παπούτσια θα διατίθενται δωρεάν σε ανθρώπους και οικογένειες που τα χρειάζονται.",
+      "en": "We are organizing an open space where clothes and shoes will be offered free of charge to people and families who need them.",
+      "de": "Wir organisieren einen offenen Raum, in dem Kleidung und Schuhe kostenlos an Menschen und Familien weitergegeben werden, die sie brauchen."
+    }
   }
 ]
