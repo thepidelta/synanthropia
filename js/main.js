@@ -1,8 +1,6 @@
 const supportedLangs = ["el", "en", "de"];
 const defaultLang = "el";
 const languageStorageKey = "synanthropia-lang";
-const previewAccessStorageKey = "synanthropia-preview-access";
-const previewAccessValue = "granted";
 const languageButtonLabels = {
   el: "Ελληνικά",
   en: "English",
@@ -13,11 +11,6 @@ const languageButtonIcons = {
   en: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" fill="#0a3a8a"></rect><polygon points="2,4 4,2 22,20 20,22" fill="#ffffff"></polygon><polygon points="20,2 22,4 4,22 2,20" fill="#ffffff"></polygon><polygon points="2,5.2 5.2,2 22,18.8 18.8,22" fill="#c8102e"></polygon><polygon points="18.8,2 22,5.2 5.2,22 2,18.8" fill="#c8102e"></polygon><rect x="10" y="2" width="4" height="20" fill="#ffffff"></rect><rect x="2" y="10" width="20" height="4" fill="#ffffff"></rect><rect x="10.8" y="2" width="2.4" height="20" fill="#c8102e"></rect><rect x="2" y="10.8" width="20" height="2.4" fill="#c8102e"></rect></svg>',
   de: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="6.67" fill="#111111"></rect><rect x="2" y="8.67" width="20" height="6.67" fill="#c8102e"></rect><rect x="2" y="15.34" width="20" height="6.66" fill="#f2c300"></rect></svg>'
 };
-const previewUsername = "board";
-const previewPassword = "Synanthropia2026";
-const previewProtectedPages = new Set([
-  "preview.html"
-]);
 
 const i18n = {
   el: {
@@ -508,116 +501,6 @@ const getCurrentPage = () => {
     return "index.html";
   }
   return path.split("/").pop() || "index.html";
-};
-
-const hasPreviewAccess = () => {
-  try {
-    const local = window.localStorage.getItem(previewAccessStorageKey);
-    const session = window.sessionStorage.getItem(previewAccessStorageKey);
-    return local === previewAccessValue || session === previewAccessValue;
-  } catch (error) {
-    console.error(error);
-    return false;
-  }
-};
-
-const setPreviewAccess = () => {
-  try {
-    window.localStorage.setItem(previewAccessStorageKey, previewAccessValue);
-    window.sessionStorage.setItem(previewAccessStorageKey, previewAccessValue);
-  } catch (error) {
-    console.error(error);
-  }
-};
-
-const guardPreviewAccess = () => {
-  const currentPage = getCurrentPage();
-  if (!previewProtectedPages.has(currentPage)) {
-    return true;
-  }
-
-  if (hasPreviewAccess()) {
-    return true;
-  }
-
-  window.location.replace("index.html");
-  return false;
-};
-
-const wirePreviewLogin = () => {
-  const loginForm = document.getElementById("preview-login-form");
-  const toggleBtn = document.getElementById("preview-login-toggle");
-  const panel = document.getElementById("preview-login-panel");
-  const message = document.getElementById("preview-login-message");
-  const continueLink = document.getElementById("preview-continue-link");
-
-  if (continueLink) {
-    continueLink.hidden = !hasPreviewAccess();
-  }
-
-  if (toggleBtn && panel) {
-    toggleBtn.addEventListener("click", () => {
-      panel.hidden = !panel.hidden;
-    });
-  }
-
-  if (!loginForm) {
-    return;
-  }
-
-  loginForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    const userInput = loginForm.querySelector('input[name="username"]');
-    const passInput = loginForm.querySelector('input[name="password"]');
-    const username = (userInput?.value || "").trim();
-    const password = passInput?.value || "";
-
-    if (username === previewUsername && password === previewPassword) {
-      setPreviewAccess();
-      if (message) {
-        message.textContent = "Επιτυχής σύνδεση. Μεταφορά στην preview σελίδα...";
-      }
-      window.location.href = "preview.html";
-      return;
-    }
-
-    if (message) {
-      message.textContent = "Λάθος στοιχεία. Δοκιμάστε ξανά.";
-    }
-  });
-};
-
-const wirePreviewShortcutLogin = () => {
-  if (getCurrentPage() !== "index.html") {
-    return;
-  }
-
-  window.addEventListener("keydown", (event) => {
-    if (!(event.ctrlKey && event.shiftKey && (event.key || "").toLowerCase() === "l")) {
-      return;
-    }
-
-    event.preventDefault();
-
-    const username = window.prompt("Preview username:");
-    if (!username) {
-      return;
-    }
-
-    const password = window.prompt("Preview password:");
-    if (!password) {
-      return;
-    }
-
-    if (username.trim() === previewUsername && password === previewPassword) {
-      setPreviewAccess();
-      window.location.href = "preview.html";
-      return;
-    }
-
-    window.alert("Λάθος στοιχεία πρόσβασης.");
-  });
 };
 
 const fmtCurrency = (value, lang) => {
@@ -1273,13 +1156,6 @@ const loadJson = async (path) => {
 };
 
 const init = async () => {
-  wirePreviewLogin();
-  wirePreviewShortcutLogin();
-
-  if (!guardPreviewAccess()) {
-    return;
-  }
-
   const yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
