@@ -6,11 +6,7 @@ const languageButtonLabels = {
   en: "English",
   de: "Deutsch"
 };
-const languageButtonIcons = {
-  el: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" fill="#0d5ecf"></rect><rect x="2" y="4.2" width="20" height="2.2" fill="#ffffff"></rect><rect x="2" y="8.6" width="20" height="2.2" fill="#ffffff"></rect><rect x="2" y="13" width="20" height="2.2" fill="#ffffff"></rect><rect x="2" y="17.4" width="20" height="2.2" fill="#ffffff"></rect><rect x="2" y="2" width="9.2" height="9.2" fill="#0d5ecf"></rect><rect x="5.45" y="2" width="2.3" height="9.2" fill="#ffffff"></rect><rect x="2" y="5.45" width="9.2" height="2.3" fill="#ffffff"></rect></svg>',
-  en: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" fill="#0a3a8a"></rect><polygon points="2,4 4,2 22,20 20,22" fill="#ffffff"></polygon><polygon points="20,2 22,4 4,22 2,20" fill="#ffffff"></polygon><polygon points="2,5.2 5.2,2 22,18.8 18.8,22" fill="#c8102e"></polygon><polygon points="18.8,2 22,5.2 5.2,22 2,18.8" fill="#c8102e"></polygon><rect x="10" y="2" width="4" height="20" fill="#ffffff"></rect><rect x="2" y="10" width="20" height="4" fill="#ffffff"></rect><rect x="10.8" y="2" width="2.4" height="20" fill="#c8102e"></rect><rect x="2" y="10.8" width="20" height="2.4" fill="#c8102e"></rect></svg>',
-  de: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="6.67" fill="#111111"></rect><rect x="2" y="8.67" width="20" height="6.67" fill="#c8102e"></rect><rect x="2" y="15.34" width="20" height="6.66" fill="#f2c300"></rect></svg>'
-};
+const globeIcon = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5a9.5 9.5 0 1 0 0 19 9.5 9.5 0 0 0 0-19Zm7.8 8.5h-3.1a14.1 14.1 0 0 0-1.5-5 7.57 7.57 0 0 1 4.6 5Zm-7.8-7a11.92 11.92 0 0 1 2.8 7h-5.6a11.92 11.92 0 0 1 2.8-7ZM8.8 6a14.1 14.1 0 0 0-1.5 5H4.2a7.57 7.57 0 0 1 4.6-5Zm-4.6 7h3.1a14.1 14.1 0 0 0 1.5 5 7.57 7.57 0 0 1-4.6-5Zm7.8 7a11.92 11.92 0 0 1-2.8-7h5.6a11.92 11.92 0 0 1-2.8 7Zm3.2-2a14.1 14.1 0 0 0 1.5-5h3.1a7.57 7.57 0 0 1-4.6 5Z"></path></svg>';
 
 const i18n = {
   el: {
@@ -35,7 +31,7 @@ const i18n = {
     cta_view_actions: "Δες τις δράσεις",
     cta_donate: "Στήριξε με δωρεά",
     mission_title: "Αποστολή",
-    mission_body: "Αποστολή μας είναι να προσφέρουμε βοήθεια εκεί όπου υπάρχει πραγματική ανάγκη, χωρίς διακρίσεις και χωρίς αποκλεισμούς. Στηρίζουμε ανθρώπους, ζώα και το περιβάλλον, ενώνοντας φορείς, εθελοντές και ωφελούμενους ή παρεμβαίνοντας άμεσα όπου αυτό απαιτείται. Κάθε δράση μας βασίζεται στη διαφάνεια, τη συνεργασία και τον σεβασμό προς κάθε μορφή ζωής και τον κοινό μας τόπο.",
+    mission_body: "Να ενώνουμε ανθρώπους και φορείς σε πρακτικές δράσεις κοινωνικής υποστήριξης, φιλοζωίας και περιβαλλοντικής προστασίας.",
     quick_actions_title: "Χρειάζεστε βοήθεια ή θέλετε να προσφέρετε;",
     path_help_title: "Χρειάζομαι βοήθεια",
     path_help_body: "Αν χρειάζεστε στήριξη, μπορείτε να μας στείλετε το αίτημά σας και θα επικοινωνήσουμε μαζί σας.",
@@ -89,7 +85,7 @@ const i18n = {
     legal_address_label: "Νομική έδρα:",
     legal_address_value: "Θυμάρι Παλαιάς Φώκαιας, συμβολή Σόλωνος και Σεφέρη, Τ.Κ. 19013",
     legal_statement_body: "Η ΣΥΝΑΝΘΡΩΠΙΑ ΑΣΤΙΚΗ ΜΗ ΚΕΡΔΟΣΚΟΠΙΚΗ ΕΤΑΙΡΕΙΑ λειτουργεί στην Ελλάδα ως καταχωρημένη ΑΜΚΕ με ΑΦΜ 803122300 και αριθμό ΓΕΜΗ 190082001000.",
-    about_body: "Δραστηριοποιούμαστε με στόχο τη βιώσιμη κοινωνική υποστήριξη, τη φροντίδα των ζώων και την προστασία του περιβάλλοντος, μέσα από συνεργασίες με εθελοντές και τοπικούς φορείς.",
+    about_body: "Αποστολή μας είναι να προσφέρουμε βοήθεια εκεί όπου υπάρχει πραγματική ανάγκη, χωρίς διακρίσεις και χωρίς αποκλεισμούς. Στηρίζουμε ανθρώπους, ζώα και το περιβάλλον, ενώνοντας φορείς, εθελοντές και ωφελούμενους ή παρεμβαίνοντας άμεσα όπου αυτό απαιτείται. Κάθε δράση μας βασίζεται στη διαφάνεια, τη συνεργασία και τον σεβασμό προς κάθε μορφή ζωής και τον κοινό μας τόπο.",
     about_values_title: "Η προσέγγισή μας",
     about_values_body: "Λειτουργούμε με διαφάνεια, συνέπεια και μετρήσιμα αποτελέσματα, ώστε κάθε δράση να έχει ουσιαστικό αντίκτυπο στην κοινότητα.",
     forms_title: "Αιτήσεις ενδιαφέροντος",
@@ -178,7 +174,7 @@ const i18n = {
     cta_view_actions: "View actions",
     cta_donate: "Support with a donation",
     mission_title: "Mission",
-    mission_body: "Our mission is to offer help wherever there is real need, without discrimination or exclusion. We support people, animals, and the environment by connecting organizations, volunteers, and beneficiaries, or by intervening directly wherever this is needed. Every action we take is grounded in transparency, collaboration, and respect for every form of life and for the place we all share.",
+    mission_body: "To bring people and organizations together in practical actions for social support, animal welfare, and environmental protection.",
     quick_actions_title: "Do you need support or would you like to help?",
     path_help_title: "I need support",
     path_help_body: "If you need support, you can send us your request and we will contact you.",
@@ -232,7 +228,7 @@ const i18n = {
     legal_address_label: "Registered office:",
     legal_address_value: "Thymari, Palaia Fokaia, corner of Solonos and Seferi, Postal Code 19013",
     legal_statement_body: "SYNANTHROPIA CIVIL NON-PROFIT COMPANY operates in Greece as a registered non-profit entity with Tax ID 803122300 and GEMI number 190082001000.",
-    about_body: "We work toward sustainable social support, animal care, and environmental protection through collaboration with volunteers and local partners.",
+    about_body: "Our mission is to offer help wherever there is real need, without discrimination or exclusion. We support people, animals, and the environment by connecting organizations, volunteers, and beneficiaries, or by intervening directly wherever this is needed. Every action we take is grounded in transparency, collaboration, and respect for every form of life and for the place we all share.",
     about_values_title: "Our approach",
     about_values_body: "We operate with transparency, consistency, and measurable outcomes so that every action has meaningful impact in the community.",
     forms_title: "Interest applications",
@@ -321,7 +317,7 @@ const i18n = {
     cta_view_actions: "Aktionen ansehen",
     cta_donate: "Mit Spende unterstuetzen",
     mission_title: "Mission",
-    mission_body: "Unsere Mission ist es, dort Hilfe zu leisten, wo wirklicher Bedarf besteht, ohne Diskriminierung und ohne Ausgrenzung. Wir unterstuetzen Menschen, Tiere und die Umwelt, indem wir Organisationen, Freiwillige und Beguenstigte zusammenbringen oder dort direkt eingreifen, wo es erforderlich ist. Jede unserer Handlungen basiert auf Transparenz, Zusammenarbeit und Respekt vor jeder Form des Lebens und vor dem gemeinsamen Lebensraum.",
+    mission_body: "Menschen und Organisationen in praktischen Aktionen fuer soziale Unterstuetzung, Tierschutz und Umweltschutz zusammenzubringen.",
     quick_actions_title: "Brauchen Sie Hilfe oder moechten Sie helfen?",
     path_help_title: "Ich brauche Hilfe",
     path_help_body: "Wenn Sie Unterstuetzung brauchen, koennen Sie uns Ihr Anliegen senden und wir werden uns bei Ihnen melden.",
@@ -375,7 +371,7 @@ const i18n = {
     legal_address_label: "Rechtlicher Sitz:",
     legal_address_value: "Thymari, Palaia Fokaia, Ecke Solonos und Seferi, Postleitzahl 19013",
     legal_statement_body: "SYNANTHROPIA ZIVILE GEMEINNÜTZIGE GESELLSCHAFT ist in Griechenland als eingetragene gemeinnützige Organisation mit Steuer-ID 803122300 und GEMI-Nummer 190082001000 tätig.",
-    about_body: "Wir arbeiten fuer nachhaltige soziale Unterstuetzung, Tierschutz und Umweltschutz durch Zusammenarbeit mit Freiwilligen und lokalen Partnern.",
+    about_body: "Unsere Mission ist es, dort Hilfe zu leisten, wo wirklicher Bedarf besteht, ohne Diskriminierung und ohne Ausgrenzung. Wir unterstuetzen Menschen, Tiere und die Umwelt, indem wir Organisationen, Freiwillige und Beguenstigte zusammenbringen oder dort direkt eingreifen, wo es erforderlich ist. Jede unserer Handlungen basiert auf Transparenz, Zusammenarbeit und Respekt vor jeder Form des Lebens und vor dem gemeinsamen Lebensraum.",
     about_values_title: "Unser Ansatz",
     about_values_body: "Wir arbeiten mit Transparenz, Verlaesslichkeit und messbaren Ergebnissen, damit jede Aktion eine echte Wirkung in der Gemeinschaft hat.",
     forms_title: "Interessensantraege",
@@ -504,6 +500,17 @@ const setLanguage = (lang) => {
     btn.classList.toggle("active", btn.dataset.lang === state.lang);
   });
 
+  const currentLabel = languageButtonLabels[state.lang] || state.lang.toUpperCase();
+  document.querySelectorAll(".language-trigger-text").forEach((labelNode) => {
+    labelNode.textContent = currentLabel;
+  });
+
+  document.querySelectorAll(".lang-option").forEach((btn) => {
+    const isActive = btn.dataset.lang === state.lang;
+    btn.classList.toggle("active", isActive);
+    btn.setAttribute("aria-checked", isActive ? "true" : "false");
+  });
+
   document.documentElement.lang = state.lang;
 
   document.querySelectorAll("[data-i18n]").forEach((node) => {
@@ -523,18 +530,42 @@ const setLanguage = (lang) => {
   renderActionsTabs();
 };
 
-const renderLanguageButtons = () => {
-  document.querySelectorAll(".lang-btn").forEach((btn) => {
-    const lang = btn.dataset.lang || defaultLang;
-    const icon = languageButtonIcons[lang];
-    const label = languageButtonLabels[lang] || lang.toUpperCase();
-
-    if (icon) {
-      btn.innerHTML = icon;
+const closeLanguageMenus = () => {
+  document.querySelectorAll(".language-switcher.open").forEach((switcher) => {
+    switcher.classList.remove("open");
+    const trigger = switcher.querySelector(".language-trigger");
+    const menu = switcher.querySelector(".language-menu");
+    if (trigger) {
+      trigger.setAttribute("aria-expanded", "false");
     }
+    if (menu) {
+      menu.hidden = true;
+    }
+  });
+};
 
-    btn.setAttribute("aria-label", label);
-    btn.setAttribute("title", label);
+const renderLanguageSwitcher = () => {
+  document.querySelectorAll(".language-switcher").forEach((switcher, index) => {
+    const menuId = `language-menu-${index + 1}`;
+    const currentLabel = languageButtonLabels[state.lang] || state.lang.toUpperCase();
+    const options = supportedLangs
+      .map((lang) => {
+        const label = languageButtonLabels[lang] || lang.toUpperCase();
+        const isActive = lang === state.lang;
+        return `<button class="lang-option${isActive ? " active" : ""}" type="button" data-lang="${lang}" role="menuitemradio" aria-checked="${isActive ? "true" : "false"}">${label}</button>`;
+      })
+      .join("");
+
+    switcher.innerHTML = `
+      <button class="language-trigger" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="${menuId}" aria-label="Select language">
+        <span class="language-trigger-icon">${globeIcon}</span>
+        <span class="language-trigger-text">${currentLabel}</span>
+        <span class="language-trigger-caret" aria-hidden="true"></span>
+      </button>
+      <div class="language-menu" id="${menuId}" role="menu" hidden>
+        ${options}
+      </div>
+    `;
   });
 };
 
@@ -930,11 +961,41 @@ const renderActionsTabs = () => {
   });
 };
 
-const wireLanguageButtons = () => {
-  document.querySelectorAll(".lang-btn").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      setLanguage(btn.dataset.lang || defaultLang);
+const wireLanguageSwitcher = () => {
+  document.querySelectorAll(".language-switcher").forEach((switcher) => {
+    const trigger = switcher.querySelector(".language-trigger");
+    const menu = switcher.querySelector(".language-menu");
+    if (!trigger || !menu) {
+      return;
+    }
+
+    trigger.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const isOpening = !switcher.classList.contains("open");
+      closeLanguageMenus();
+      switcher.classList.toggle("open", isOpening);
+      trigger.setAttribute("aria-expanded", isOpening ? "true" : "false");
+      menu.hidden = !isOpening;
     });
+
+    switcher.querySelectorAll(".lang-option").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        setLanguage(btn.dataset.lang || defaultLang);
+        closeLanguageMenus();
+      });
+    });
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".language-switcher")) {
+      closeLanguageMenus();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeLanguageMenus();
+    }
   });
 };
 
@@ -1116,9 +1177,9 @@ const init = async () => {
   const yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  renderLanguageButtons();
+  renderLanguageSwitcher();
   wireMobileNav();
-  wireLanguageButtons();
+  wireLanguageSwitcher();
   wireNavigationLinks();
   wireActiveNavLink();
   wireTimelineFilters();
