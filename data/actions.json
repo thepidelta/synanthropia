@@ -1,402 +1,1371 @@
 [
-  {
-    "date": "2025-12-27",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-12-27-malakasa-distribution-rana-saeed/IMG_20251227_112933388_HDR.webp",
-    "galleryManifest": "data/galleries/2025-12-27-malakasa-distribution-rana-saeed.json",
-    "title": {
-      "el": "Διανομή τροφίμων σε 2 οικογένειες στο camp της Μαλακάσας",
-      "en": "Food distribution to 2 families at the Malakasa camp",
-      "de": "Lebensmittelverteilung an 2 Familien im Camp von Malakasa"
+    {
+        "date": "2025-12-27",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-12-27-malakasa-distribution-rana-saeed/IMG_20251227_112933388_HDR.webp",
+        "galleryManifest": "data/galleries/2025-12-27-malakasa-distribution-rana-saeed.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε 2 οικογένειες στο camp της Μαλακάσας",
+            "en": "Food distribution to 2 families at the Malakasa camp",
+            "de": "Lebensmittelverteilung an 2 Familien im Camp von Malakasa"
+        },
+        "description": {
+            "el": "Εν όψει των Χριστουγέννων, επισκεφτήκαμε τις 2 οικογένειες ωφελούμενων που παραμένουν στο camp της Μαλακάσας, και τους προσφέραμε τρόφιμα και γλυκά.",
+            "en": "In the run-up to Christmas, we visited the 2 beneficiary families still staying at the Malakasa camp, and brought them food and sweets.",
+            "de": "Im Vorfeld von Weihnachten besuchten wir die 2 Begleiterfamilien, die noch im Camp von Malakasa leben, und brachten ihnen Lebensmittel und Suessigkeiten."
+        }
     },
-    "description": {
-      "el": "Εν όψει των Χριστουγέννων, επισκεφτήκαμε τις 2 οικογένειες ωφελούμενων που παραμένουν στο camp της Μαλακάσας, και τους προσφέραμε τρόφιμα και γλυκά.",
-      "en": "In the run-up to Christmas, we visited the 2 beneficiary families still staying at the Malakasa camp, and brought them food and sweets.",
-      "de": "Im Vorfeld von Weihnachten besuchten wir die 2 Begleiterfamilien, die noch im Camp von Malakasa leben, und brachten ihnen Lebensmittel und Suessigkeiten."
-    }
-  },
-  {
-    "date": "2025-12-18",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-12-18-donation-collection-dimoulaki/IMG_20251218_125138550_HDR.webp",
-    "galleryManifest": "data/galleries/2025-12-18-donation-collection-dimoulaki.json",
-    "title": {
-      "el": "Συγκέντρωση δωρεών από το Δημουλάκι",
-      "en": "Donation collection in Dimoulaki",
-      "de": "Spendensammlung in Dimoulaki"
+    {
+        "date": "2025-12-18",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-12-18-donation-collection-dimoulaki/IMG_20251218_125138550_HDR.webp",
+        "galleryManifest": "data/galleries/2025-12-18-donation-collection-dimoulaki.json",
+        "title": {
+            "el": "Συγκέντρωση δωρεών από το Δημουλάκι",
+            "en": "Donation collection in Dimoulaki",
+            "de": "Spendensammlung in Dimoulaki"
+        },
+        "description": {
+            "el": "Η πρόεδρος του Εξωραϊστικού Πολιτιστικού Συλλόγου της Ενότητας Δημουλάκι - Χαρβάλο μάς προσέφερε ρούχα και έπιπλα που είχε συγκεντρώσει από τους κατοίκους, καθώς και δικές της δωρεές.",
+            "en": "The president of the Beautification and Cultural Association of the Dimoulaki - Charvalo area offered us clothes and furniture that she had collected from local residents, as well as donations of her own.",
+            "de": "Die Vorsitzende des Verschoenerungs- und Kulturvereins der Einheit Dimoulaki - Charvalo bot uns Kleidung und Moebel an, die sie von den Bewohnern gesammelt hatte, sowie eigene Spenden."
+        }
     },
-    "description": {
-      "el": "Η πρόεδρος του Εξωραϊστικού Πολιτιστικού Συλλόγου της Ενότητας Δημουλάκι - Χαρβάλο μάς προσέφερε ρούχα και έπιπλα που είχε συγκεντρώσει από τους κατοίκους, καθώς και δικές της δωρεές.",
-      "en": "The president of the Beautification and Cultural Association of the Dimoulaki - Charvalo area offered us clothes and furniture that she had collected from local residents, as well as donations of her own.",
-      "de": "Die Vorsitzende des Verschoenerungs- und Kulturvereins der Einheit Dimoulaki - Charvalo bot uns Kleidung und Moebel an, die sie von den Bewohnern gesammelt hatte, sowie eigene Spenden."
-    }
-  },
-  {
-    "date": "2025-12-14",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-12-14-small-classic-car-rally-dimoulaki/IMG_20251214_131531266.webp",
-    "galleryManifest": "data/galleries/2025-12-14-small-classic-car-rally-dimoulaki.json",
-    "title": {
-      "el": "Ράλι μικρών κλασικών αυτοκινήτων στο Δημουλάκι",
-      "en": "Rally of small classic cars in Dimoulaki",
-      "de": "Rally kleiner klassischer Autos in Dimoulaki"
+    {
+        "date": "2025-12-14",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-12-14-small-classic-car-rally-dimoulaki/IMG_20251214_131531266.webp",
+        "galleryManifest": "data/galleries/2025-12-14-small-classic-car-rally-dimoulaki.json",
+        "title": {
+            "el": "Ράλι μικρών κλασικών αυτοκινήτων στο Δημουλάκι",
+            "en": "Rally of small classic cars in Dimoulaki",
+            "de": "Rally kleiner klassischer Autos in Dimoulaki"
+        },
+        "description": {
+            "el": "Πήγαμε παιδιά και μεγάλοι να παρακολουθήσουμε το ράλι μικρών κλασικών αυτοκινήτων που πραγματοποιήθηκε στο Δημουλάκι, ως μια όμορφη στιγμή εξόδου, επαφής και στήριξης της τοπικής κοινότητας.",
+            "en": "Children and adults went together to watch the rally of small classic cars held in Dimoulaki, as a meaningful outing and a moment of connection and support for the local community.",
+            "de": "Kinder und Erwachsene gingen gemeinsam, um die Rally kleiner klassischer Autos in Dimoulaki zu beobachten - als einen schoenen Ausflug und einen Moment der Verbundenheit und Unterstuetzung fuer die Gemeinde."
+        }
     },
-    "description": {
-      "el": "Πήγαμε παιδιά και μεγάλοι να παρακολουθήσουμε το ράλι μικρών κλασικών αυτοκινήτων που πραγματοποιήθηκε στο Δημουλάκι, ως μια όμορφη στιγμή εξόδου, επαφής και στήριξης της τοπικής κοινότητας.",
-      "en": "Children and adults went together to watch the rally of small classic cars held in Dimoulaki, as a meaningful outing and a moment of connection and support for the local community.",
-      "de": "Kinder und Erwachsene gingen gemeinsam, um die Rally kleiner klassischer Autos in Dimoulaki zu beobachten - als einen schoenen Ausflug und einen Moment der Verbundenheit und Unterstuetzung fuer die Gemeinde."
-    }
-  },
-  {
-    "date": "2025-12-13",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-12-13-center-children-activities-cookies/IMG_20251213_124313724_HDR.webp",
-    "galleryManifest": "data/galleries/2025-12-13-center-children-activities-cookies.json",
-    "title": {
-      "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Ψήσιμο Μπισκότων!",
-      "en": "Activities for children at our activity centre: Baking Cookies!",
-      "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Kekse backen!"
+    {
+        "date": "2025-12-13",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-12-13-center-children-activities-cookies/IMG_20251213_124313724_HDR.webp",
+        "galleryManifest": "data/galleries/2025-12-13-center-children-activities-cookies.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Ψήσιμο Μπισκότων!",
+            "en": "Activities for children at our activity centre: Baking Cookies!",
+            "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Kekse backen!"
+        },
+        "description": {
+            "el": "Γεμίσαμε την αίθουσα με άρωμα βανίλιας και μπισκότων! Ψήσαμε μαζί με τα παιδιά στο κέντρο λειτουργίας μας, χαρίζοντας χαρά και γλυκές αναμνήσεις.",
+            "en": "We filled the room with the scent of vanilla and cookies! We baked together with the children at our activity centre, bringing joy and sweet memories.",
+            "de": "Wir fuellten den Raum mit dem Duft von Vanille und Keksen! Gemeinsam mit den Kindern in unserem Aktivitaetszentrum backten wir und schenkten Freude und suesse Erinnerungen."
+        }
     },
-    "description": {
-      "el": "Γεμίσαμε την αίθουσα με άρωμα βανίλιας και μπισκότων! Ψήσαμε μαζί με τα παιδιά στο κέντρο λειτουργίας μας, χαρίζοντας χαρά και γλυκές αναμνήσεις.",
-      "en": "We filled the room with the scent of vanilla and cookies! We baked together with the children at our activity centre, bringing joy and sweet memories.",
-      "de": "Wir fuellten den Raum mit dem Duft von Vanille und Keksen! Gemeinsam mit den Kindern in unserem Aktivitaetszentrum backten wir und schenkten Freude und suesse Erinnerungen."
-    }
-  },
-  {
-    "date": "2025-12-07",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-12-07-krassa-sheltering-from-abusive-partner/IMG_20251207_163451799_HDR.webp",
-    "galleryManifest": "data/galleries/2025-12-07-krassa-sheltering-from-abusive-partner.json",
-    "title": {
-      "el": "Στήριξη γυναίκας που αναζητά ασφάλεια",
-      "en": "Support for a woman seeking safety",
-      "de": "Unterstuetzung einer Frau auf der Suche nach Sicherheit"
+    {
+        "date": "2025-12-07",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-12-07-krassa-sheltering-from-abusive-partner/IMG_20251207_163451799_HDR.webp",
+        "galleryManifest": "data/galleries/2025-12-07-krassa-sheltering-from-abusive-partner.json",
+        "title": {
+            "el": "Στήριξη γυναίκας που αναζητά ασφάλεια",
+            "en": "Support for a woman seeking safety",
+            "de": "Unterstuetzung einer Frau auf der Suche nach Sicherheit"
+        },
+        "description": {
+            "el": "Σταθήκαμε δίπλα σε μια γυναίκα που χρειάστηκε βοήθεια για να απομακρυνθεί από κακοποιητικό σύντροφο, παρέχοντας άμεση στήριξη και ασφάλεια.",
+            "en": "We stood beside a woman who needed help to escape an abusive partner, providing immediate support and safety.",
+            "de": "Wir standen einer Frau bei, die Hilfe brauchte, um einem gewalttaetigen Partner zu entkommen, und boten ihr sofortige Unterstuetzung und Sicherheit."
+        }
     },
-    "description": {
-      "el": "Σταθήκαμε δίπλα σε μια γυναίκα που χρειάστηκε βοήθεια για να απομακρυνθεί από κακοποιητικό σύντροφο, παρέχοντας άμεση στήριξη και ασφάλεια.",
-      "en": "We stood beside a woman who needed help to escape an abusive partner, providing immediate support and safety.",
-      "de": "Wir standen einer Frau bei, die Hilfe brauchte, um einem gewalttaetigen Partner zu entkommen, und boten ihr sofortige Unterstuetzung und Sicherheit."
-    }
-  },
-  {
-    "date": "2025-12-04",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-12-04-donation-collection-markopoulo-plaka/IMG_20251204_172640573.webp",
-    "galleryManifest": "data/galleries/2025-12-04-donation-collection-markopoulo-plaka.json",
-    "title": {
-      "el": "Συγκέντρωση δωρεών σε Μαρκόπουλο και Πλάκα",
-      "en": "Donation collection in Markopoulo and Plaka",
-      "de": "Spendensammlung in Markopoulo und Plaka"
+    {
+        "date": "2025-12-04",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-12-04-donation-collection-markopoulo-plaka/IMG_20251204_172640573.webp",
+        "galleryManifest": "data/galleries/2025-12-04-donation-collection-markopoulo-plaka.json",
+        "title": {
+            "el": "Συγκέντρωση δωρεών σε Μαρκόπουλο και Πλάκα",
+            "en": "Donation collection in Markopoulo and Plaka",
+            "de": "Spendensammlung in Markopoulo und Plaka"
+        },
+        "description": {
+            "el": "Ιδιώτης από το Μαρκόπουλο μάς δώρισε έπιπλα και ο Εξωραϊστικός Πολιτιστικός Σύλλογος της Πλάκας Κερατέας μάς δώρισε έπιπλα και ρούχα.",
+            "en": "A private individual from Markopoulo donated furniture to us, and the Beautification and Cultural Association of Plaka Kerateas donated furniture and clothes.",
+            "de": "Eine Privatperson aus Markopoulo spendete uns Moebel, und der Verschoenerungs- und Kulturverein von Plaka Kerateas spendete uns Moebel und Kleidung."
+        }
     },
-    "description": {
-      "el": "Ιδιώτης από το Μαρκόπουλο μάς δώρισε έπιπλα και ο Εξωραϊστικός Πολιτιστικός Σύλλογος της Πλάκας Κερατέας μάς δώρισε έπιπλα και ρούχα.",
-      "en": "A private individual from Markopoulo donated furniture to us, and the Beautification and Cultural Association of Plaka Kerateas donated furniture and clothes.",
-      "de": "Eine Privatperson aus Markopoulo spendete uns Moebel, und der Verschoenerungs- und Kulturverein von Plaka Kerateas spendete uns Moebel und Kleidung."
-    }
-  },
-  {
-    "date": "2025-12-03",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-12-03-hospital-visit-and-milk-collection-for-rana/IMG_20251203_154621924_HDR.webp",
-    "galleryManifest": "data/galleries/2025-12-03-hospital-visit-and-milk-collection-for-rana.json",
-    "title": {
-      "el": "Στο πλευρό της Rana για το νοσοκομειακό της ραντεβού",
-      "en": "By Rana's side for her hospital appointment",
-      "de": "An Ranas Seite bei ihrem Krankenhaustermin"
+    {
+        "date": "2025-12-03",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-12-03-hospital-visit-and-milk-collection-for-rana/IMG_20251203_154621924_HDR.webp",
+        "galleryManifest": "data/galleries/2025-12-03-hospital-visit-and-milk-collection-for-rana.json",
+        "title": {
+            "el": "Στο πλευρό της Rana για το νοσοκομειακό της ραντεβού",
+            "en": "By Rana's side for her hospital appointment",
+            "de": "An Ranas Seite bei ihrem Krankenhaustermin"
+        },
+        "description": {
+            "el": "Η Rana είναι ωφελούμενή μας και τη συνοδεύσαμε στο νοσοκομείο για το προγραμματισμένο ραντεβού της. Καθώς αντιμετωπίζει σοβαρά προβλήματα υγείας, φροντίσαμε επίσης να παραλάβουμε από το φαρμακείο του νοσοκομείου το ειδικό γάλα που χρειάζεται, ώστε να έχει άμεσα ό,τι της είναι απαραίτητο.",
+            "en": "Rana is one of our beneficiaries, and we accompanied her to the hospital for her scheduled appointment. As she is dealing with serious health problems, we also made sure to collect the special milk she needs from the hospital pharmacy, so she would immediately have what is essential for her care.",
+            "de": "Rana ist eine unserer Beguenstigten, und wir begleiteten sie zu ihrem geplanten Termin ins Krankenhaus. Da sie mit ernsten gesundheitlichen Problemen konfrontiert ist, sorgten wir zugleich dafuer, die Spezialmilch aus der Krankenhausapotheke abzuholen, die sie benoetigt, damit sie sofort alles Notwendige fuer ihre Versorgung hat."
+        }
     },
-    "description": {
-      "el": "Η Rana είναι ωφελούμενή μας και τη συνοδεύσαμε στο νοσοκομείο για το προγραμματισμένο ραντεβού της. Καθώς αντιμετωπίζει σοβαρά προβλήματα υγείας, φροντίσαμε επίσης να παραλάβουμε από το φαρμακείο του νοσοκομείου το ειδικό γάλα που χρειάζεται, ώστε να έχει άμεσα ό,τι της είναι απαραίτητο.",
-      "en": "Rana is one of our beneficiaries, and we accompanied her to the hospital for her scheduled appointment. As she is dealing with serious health problems, we also made sure to collect the special milk she needs from the hospital pharmacy, so she would immediately have what is essential for her care.",
-      "de": "Rana ist eine unserer Beguenstigten, und wir begleiteten sie zu ihrem geplanten Termin ins Krankenhaus. Da sie mit ernsten gesundheitlichen Problemen konfrontiert ist, sorgten wir zugleich dafuer, die Spezialmilch aus der Krankenhausapotheke abzuholen, die sie benoetigt, damit sie sofort alles Notwendige fuer ihre Versorgung hat."
-    }
-  },
-  {
-    "date": "2025-11-29",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-11-29-center-children-activities-clay/IMG_20251129_115752432_PORTRAIT.webp",
-    "galleryManifest": "data/galleries/2025-11-29-center-children-activities-clay.json",
-    "title": {
-      "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Πηλός και Δημιουργία",
-      "en": "Activities for children at our activity centre: Clay and Creativity",
-      "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Ton und Kreativitaet"
+    {
+        "date": "2025-11-29",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-11-29-center-children-activities-clay/IMG_20251129_115752432_PORTRAIT.webp",
+        "galleryManifest": "data/galleries/2025-11-29-center-children-activities-clay.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Πηλός και Δημιουργία",
+            "en": "Activities for children at our activity centre: Clay and Creativity",
+            "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Ton und Kreativitaet"
+        },
+        "description": {
+            "el": "Εργαστήρι πηλού με τα παιδιά στο κέντρο λειτουργίας μας: πλάσαμε μαζί μορφές και σχήματα, αφήνοντας τη φαντασία να πάρει μπροστά.",
+            "en": "A clay workshop with children at our activity centre: we shaped together forms and figures, letting imagination run free.",
+            "de": "Ein Tonworkshop mit Kindern in unserem Aktivitaetszentrum: Gemeinsam formten wir Figuren und Formen und liessen die Phantasie freien Lauf."
+        }
     },
-    "description": {
-      "el": "Εργαστήρι πηλού με τα παιδιά στο κέντρο λειτουργίας μας: πλάσαμε μαζί μορφές και σχήματα, αφήνοντας τη φαντασία να πάρει μπροστά.",
-      "en": "A clay workshop with children at our activity centre: we shaped together forms and figures, letting imagination run free.",
-      "de": "Ein Tonworkshop mit Kindern in unserem Aktivitaetszentrum: Gemeinsam formten wir Figuren und Formen und liessen die Phantasie freien Lauf."
-    }
-  },
-  {
-    "date": "2025-11-22",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-11-22-donation-miazo/IMG_20251122_143648203_HDR.webp",
-    "galleryManifest": "data/galleries/2025-11-22-donation-miazo.json",
-    "title": {
-      "el": "Δωρεά στη ΜιΑΖω",
-      "en": "Donation to MiAZo",
-      "de": "Spende an MiAZo"
+    {
+        "date": "2025-11-22",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-11-22-donation-miazo/IMG_20251122_143648203_HDR.webp",
+        "galleryManifest": "data/galleries/2025-11-22-donation-miazo.json",
+        "title": {
+            "el": "Δωρεά στη ΜιΑΖω",
+            "en": "Donation to MiAZo",
+            "de": "Spende an MiAZo"
+        },
+        "description": {
+            "el": "Παρείχαμε δωρεά στη ΜιΑΖω.",
+            "en": "We made a donation to MiAZo.",
+            "de": "Wir haben an MiAZo gespendet."
+        }
     },
-    "description": {
-      "el": "Παρείχαμε δωρεά στη ΜιΑΖω.",
-      "en": "We made a donation to MiAZo.",
-      "de": "Wir haben an MiAZo gespendet."
-    }
-  },
-  {
-    "date": "2025-11-09",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-11-09-center-children-activities-clay/IMG_20251109_124057027.webp",
-    "galleryManifest": "data/galleries/2025-11-09-center-children-activities-clay.json",
-    "title": {
-      "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Πηλός και Δημιουργία",
-      "en": "Activities for children at our activity centre: Clay and Creativity",
-      "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Ton und Kreativitaet"
+    {
+        "date": "2025-11-09",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-11-09-center-children-activities-clay/IMG_20251109_124057027.webp",
+        "galleryManifest": "data/galleries/2025-11-09-center-children-activities-clay.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Πηλός και Δημιουργία",
+            "en": "Activities for children at our activity centre: Clay and Creativity",
+            "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Ton und Kreativitaet"
+        },
+        "description": {
+            "el": "Εργαστήρι πηλού με τα παιδιά στο κέντρο λειτουργίας μας: πλάσαμε μαζί μορφές και σχήματα, αφήνοντας τη φαντασία να πάρει μπροστά.",
+            "en": "A clay workshop with children at our activity centre: we shaped together forms and figures, letting imagination run free.",
+            "de": "Ein Tonworkshop mit Kindern in unserem Aktivitaetszentrum: Gemeinsam formten wir Figuren und Formen und liessen die Phantasie freien Lauf."
+        }
     },
-    "description": {
-      "el": "Εργαστήρι πηλού με τα παιδιά στο κέντρο λειτουργίας μας: πλάσαμε μαζί μορφές και σχήματα, αφήνοντας τη φαντασία να πάρει μπροστά.",
-      "en": "A clay workshop with children at our activity centre: we shaped together forms and figures, letting imagination run free.",
-      "de": "Ein Tonworkshop mit Kindern in unserem Aktivitaetszentrum: Gemeinsam formten wir Figuren und Formen und liessen die Phantasie freien Lauf."
-    }
-  },
-  {
-    "date": "2025-11-08",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-11-08-center-children-activities-our-solar-system/IMG_20251108_120903839_PORTRAIT.webp",
-    "galleryManifest": "data/galleries/2025-11-08-center-children-activities-our-solar-system.json",
-    "title": {
-      "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Το Ηλιακό μας Σύστημα",
-      "en": "Activities for children at our activity centre: Our Solar System",
-      "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Unser Sonnensystem"
+    {
+        "date": "2025-11-08",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-11-08-center-children-activities-our-solar-system/IMG_20251108_120903839_PORTRAIT.webp",
+        "galleryManifest": "data/galleries/2025-11-08-center-children-activities-our-solar-system.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Το Ηλιακό μας Σύστημα",
+            "en": "Activities for children at our activity centre: Our Solar System",
+            "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Unser Sonnensystem"
+        },
+        "description": {
+            "el": "Ταξιδέψαμε μαζί με τα παιδιά στο ηλιακό μας σύστημα: πλανήτες, αστέρια και η απέραντη ομορφιά του σύμπαντος.",
+            "en": "We journeyed together with the children through our solar system: planets, stars, and the boundless beauty of the universe.",
+            "de": "Gemeinsam mit den Kindern reisten wir durch unser Sonnensystem: Planeten, Sterne und die grenzenlose Schoenheit des Universums."
+        }
     },
-    "description": {
-      "el": "Ταξιδέψαμε μαζί με τα παιδιά στο ηλιακό μας σύστημα: πλανήτες, αστέρια και η απέραντη ομορφιά του σύμπαντος.",
-      "en": "We journeyed together with the children through our solar system: planets, stars, and the boundless beauty of the universe.",
-      "de": "Gemeinsam mit den Kindern reisten wir durch unser Sonnensystem: Planeten, Sterne und die grenzenlose Schoenheit des Universums."
-    }
-  },
-  {
-    "date": "2025-10-23",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-10-23-food-distribution-lavrio/IMG_20251023_122004434_HDR.webp",
-    "galleryManifest": "data/galleries/2025-10-23-food-distribution-lavrio.json",
-    "title": {
-      "el": "Διανομή τροφίμων στο Λαύριο",
-      "en": "Food distribution in Lavrio",
-      "de": "Lebensmittelverteilung in Lavrio"
+    {
+        "date": "2025-10-23",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-10-23-food-distribution-lavrio/IMG_20251023_122004434_HDR.webp",
+        "galleryManifest": "data/galleries/2025-10-23-food-distribution-lavrio.json",
+        "title": {
+            "el": "Διανομή τροφίμων στο Λαύριο",
+            "en": "Food distribution in Lavrio",
+            "de": "Lebensmittelverteilung in Lavrio"
+        },
+        "description": {
+            "el": "Δράση διανομής τροφίμων και βασικών αγαθών στο Λαύριο, σε ανθρώπους και οικογένειες που έχουν ανάγκη.",
+            "en": "Food and essential goods distribution in Lavrio, for people and families in need.",
+            "de": "Lebensmittel- und Gueterverteilung in Lavrio fuer Menschen und Familien in Not."
+        }
     },
-    "description": {
-      "el": "Δράση διανομής τροφίμων και βασικών αγαθών στο Λαύριο, σε ανθρώπους και οικογένειες που έχουν ανάγκη.",
-      "en": "Food and essential goods distribution in Lavrio, for people and families in need.",
-      "de": "Lebensmittel- und Gueterverteilung in Lavrio fuer Menschen und Familien in Not."
-    }
-  },
-  {
-    "date": "2025-09-28",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-09-28-center-children-activities-cooking-and-reading/IMG_20250928_113939347.webp",
-    "galleryManifest": "data/galleries/2025-09-28-center-children-activities-cooking-and-reading.json",
-    "title": {
-      "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Μαγειρεύουμε και Διαβάζουμε",
-      "en": "Activities for children at our activity centre: Cooking and Reading",
-      "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Kochen und Lesen"
+    {
+        "date": "2025-09-28",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-09-28-center-children-activities-cooking-and-reading/IMG_20250928_113939347.webp",
+        "galleryManifest": "data/galleries/2025-09-28-center-children-activities-cooking-and-reading.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Μαγειρεύουμε και Διαβάζουμε",
+            "en": "Activities for children at our activity centre: Cooking and Reading",
+            "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Kochen und Lesen"
+        },
+        "description": {
+            "el": "Μια ξεχωριστή μέρα με παιδιά στο κέντρο λειτουργίας μας: μαγειρέψαμε μαζί και μοιραστήκαμε ιστορίες μέσα από τη χαρά της ανάγνωσης.",
+            "en": "A special day with children at our activity centre: we cooked together and shared stories through the joy of reading.",
+            "de": "Ein besonderer Tag mit Kindern in unserem Aktivitaetszentrum: Wir kochten gemeinsam und teilten Geschichten durch die Freude am Lesen."
+        }
     },
-    "description": {
-      "el": "Μια ξεχωριστή μέρα με παιδιά στο κέντρο λειτουργίας μας: μαγειρέψαμε μαζί και μοιραστήκαμε ιστορίες μέσα από τη χαρά της ανάγνωσης.",
-      "en": "A special day with children at our activity centre: we cooked together and shared stories through the joy of reading.",
-      "de": "Ein besonderer Tag mit Kindern in unserem Aktivitaetszentrum: Wir kochten gemeinsam und teilten Geschichten durch die Freude am Lesen."
-    }
-  },
-  {
-    "date": "2025-09-27",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-09-27-center-children-activities-learning-about-autumn/IMG_20250927_112524925.webp",
-    "galleryManifest": "data/galleries/2025-09-27-center-children-activities-learning-about-autumn.json",
-    "title": {
-      "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Μαθαίνουμε για το Φθινόπωρο",
-      "en": "Activities for children at our activity centre: Learning about Autumn",
-      "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Wir lernen ueber den Herbst"
+    {
+        "date": "2025-09-27",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-09-27-center-children-activities-learning-about-autumn/IMG_20250927_112524925.webp",
+        "galleryManifest": "data/galleries/2025-09-27-center-children-activities-learning-about-autumn.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Μαθαίνουμε για το Φθινόπωρο",
+            "en": "Activities for children at our activity centre: Learning about Autumn",
+            "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Wir lernen ueber den Herbst"
+        },
+        "description": {
+            "el": "Δράση εκπαιδευτικής φύσης με παιδιά στο κέντρο λειτουργίας μας αφιερωμένη στο φθινόπωρο — εποχές, χρώματα, φύλλα και η ομορφιά της αλλαγής.",
+            "en": "An educational activity with children at our activity centre dedicated to autumn â€” seasons, colours, leaves, and the beauty of change.",
+            "de": "Eine lehrreiche Aktivitaet mit Kindern in unserem Aktivitaetszentrum rund um den Herbst â€” Jahreszeiten, Farben, Blaetter und die Schoenheit des Wandels."
+        }
     },
-    "description": {
-      "el": "Δράση εκπαιδευτικής φύσης με παιδιά στο κέντρο λειτουργίας μας αφιερωμένη στο φθινόπωρο — εποχές, χρώματα, φύλλα και η ομορφιά της αλλαγής.",
-      "en": "An educational activity with children at our activity centre dedicated to autumn — seasons, colours, leaves, and the beauty of change.",
-      "de": "Eine lehrreiche Aktivitaet mit Kindern in unserem Aktivitaetszentrum rund um den Herbst — Jahreszeiten, Farben, Blaetter und die Schoenheit des Wandels."
-    }
-  },
-  {
-    "date": "2025-09-25",
-    "pillars": ["animals"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-09-25-vounisioi-cat-enclosure/IMG_7277.webp",
-    "galleryManifest": "data/galleries/2025-09-25-vounisioi-cat-enclosure.json",
-    "title": {
-      "el": "Διαμόρφωση περιφραγμένου χώρου για γάτες για την ΑΜΚΕ Βουνίσιοι - Ορεσίβιοι",
-      "en": "Creation of an enclosed cat area for the Vounisioi - Oresivioi NPO",
-      "de": "Einrichtung eines eingezaeunten Katzenbereichs fuer die NPO Vounisioi - Oresivioi"
+    {
+        "date": "2025-09-25",
+        "pillars": [
+            "animals"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-09-25-vounisioi-cat-enclosure/IMG_7277.webp",
+        "galleryManifest": "data/galleries/2025-09-25-vounisioi-cat-enclosure.json",
+        "title": {
+            "el": "Διαμόρφωση περιφραγμένου χώρου για γάτες για την ΑΜΚΕ Βουνίσιοι - Ορεσίβιοι",
+            "en": "Creation of an enclosed cat area for the Vounisioi - Oresivioi NPO",
+            "de": "Einrichtung eines eingezaeunten Katzenbereichs fuer die NPO Vounisioi - Oresivioi"
+        },
+        "description": {
+            "el": "Η Αλεξάνδρα, που έχει ιδρύσει τη φιλοζωική οργάνωση Βουνίσιοι - Ορεσίβιοι, έχει προσφέρει τεράστιο φιλοζωικό έργο σε όλη την Ελλάδα. Με μεγάλη μας χαρά δημιουργήσαμε αυτόν τον περιφραγμένο χώρο για να μπορούν οι γατούλες του καταφυγίου να κάνουν τις βόλτες τους χωρίς να έρχονται σε επαφή με τα σκυλάκια.",
+            "en": "Alexandra, who founded the animal welfare organization Vounisioi - Oresivioi, has offered remarkable animal welfare work across Greece. With great joy, we created this enclosed area so that the shelter cats can enjoy their walks without coming into contact with the dogs.",
+            "de": "Alexandra, die Gruenderin der Tierschutzorganisation Vounisioi - Oresivioi, hat in ganz Griechenland ein bemerkenswertes Tierschutzwerk geleistet. Mit grosser Freude haben wir diesen eingezaeunten Bereich geschaffen, damit die Katzen des Tierheims ihre Spaziergaenge machen koennen, ohne mit den Hunden in Kontakt zu kommen."
+        }
     },
-    "description": {
-      "el": "Η Αλεξάνδρα, που έχει ιδρύσει τη φιλοζωική οργάνωση Βουνίσιοι - Ορεσίβιοι, έχει προσφέρει τεράστιο φιλοζωικό έργο σε όλη την Ελλάδα. Με μεγάλη μας χαρά δημιουργήσαμε αυτόν τον περιφραγμένο χώρο για να μπορούν οι γατούλες του καταφυγίου να κάνουν τις βόλτες τους χωρίς να έρχονται σε επαφή με τα σκυλάκια.",
-      "en": "Alexandra, who founded the animal welfare organization Vounisioi - Oresivioi, has offered remarkable animal welfare work across Greece. With great joy, we created this enclosed area so that the shelter cats can enjoy their walks without coming into contact with the dogs.",
-      "de": "Alexandra, die Gruenderin der Tierschutzorganisation Vounisioi - Oresivioi, hat in ganz Griechenland ein bemerkenswertes Tierschutzwerk geleistet. Mit grosser Freude haben wir diesen eingezaeunten Bereich geschaffen, damit die Katzen des Tierheims ihre Spaziergaenge machen koennen, ohne mit den Hunden in Kontakt zu kommen."
-    }
-  },
-  {
-    "date": "2025-09-14",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-09-14-center-children-activities-learning-how-taste-works/IMG_6941.webp",
-    "galleryManifest": "data/galleries/2025-09-14-center-children-activities-learning-how-taste-works.json",
-    "title": {
-      "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Μαθαίνουμε πώς λειτουργεί η Γεύση",
-      "en": "Activities for children at our activity centre: Learning How Taste Works",
-      "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Wie Geschmack funktioniert"
+    {
+        "date": "2025-09-14",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-09-14-center-children-activities-learning-how-taste-works/IMG_6941.webp",
+        "galleryManifest": "data/galleries/2025-09-14-center-children-activities-learning-how-taste-works.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Μαθαίνουμε πώς λειτουργεί η Γεύση",
+            "en": "Activities for children at our activity centre: Learning How Taste Works",
+            "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Wie Geschmack funktioniert"
+        },
+        "description": {
+            "el": "Εκπαιδευτική δραστηριότητα για τα παιδιά στο κέντρο λειτουργίας μας: εξερευνήσαμε μαζί τον κόσμο της γεύσης και πώς τη βιώνει το σώμα μας.",
+            "en": "An educational activity for children at our activity centre: we explored together the world of taste and how our bodies experience it.",
+            "de": "Eine lehrreiche Aktivitaet fuer Kinder in unserem Aktivitaetszentrum: Gemeinsam erkundeten wir die Welt des Geschmacks und wie unser Koerper ihn erlebt."
+        }
     },
-    "description": {
-      "el": "Εκπαιδευτική δραστηριότητα για τα παιδιά στο κέντρο λειτουργίας μας: εξερευνήσαμε μαζί τον κόσμο της γεύσης και πώς τη βιώνει το σώμα μας.",
-      "en": "An educational activity for children at our activity centre: we explored together the world of taste and how our bodies experience it.",
-      "de": "Eine lehrreiche Aktivitaet fuer Kinder in unserem Aktivitaetszentrum: Gemeinsam erkundeten wir die Welt des Geschmacks und wie unser Koerper ihn erlebt."
-    }
-  },
-  {
-    "date": "2025-09-13",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-09-13-school-supplies/IMG_6927.webp",
-    "galleryManifest": "data/galleries/2025-09-13-school-supplies.json",
-    "title": {
-      "el": "Στήριξη μαθητών με σχολικά είδη",
-      "en": "Support for students with school supplies",
-      "de": "Unterstuetzung von Schuelern mit Schulmaterial"
+    {
+        "date": "2025-09-13",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-09-13-center-children-activities-games/IMG_20250913_120735841.webp",
+        "galleryManifest": "data/galleries/2025-09-13-center-children-activities-games.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Παιχνίδι και Ομαδικές Δραστηριότητες",
+            "en": "Activities for children at our activity centre: Play and Group Activities",
+            "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Spiel und Gruppenaktivitaeten"
+        },
+        "description": {
+            "el": "Ξεκινήσαμε τις φετινές μας δράσεις στο κέντρο λειτουργίας μας με παιχνίδια και ομαδικές δραστηριότητες που έφεραν χαμόγελα στα παιδιά.",
+            "en": "We kicked off this year's activities at our activity centre through play and group activities that brought smiles to the children.",
+            "de": "Wir starteten unsere diesjaehrigen Aktivitaeten in unserem Aktivitaetszentrum mit Spielen und Gruppenaktivitaeten, die den Kindern ein Laecheln ins Gesicht zauberten."
+        }
     },
-    "description": {
-      "el": "Δράση συγκέντρωσης και διάθεσης σχολικών ειδών, με στόχο την έμπρακτη υποστήριξη μαθητών και οικογενειών ενόψει της νέας σχολικής χρονιάς.",
-      "en": "Action for collecting and distributing school supplies to provide practical support to students and families before the new school year.",
-      "de": "Aktion zur Sammlung und Verteilung von Schulmaterial, um Schueler und Familien vor dem neuen Schuljahr praktisch zu unterstuetzen."
-    }
-  },
-  {
-    "date": "2025-09-13",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-09-13-center-children-activities-games/IMG_20250913_120735841.webp",
-    "galleryManifest": "data/galleries/2025-09-13-center-children-activities-games.json",
-    "title": {
-      "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Παιχνίδι και Ομαδικές Δραστηριότητες",
-      "en": "Activities for children at our activity centre: Play and Group Activities",
-      "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Spiel und Gruppenaktivitaeten"
+    {
+        "date": "2025-09-13",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-09-13-school-supplies/IMG_6927.webp",
+        "galleryManifest": "data/galleries/2025-09-13-school-supplies.json",
+        "title": {
+            "el": "Στήριξη μαθητών με σχολικά είδη",
+            "en": "Support for students with school supplies",
+            "de": "Unterstuetzung von Schuelern mit Schulmaterial"
+        },
+        "description": {
+            "el": "Δράση συγκέντρωσης και διάθεσης σχολικών ειδών, με στόχο την έμπρακτη υποστήριξη μαθητών και οικογενειών ενόψει της νέας σχολικής χρονιάς.",
+            "en": "Action for collecting and distributing school supplies to provide practical support to students and families before the new school year.",
+            "de": "Aktion zur Sammlung und Verteilung von Schulmaterial, um Schueler und Familien vor dem neuen Schuljahr praktisch zu unterstuetzen."
+        }
     },
-    "description": {
-      "el": "Ξεκινήσαμε τις φετινές μας δράσεις στο κέντρο λειτουργίας μας με παιχνίδια και ομαδικές δραστηριότητες που έφεραν χαμόγελα στα παιδιά.",
-      "en": "We kicked off this year's activities at our activity centre through play and group activities that brought smiles to the children.",
-      "de": "Wir starteten unsere diesjaehrigen Aktivitaeten in unserem Aktivitaetszentrum mit Spielen und Gruppenaktivitaeten, die den Kindern ein Laecheln ins Gesicht zauberten."
-    }
-  },
-  {
-    "date": "2025-08-27",
-    "pillars": ["human", "environment"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-08-27-dimoulaki-rubble-removal/IMG_6917.webp",
-    "galleryManifest": "data/galleries/2025-08-27-dimoulaki-rubble-removal.json",
-    "title": {
-      "el": "Απομάκρυνση μπάζων από τα καμμένα σπίτια στο Δημουλάκι και τη Συντερίνα μετά τη δασική πυρκαγιά της 8ης Αυγούστου 2025.",
-      "en": "Rubble removal from burned houses in Dimoulaki and Sinterina after the forest fire of August 8, 2025.",
-      "de": "Schuttbeseitigung in den verbrannten Haeusern in Dimoulaki und Sinterina nach dem Waldbrand vom 8. August 2025."
+    {
+        "date": "2025-08-27",
+        "pillars": [
+            "human",
+            "environment"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-08-27-dimoulaki-rubble-removal/IMG_6917.webp",
+        "galleryManifest": "data/galleries/2025-08-27-dimoulaki-rubble-removal.json",
+        "title": {
+            "el": "Απομάκρυνση μπάζων από τα καμμένα σπίτια στο Δημουλάκι και τη Συντερίνα μετά τη δασική πυρκαγιά της 8ης Αυγούστου 2025.",
+            "en": "Rubble removal from burned houses in Dimoulaki and Sinterina after the forest fire of August 8, 2025.",
+            "de": "Schuttbeseitigung in den verbrannten Haeusern in Dimoulaki und Sinterina nach dem Waldbrand vom 8. August 2025."
+        },
+        "description": {
+            "el": "Μετά την καταστροφική δασική πυρκαγιά της 8ης Αυγούστου 2025, ήρθαμε σε επικοινωνία με την πρόεδρο του οικισμού Δημουλάκι, κυρία Κατερίνα Καραλή. Τη ρωτήσαμε πώς μπορούμε να βοηθήσουμε και μας ενημέρωσε ότι θα χρειαστούν άνθρωποι για την αποκομιδή των μπάζων από τα σπίτια που κάηκαν. Μόλις ο Δήμος Λαυρεωτικής εξασφάλισε συνεργασία με εταιρεία κάδων, αναλάβαμε δράση και συνδράμαμε στον καθαρισμό 9 σπιτιών συνολικά: 8 στο Δημουλάκι και 1 στη Συντερίνα.",
+            "en": "After the devastating forest fire of August 8, 2025, we contacted the president of the Dimoulaki settlement, Ms. Katerina Karali. We asked how we could help, and she explained that people were needed to support rubble removal from the burned houses. Once the Municipality of Lavreotiki secured cooperation with a container company, we took action and supported the cleanup of 9 homes in total: 8 in Dimoulaki and 1 in Sinterina.",
+            "de": "Nach dem verheerenden Waldbrand vom 8. August 2025 nahmen wir Kontakt mit der Vorsitzenden der Siedlung Dimoulaki, Frau Katerina Karali, auf. Wir fragten, wie wir helfen koennen, und sie erklaerte, dass Menschen fuer die Beseitigung der Truemmer aus den verbrannten Haeusern benoetigt werden. Nachdem die Gemeinde Lavreotiki eine Zusammenarbeit mit einem Containerunternehmen gesichert hatte, wurden wir aktiv und unterstuetzten die Reinigung von insgesamt 9 Haeusern: 8 in Dimoulaki und 1 in Sinterina."
+        }
     },
-    "description": {
-      "el": "Μετά την καταστροφική δασική πυρκαγιά της 8ης Αυγούστου 2025, ήρθαμε σε επικοινωνία με την πρόεδρο του οικισμού Δημουλάκι, κυρία Κατερίνα Καραλή. Τη ρωτήσαμε πώς μπορούμε να βοηθήσουμε και μας ενημέρωσε ότι θα χρειαστούν άνθρωποι για την αποκομιδή των μπάζων από τα σπίτια που κάηκαν. Μόλις ο Δήμος Λαυρεωτικής εξασφάλισε συνεργασία με εταιρεία κάδων, αναλάβαμε δράση και συνδράμαμε στον καθαρισμό 9 σπιτιών συνολικά: 8 στο Δημουλάκι και 1 στη Συντερίνα.",
-      "en": "After the devastating forest fire of August 8, 2025, we contacted the president of the Dimoulaki settlement, Ms. Katerina Karali. We asked how we could help, and she explained that people were needed to support rubble removal from the burned houses. Once the Municipality of Lavreotiki secured cooperation with a container company, we took action and supported the cleanup of 9 homes in total: 8 in Dimoulaki and 1 in Sinterina.",
-      "de": "Nach dem verheerenden Waldbrand vom 8. August 2025 nahmen wir Kontakt mit der Vorsitzenden der Siedlung Dimoulaki, Frau Katerina Karali, auf. Wir fragten, wie wir helfen koennen, und sie erklaerte, dass Menschen fuer die Beseitigung der Truemmer aus den verbrannten Haeusern benoetigt werden. Nachdem die Gemeinde Lavreotiki eine Zusammenarbeit mit einem Containerunternehmen gesichert hatte, wurden wir aktiv und unterstuetzten die Reinigung von insgesamt 9 Haeusern: 8 in Dimoulaki und 1 in Sinterina."
-    }
-  },
-  {
-    "date": "2025-08-18",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-08-18-rana-jasem-birthday/IMG_6453.webp",
-    "galleryManifest": "data/galleries/2025-08-18-rana-jasem-birthday.json",
-    "title": {
-      "el": "Γιορτή γενεθλίων για τη Rana",
-      "en": "Birthday celebration for Rana",
-      "de": "Geburtstagsfeier fuer Rana"
+    {
+        "date": "2025-08-18",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-08-18-rana-jasem-birthday/IMG_6453.webp",
+        "galleryManifest": "data/galleries/2025-08-18-rana-jasem-birthday.json",
+        "title": {
+            "el": "Γιορτή γενεθλίων για τη Rana",
+            "en": "Birthday celebration for Rana",
+            "de": "Geburtstagsfeier fuer Rana"
+        },
+        "description": {
+            "el": "Είχαμε τη χαρά να γιορτάσουμε μαζί τη Rana, μοιράζοντας αγάπη, χαρά και γλυκές στιγμές.",
+            "en": "We had the joy of celebrating together with Rana, sharing love, happiness, and sweet moments.",
+            "de": "Mit grosser Freude feierten wir gemeinsam mit Rana und teilten Liebe, Freude und suesse Augenblicke."
+        }
     },
-    "description": {
-      "el": "Είχαμε τη χαρά να γιορτάσουμε μαζί τη Rana, μοιράζοντας αγάπη, χαρά και γλυκές στιγμές.",
-      "en": "We had the joy of celebrating together with Rana, sharing love, happiness, and sweet moments.",
-      "de": "Mit grosser Freude feierten wir gemeinsam mit Rana und teilten Liebe, Freude und suesse Augenblicke."
-    }
-  },
-  {
-    "date": "2025-06-01",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-06-01-distribution-wave-thessaloniki/IMG_5982.webp",
-    "galleryManifest": "data/galleries/2025-06-01-distribution-wave-thessaloniki.json",
-    "title": {
-      "el": "Δωρεά στην οργάνωση WAVE στη Θεσσαλονίκη",
-      "en": "Donation of non-food items to the WAVE organization in Thessaloniki",
-      "de": "Spende von Nicht-Lebensmitteln an die Organisation WAVE in Thessaloniki"
+    {
+        "date": "2025-06-01",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-06-01-distribution-wave-thessaloniki/IMG_5982.webp",
+        "galleryManifest": "data/galleries/2025-06-01-distribution-wave-thessaloniki.json",
+        "title": {
+            "el": "Δωρεά στην οργάνωση WAVE στη Θεσσαλονίκη",
+            "en": "Donation of non-food items to the WAVE organization in Thessaloniki",
+            "de": "Spende von Nicht-Lebensmitteln an die Organisation WAVE in Thessaloniki"
+        },
+        "description": {
+            "el": "Παραδώσαμε δωρεά (ρούχα και παπούτσια) στην οργάνωση WAVE που βρίσκεται στη Θεσσαλονίκη.",
+            "en": "We delivered a donation of non-food items, mainly clothes and shoes, to the WAVE organization based in Thessaloniki.",
+            "de": "Wir uebergaben der in Thessaloniki ansaessigen Organisation WAVE eine Spende von Nicht-Lebensmitteln, hauptsaechlich Kleidung und Schuhe."
+        }
     },
-    "description": {
-      "el": "Παραδώσαμε δωρεά (ρούχα και παπούτσια) στην οργάνωση WAVE που βρίσκεται στη Θεσσαλονίκη.",
-      "en": "We delivered a donation of non-food items, mainly clothes and shoes, to the WAVE organization based in Thessaloniki.",
-      "de": "Wir uebergaben der in Thessaloniki ansaessigen Organisation WAVE eine Spende von Nicht-Lebensmitteln, hauptsaechlich Kleidung und Schuhe."
-    }
-  },
-  {
-    "date": "2025-05-25",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-05-25-center-children-activities-t-shirts/IMG_20250525_122947092_AE.webp",
-    "galleryManifest": "data/galleries/2025-05-25-center-children-activities-t-shirts.json",
-    "title": {
-      "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Κατασκευή T-shirts",
-      "en": "Activities for children at our activity centre: T-shirt Making",
-      "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: T-Shirt-Gestaltung"
+    {
+        "date": "2025-05-25",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-05-25-center-children-activities-t-shirts/IMG_20250525_122947092_AE.webp",
+        "galleryManifest": "data/galleries/2025-05-25-center-children-activities-t-shirts.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Κατασκευή T-shirts",
+            "en": "Activities for children at our activity centre: T-shirt Making",
+            "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: T-Shirt-Gestaltung"
+        },
+        "description": {
+            "el": "Δημιουργική απασχόληση με παιδιά στο κέντρο λειτουργίας μας: ζωγραφίσαμε και κατασκευάσαμε μαζί τους μοναδικά T-shirts, γεμάτα χρώμα και χαρά.",
+            "en": "A creative activity with children at our activity centre: we painted and crafted unique T-shirts together, full of colour and joy.",
+            "de": "Eine kreative Aktivitaet mit Kindern in unserem Aktivitaetszentrum: Gemeinsam bemalten und gestalteten wir einzigartige T-Shirts voller Farbe und Freude."
+        }
     },
-    "description": {
-      "el": "Δημιουργική απασχόληση με παιδιά στο κέντρο λειτουργίας μας: ζωγραφίσαμε και κατασκευάσαμε μαζί τους μοναδικά T-shirts, γεμάτα χρώμα και χαρά.",
-      "en": "A creative activity with children at our activity centre: we painted and crafted unique T-shirts together, full of colour and joy.",
-      "de": "Eine kreative Aktivitaet mit Kindern in unserem Aktivitaetszentrum: Gemeinsam bemalten und gestalteten wir einzigartige T-Shirts voller Farbe und Freude."
-    }
-  },
-  {
-    "date": "2025-01-23",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-01-23-food-distribution-malakasa-oinofyta/IMG_4518.webp",
-    "galleryManifest": "data/galleries/2025-01-23-food-distribution-malakasa-oinofyta.json",
-    "title": {
-      "el": "Διανομή τροφίμων σε οικογένειες ωφελούμενων",
-      "en": "Food distribution to beneficiary families",
-      "de": "Lebensmittelverteilung an beguenstigte Familien"
+    {
+        "date": "2025-01-23",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-01-23-food-distribution-malakasa-oinofyta/IMG_4518.webp",
+        "galleryManifest": "data/galleries/2025-01-23-food-distribution-malakasa-oinofyta.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε οικογένειες ωφελούμενων",
+            "en": "Food distribution to beneficiary families",
+            "de": "Lebensmittelverteilung an beguenstigte Familien"
+        },
+        "description": {
+            "el": "Παραδώσαμε τρόφιμα σε 24 ευάλωτες οικογένειες που ζουν στις δομές φιλοξενίας Μαλακάσας και Οινοφύτων.",
+            "en": "We delivered food to 24 vulnerable families living in the accommodation facilities of Malakasa and Oinofyta.",
+            "de": "Wir lieferten Lebensmittel an 24 schutzbeduerftige Familien, die in den Unterbringungsstrukturen von Malakasa und Oinofyta leben."
+        }
     },
-    "description": {
-      "el": "Παραδώσαμε τρόφιμα σε 24 ευάλωτες οικογένειες που ζουν στις δομές φιλοξενίας Μαλακάσας και Οινοφύτων.",
-      "en": "We delivered food to 24 vulnerable families living in the accommodation facilities of Malakasa and Oinofyta.",
-      "de": "Wir lieferten Lebensmittel an 24 schutzbeduerftige Familien, die in den Unterbringungsstrukturen von Malakasa und Oinofyta leben."
-    }
-  },
-  {
-    "date": "2025-01-12",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-01-12-center-children-activities/IMG_20250112_120138.webp",
-    "galleryManifest": "data/galleries/2025-01-12-center-children-activities.json",
-    "title": {
-      "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Δημιουργικές Δραστηριότητες",
-      "en": "Activities for children at our activity centre: Creative Activities",
-      "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Kreative Aktivitaeten"
+    {
+        "date": "2025-01-12",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-01-12-center-children-activities/IMG_20250112_120138.webp",
+        "galleryManifest": "data/galleries/2025-01-12-center-children-activities.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Δημιουργικές Δραστηριότητες",
+            "en": "Activities for children at our activity centre: Creative Activities",
+            "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Kreative Aktivitaeten"
+        },
+        "description": {
+            "el": "Οργανώσαμε δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας, προσφέροντας χαρά, δημιουργικότητα και ανθρώπινη ζεστασιά σε μικρούς φίλους που το έχουν ανάγκη.",
+            "en": "We organized activities for children at our activity centre, offering joy, creativity, and human warmth to young friends who need it most.",
+            "de": "Wir organisierten Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum und brachten Freude, Kreativitaet und menschliche Waerme zu jungen Freunden, die sie am meisten brauchen."
+        }
     },
-    "description": {
-      "el": "Οργανώσαμε δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας, προσφέροντας χαρά, δημιουργικότητα και ανθρώπινη ζεστασιά σε μικρούς φίλους που το έχουν ανάγκη.",
-      "en": "We organized activities for children at our activity centre, offering joy, creativity, and human warmth to young friends who need it most.",
-      "de": "Wir organisierten Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum und brachten Freude, Kreativitaet und menschliche Waerme zu jungen Freunden, die sie am meisten brauchen."
-    }
-  },
-  {
-    "date": "2025-01-11",
-    "pillars": ["human"],
-    "thumbnail": "images/actions-blurred/history/2025/2025-01-11-center-children-activities-muffins/IMG_7193.webp",
-    "galleryManifest": "data/galleries/2025-01-11-center-children-activities-muffins.json",
-    "title": {
-      "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Ψήσιμο Muffins!",
-      "en": "Activities for children at our activity centre: Baking Muffins!",
-      "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Muffins backen!"
+    {
+        "date": "2025-01-11",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2025/2025-01-11-center-children-activities-muffins/IMG_7193.webp",
+        "galleryManifest": "data/galleries/2025-01-11-center-children-activities-muffins.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας: Ψήσιμο Muffins!",
+            "en": "Activities for children at our activity centre: Baking Muffins!",
+            "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum: Muffins backen!"
+        },
+        "description": {
+            "el": "Στο κέντρο λειτουργίας μας ψήσαμε muffins μαζί με τα παιδιά, συνδυάζοντας τη δημιουργική απασχόληση με μια ζεστή, γλυκιά στιγμή αλληλεγγύης.",
+            "en": "At our activity centre, we baked muffins together with the children, combining creative activity with a warm, sweet moment of solidarity.",
+            "de": "In unserem Aktivitaetszentrum backten wir gemeinsam mit den Kindern Muffins und verbanden kreative Beschaeftigung mit einem warmen, suessen Moment der Solidaritaet."
+        }
     },
-    "description": {
-      "el": "Στο κέντρο λειτουργίας μας ψήσαμε muffins μαζί με τα παιδιά, συνδυάζοντας τη δημιουργική απασχόληση με μια ζεστή, γλυκιά στιγμή αλληλεγγύης.",
-      "en": "At our activity centre, we baked muffins together with the children, combining creative activity with a warm, sweet moment of solidarity.",
-      "de": "In unserem Aktivitaetszentrum backten wir gemeinsam mit den Kindern Muffins und verbanden kreative Beschaeftigung mit einem warmen, suessen Moment der Solidaritaet."
+    {
+        "date": "2024-11-23",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-11-23-activities-children-center/IMG_20241123_115506507.webp",
+        "galleryManifest": "data/galleries/2024-11-23-activities-children-center.json",
+        "title": {
+            "el": "Δραστηριότητες στο κέντρο παιδιών",
+            "en": "Activities Children Center",
+            "de": "Aktivitäten im Kinderzentrum"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-11-13",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-11-13-new-beds-for-beneficiary-family/IMG_20241113_194618948.webp",
+        "galleryManifest": "data/galleries/2024-11-13-new-beds-for-beneficiary-family.json",
+        "title": {
+            "el": "Νέα κρεβάτια για ωφελούμενη οικογένεια",
+            "en": "New Beds For Beneficiary Family",
+            "de": "Neue Betten für eine Begünstigtenfamilie"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-11-09",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-11-09-found-new-home-for-beneficiary-family/IMG_20241109_150011490.webp",
+        "galleryManifest": "data/galleries/2024-11-09-found-new-home-for-beneficiary-family.json",
+        "title": {
+            "el": "Βρέθηκε νέο σπίτι για ωφελούμενη οικογένεια",
+            "en": "Found New Home For Beneficiary Family",
+            "de": "Neues Zuhause für Begünstigtenfamilie gefunden"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-11-03",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-11-03-activities-children-center/IMG_20241103_112227660_HDR.webp",
+        "galleryManifest": "data/galleries/2024-11-03-activities-children-center.json",
+        "title": {
+            "el": "Δραστηριότητες στο κέντρο παιδιών",
+            "en": "Activities Children Center",
+            "de": "Aktivitäten im Kinderzentrum"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-11-02",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-11-02-activities-children-center/IMG_20241102_112330967_HDR.webp",
+        "galleryManifest": "data/galleries/2024-11-02-activities-children-center.json",
+        "title": {
+            "el": "Δραστηριότητες στο κέντρο παιδιών",
+            "en": "Activities Children Center",
+            "de": "Aktivitäten im Kinderzentrum"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-10-23",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-10-23-greek-lessons/IMG_20241023_151421449.webp",
+        "galleryManifest": "data/galleries/2024-10-23-greek-lessons.json",
+        "title": {
+            "el": "Μαθήματα ελληνικών",
+            "en": "Greek Lessons",
+            "de": "Griechischunterricht"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-10-17",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-10-17-food-distribution-malakasa-oinofyta-lavrio/20241017_125257.webp",
+        "galleryManifest": "data/galleries/2024-10-17-food-distribution-malakasa-oinofyta-lavrio.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα, Οινόφυτα και Λαύριο",
+            "en": "Food Distribution Malakasa Oinofyta Lavrio",
+            "de": "Lebensmittelverteilung in Malakasa, Oinofyta und Lavrio"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-09-26",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-09-26-food-distribution-malakasa-oinofyta-lavrio/IMG_20240926_155057588_HDR.webp",
+        "galleryManifest": "data/galleries/2024-09-26-food-distribution-malakasa-oinofyta-lavrio.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα, Οινόφυτα και Λαύριο",
+            "en": "Food Distribution Malakasa Oinofyta Lavrio",
+            "de": "Lebensmittelverteilung in Malakasa, Oinofyta und Lavrio"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-09-16",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-09-16-school-supplies/IMG_20240916_200309393.webp",
+        "galleryManifest": "data/galleries/2024-09-16-school-supplies.json",
+        "title": {
+            "el": "Σχολικά είδη",
+            "en": "School Supplies",
+            "de": "Schulmaterial"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-08-22",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-08-22-food-distribution-malakasa-oinofyta/IMG_20240822_180717299.webp",
+        "galleryManifest": "data/galleries/2024-08-22-food-distribution-malakasa-oinofyta.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα και Οινόφυτα",
+            "en": "Food Distribution Malakasa Oinofyta",
+            "de": "Lebensmittelverteilung in Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-08-14",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-08-14-activities-for-children-from-malakasa-oinofyta/IMG_20240814_150953768.webp",
+        "galleryManifest": "data/galleries/2024-08-14-activities-for-children-from-malakasa-oinofyta.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά από Μαλακάσα και Οινόφυτα",
+            "en": "Activities For Children From Malakasa Oinofyta",
+            "de": "Aktivitäten für Kinder aus Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-08-11",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-08-11-activities-for-children-from-malakasa-oinofyta/IMG_20240811_143102265.webp",
+        "galleryManifest": "data/galleries/2024-08-11-activities-for-children-from-malakasa-oinofyta.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά από Μαλακάσα και Οινόφυτα",
+            "en": "Activities For Children From Malakasa Oinofyta",
+            "de": "Aktivitäten für Kinder aus Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-08-09",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-08-09-activities-for-children-from-malakasa-oinofyta/IMG_20240809_155717970.webp",
+        "galleryManifest": "data/galleries/2024-08-09-activities-for-children-from-malakasa-oinofyta.json",
+        "title": {
+            "el": "Δραστηριότητες για παιδιά από Μαλακάσα και Οινόφυτα",
+            "en": "Activities For Children From Malakasa Oinofyta",
+            "de": "Aktivitäten für Kinder aus Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-07-25",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-07-25-food-distribution-malakasa-oinofyta/IMG_20240725_152721346.webp",
+        "galleryManifest": "data/galleries/2024-07-25-food-distribution-malakasa-oinofyta.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα και Οινόφυτα",
+            "en": "Food Distribution Malakasa Oinofyta",
+            "de": "Lebensmittelverteilung in Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-07-18",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-07-18-food-distribution-malakasa-oinofyta/IMG_20240718_153641573.webp",
+        "galleryManifest": "data/galleries/2024-07-18-food-distribution-malakasa-oinofyta.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα και Οινόφυτα",
+            "en": "Food Distribution Malakasa Oinofyta",
+            "de": "Lebensmittelverteilung in Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-07-10",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-07-10-water-distribution-for-forest-fire-affected-people/IMG_20240710_162451935.webp",
+        "galleryManifest": "data/galleries/2024-07-10-water-distribution-for-forest-fire-affected-people.json",
+        "title": {
+            "el": "Διανομή νερού σε πυρόπληκτους",
+            "en": "Water Distribution For Forest Fire Affected People",
+            "de": "Wasserverteilung für von Waldbränden betroffene Menschen"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-07-01",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-07-01-clothes-distribution-malakasa-oinofyta/IMG_20240801_173740293.webp",
+        "galleryManifest": "data/galleries/2024-07-01-clothes-distribution-malakasa-oinofyta.json",
+        "title": {
+            "el": "Διανομή ρούχων σε Μαλακάσα και Οινόφυτα",
+            "en": "Clothes Distribution Malakasa Oinofyta",
+            "de": "Kleiderverteilung in Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-06-20",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-06-20-food-distribution-malakasa-oinofyta/IMG_20240620_160513399.webp",
+        "galleryManifest": "data/galleries/2024-06-20-food-distribution-malakasa-oinofyta.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα και Οινόφυτα",
+            "en": "Food Distribution Malakasa Oinofyta",
+            "de": "Lebensmittelverteilung in Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-06-06",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-06-06-food-distribution-malakasa-oinofyta/IMG_20240606_105917190.webp",
+        "galleryManifest": "data/galleries/2024-06-06-food-distribution-malakasa-oinofyta.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα και Οινόφυτα",
+            "en": "Food Distribution Malakasa Oinofyta",
+            "de": "Lebensmittelverteilung in Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-05-23",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-05-23-collection-of-donation-from-co2gether-patras/IMG_20240523_161713682.webp",
+        "galleryManifest": "data/galleries/2024-05-23-collection-of-donation-from-co2gether-patras.json",
+        "title": {
+            "el": "Συλλογή δωρεάς από το Co2gether Πάτρας",
+            "en": "Collection Of Donation From Co2gether Patras",
+            "de": "Sammlung einer Spende von Co2gether Patras"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-05-21",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-05-21-collection-of-donation-from-maennedorf/IMG_20240521_081936724.webp",
+        "galleryManifest": "data/galleries/2024-05-21-collection-of-donation-from-maennedorf.json",
+        "title": {
+            "el": "Συλλογή δωρεάς από το Männedorf",
+            "en": "Collection Of Donation From Maennedorf",
+            "de": "Sammlung einer Spende aus Männedorf"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-04-04",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-04-04-food-distribution-malakasa-oinofyta/IMG_20240404_113158592.webp",
+        "galleryManifest": "data/galleries/2024-04-04-food-distribution-malakasa-oinofyta.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα και Οινόφυτα",
+            "en": "Food Distribution Malakasa Oinofyta",
+            "de": "Lebensmittelverteilung in Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-03-08",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-03-08-preparing-delivery-of-donation-to-habibiworks-ioannina/IMG_20240308_180251647.webp",
+        "galleryManifest": "data/galleries/2024-03-08-preparing-delivery-of-donation-to-habibiworks-ioannina.json",
+        "title": {
+            "el": "Προετοιμασία παράδοσης δωρεάς στο Habibi.Works Ιωάννινα",
+            "en": "Preparing Delivery Of Donation To Habibiworks Ioannina",
+            "de": "Vorbereitung der Spendenlieferung an Habibi.Works Ioannina"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-02-29",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-02-29-moving-out-of-old-operations-center/IMG_20240229_174013892.webp",
+        "galleryManifest": "data/galleries/2024-02-29-moving-out-of-old-operations-center.json",
+        "title": {
+            "el": "Μετακόμιση από το παλιό κέντρο επιχειρήσεων",
+            "en": "Moving Out Of Old Operations Center",
+            "de": "Umzug aus dem alten Einsatzzentrum"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-02-28",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-02-28-escorting-beneficiaries-to-airport/IMG_20240228_081415839.webp",
+        "galleryManifest": "data/galleries/2024-02-28-escorting-beneficiaries-to-airport.json",
+        "title": {
+            "el": "Συνοδεία ωφελούμενων στο αεροδρόμιο",
+            "en": "Escorting Beneficiaries To Airport",
+            "de": "Begleitung von Begünstigten zum Flughafen"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-02-21",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-02-21-collecting-donation-lavrio/IMG_20240221_133050314.webp",
+        "galleryManifest": "data/galleries/2024-02-21-collecting-donation-lavrio.json",
+        "title": {
+            "el": "Συλλογή δωρεάς στο Λαύριο",
+            "en": "Collecting Donation Lavrio",
+            "de": "Spendensammlung in Lavrio"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-01-27",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-01-27-moving-beneficiary-out-of-camp/IMG_20240127_131727874.webp",
+        "galleryManifest": "data/galleries/2024-01-27-moving-beneficiary-out-of-camp.json",
+        "title": {
+            "el": "Μετακίνηση ωφελούμενου εκτός camp",
+            "en": "Moving Beneficiary Out Of Camp",
+            "de": "Umzug einer begünstigten Person aus dem Camp"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-01-18",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-01-18-food-distribution-malakasa-oinofyta-ritsona/IMG_20240118_092710441.webp",
+        "galleryManifest": "data/galleries/2024-01-18-food-distribution-malakasa-oinofyta-ritsona.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα, Οινόφυτα και Ριτσώνα",
+            "en": "Food Distribution Malakasa Oinofyta Ritsona",
+            "de": "Lebensmittelverteilung in Malakasa, Oinofyta und Ritsona"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2024-01-11",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2024/2024-01-11-food-distribution-malakasa-oinofyta-ritsona/IMG_20240111_143256205.webp",
+        "galleryManifest": "data/galleries/2024-01-11-food-distribution-malakasa-oinofyta-ritsona.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα, Οινόφυτα και Ριτσώνα",
+            "en": "Food Distribution Malakasa Oinofyta Ritsona",
+            "de": "Lebensmittelverteilung in Malakasa, Oinofyta und Ritsona"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-12-22",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-12-22-souvlakia-at-center/IMG_20231222_142545503.webp",
+        "galleryManifest": "data/galleries/2023-12-22-souvlakia-at-center.json",
+        "title": {
+            "el": "Σουβλάκια στο κέντρο",
+            "en": "Souvlakia At Center",
+            "de": "Souvlaki im Zentrum"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-12-21",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-12-21-food-distribution-ritsona/IMG_20231221_112222068.webp",
+        "galleryManifest": "data/galleries/2023-12-21-food-distribution-ritsona.json",
+        "title": {
+            "el": "Διανομή τροφίμων στη Ριτσώνα",
+            "en": "Food Distribution Ritsona",
+            "de": "Lebensmittelverteilung in Ritsona"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-12-19",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-12-19-food-distribution-andravida/IMG_20231219_125544392.webp",
+        "galleryManifest": "data/galleries/2023-12-19-food-distribution-andravida.json",
+        "title": {
+            "el": "Διανομή τροφίμων στην Ανδραβίδα",
+            "en": "Food Distribution Andravida",
+            "de": "Lebensmittelverteilung in Andravida"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-12-14",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-12-14-food-distribution-malakasa-oinofyta/IMG_20231214_162325565.webp",
+        "galleryManifest": "data/galleries/2023-12-14-food-distribution-malakasa-oinofyta.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα και Οινόφυτα",
+            "en": "Food Distribution Malakasa Oinofyta",
+            "de": "Lebensmittelverteilung in Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-12-13",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-12-13-donation-delivered-to-beneficiary/IMG_20231213_145049899.webp",
+        "galleryManifest": "data/galleries/2023-12-13-donation-delivered-to-beneficiary.json",
+        "title": {
+            "el": "Παράδοση δωρεάς σε ωφελούμενο/η",
+            "en": "Donation Delivered To Beneficiary",
+            "de": "Spende an Begünstigte übergeben"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-12-02",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-12-02-food-distribution-malakasa-oinofyta/IMG_20231201_195117432.webp",
+        "galleryManifest": "data/galleries/2023-12-02-food-distribution-malakasa-oinofyta.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα και Οινόφυτα",
+            "en": "Food Distribution Malakasa Oinofyta",
+            "de": "Lebensmittelverteilung in Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-11-18",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-11-18-food-distribution-malakasa-oinofyta/IMG_20231118_134052177.webp",
+        "galleryManifest": "data/galleries/2023-11-18-food-distribution-malakasa-oinofyta.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα και Οινόφυτα",
+            "en": "Food Distribution Malakasa Oinofyta",
+            "de": "Lebensmittelverteilung in Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-10-12",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-10-12-food-distribution-malakasa-oinofyta/IMG_20231012_142619.webp",
+        "galleryManifest": "data/galleries/2023-10-12-food-distribution-malakasa-oinofyta.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Μαλακάσα και Οινόφυτα",
+            "en": "Food Distribution Malakasa Oinofyta",
+            "de": "Lebensmittelverteilung in Malakasa und Oinofyta"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-09-18",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-09-18-surprise-picnic-after-veroia-distribution/IMG_20230918_141157.webp",
+        "galleryManifest": "data/galleries/2023-09-18-surprise-picnic-after-veroia-distribution.json",
+        "title": {
+            "el": "Πικνίκ-έκπληξη μετά τη διανομή στη Βέροια",
+            "en": "Surprise Picnic After Veroia Distribution",
+            "de": "Überraschungspicknick nach der Verteilung in Veroia"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-08-24",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-08-24-food-distribution-oinofyta-malakasa/IMG_20230824_140543.webp",
+        "galleryManifest": "data/galleries/2023-08-24-food-distribution-oinofyta-malakasa.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Οινόφυτα και Μαλακάσα",
+            "en": "Food Distribution Oinofyta Malakasa",
+            "de": "Lebensmittelverteilung in Oinofyta und Malakasa"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-08-17",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-08-17-food-distribution-oinofyta-malakasa/IMG_20230817_131312.webp",
+        "galleryManifest": "data/galleries/2023-08-17-food-distribution-oinofyta-malakasa.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Οινόφυτα και Μαλακάσα",
+            "en": "Food Distribution Oinofyta Malakasa",
+            "de": "Lebensmittelverteilung in Oinofyta und Malakasa"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-08-10",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-08-10-food-distribution-oinofyta-malakasa/IMG_20230810_155135.webp",
+        "galleryManifest": "data/galleries/2023-08-10-food-distribution-oinofyta-malakasa.json",
+        "title": {
+            "el": "Διανομή τροφίμων σε Οινόφυτα και Μαλακάσα",
+            "en": "Food Distribution Oinofyta Malakasa",
+            "de": "Lebensmittelverteilung in Oinofyta und Malakasa"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-07-25",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-07-25-babel-visit-beneficiary-family/IMG_20230725_130054.webp",
+        "galleryManifest": "data/galleries/2023-07-25-babel-visit-beneficiary-family.json",
+        "title": {
+            "el": "Επίσκεψη της Babel σε ωφελούμενη οικογένεια",
+            "en": "Babel Visit Beneficiary Family",
+            "de": "Besuch von Babel bei einer Begünstigtenfamilie"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-07-15",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-07-15-breakdance-activity-lavrio/IMG_20230715_210300.webp",
+        "galleryManifest": "data/galleries/2023-07-15-breakdance-activity-lavrio.json",
+        "title": {
+            "el": "Δραστηριότητα breakdance στο Λαύριο",
+            "en": "Breakdance Activity Lavrio",
+            "de": "Breakdance-Aktivität in Lavrio"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-07-13",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-07-13-preparation-for-breakdance-activity-and-lunch/IMG_20230711_103740.webp",
+        "galleryManifest": "data/galleries/2023-07-13-preparation-for-breakdance-activity-and-lunch.json",
+        "title": {
+            "el": "Προετοιμασία για δραστηριότητα breakdance και γεύμα",
+            "en": "Preparation For Breakdance Activity And Lunch",
+            "de": "Vorbereitung für Breakdance-Aktivität und Mittagessen"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-06-04",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-06-04-beneficiary-girl-participates-in-gymnastics-event/IMG_20230604_182025.webp",
+        "galleryManifest": "data/galleries/2023-06-04-beneficiary-girl-participates-in-gymnastics-event.json",
+        "title": {
+            "el": "Ωφελούμενο κορίτσι συμμετέχει σε εκδήλωση γυμναστικής",
+            "en": "Beneficiary Girl Participates In Gymnastics Event",
+            "de": "Begünstigtes Mädchen nimmt an einer Gymnastikveranstaltung teil"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-04-24",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-04-24-birthday-parties/IMG_20230424_145108.webp",
+        "galleryManifest": "data/galleries/2023-04-24-birthday-parties.json",
+        "title": {
+            "el": "Πάρτι γενεθλίων",
+            "en": "Birthday Parties",
+            "de": "Geburtstagsfeiern"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-04-06",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-04-06-easter-eggs/IMG_20230406_135328.webp",
+        "galleryManifest": "data/galleries/2023-04-06-easter-eggs.json",
+        "title": {
+            "el": "Πασχαλινά αυγά",
+            "en": "Easter Eggs",
+            "de": "Ostereier"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-04-03",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-04-03-painting-beneficiaries-new-apartment/IMG_20230403_135253.webp",
+        "galleryManifest": "data/galleries/2023-04-03-painting-beneficiaries-new-apartment.json",
+        "title": {
+            "el": "Βάψιμο του νέου διαμερίσματος ωφελούμενων",
+            "en": "Painting Beneficiaries New Apartment",
+            "de": "Streichen der neuen Wohnung von Begünstigten"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-03-22",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-03-22-womens-day/IMG_20230322_134733.webp",
+        "galleryManifest": "data/galleries/2023-03-22-womens-day.json",
+        "title": {
+            "el": "Ημέρα της Γυναίκας",
+            "en": "Womens Day",
+            "de": "Frauentag"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-03-14",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-03-14-german-lessons/IMG_20230314_131324.webp",
+        "galleryManifest": "data/galleries/2023-03-14-german-lessons.json",
+        "title": {
+            "el": "Μαθήματα γερμανικών",
+            "en": "German Lessons",
+            "de": "Deutschunterricht"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "date": "2023-03-09",
+        "pillars": [
+            "human"
+        ],
+        "thumbnail": "images/actions-blurred/history/2023/2023-03-09-transfer-of-family-from-andravida-to-lavrio/IMG_20230309_140036.webp",
+        "galleryManifest": "data/galleries/2023-03-09-transfer-of-family-from-andravida-to-lavrio.json",
+        "title": {
+            "el": "Μεταφορά οικογένειας από Ανδραβίδα στο Λαύριο",
+            "en": "Transfer Of Family From Andravida To Lavrio",
+            "de": "Transfer einer Familie von Andravida nach Lavrio"
+        },
+        "description": {
+            "el": "",
+            "en": "",
+            "de": ""
+        }
     }
-  }
 ]
