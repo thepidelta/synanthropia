@@ -11,25 +11,65 @@
       "el": "Προετοιμάζουμε τον νέο χώρο ώστε να φιλοξενεί σταθερά δράσεις, συναντήσεις και υποστηρικτικές υπηρεσίες.",
       "en": "We are preparing the new space to host actions, meetings, and support services on a stable basis.",
       "de": "Wir bereiten den neuen Raum darauf vor, dauerhaft Aktionen, Treffen und unterstuetzende Angebote aufzunehmen."
-    }
-  },
-  {
-    "status": "active",
-    "pillar": "human",
-    "title": {
-      "el": "Πασχαλινά καλαθάκια για τους ωφελούμενούς μας",
-      "en": "Easter baskets for our beneficiaries",
-      "de": "Osterkoerbchen fuer unsere Beguenstigten"
     },
-    "summary": {
-      "el": "Συγκεντρώνουμε είδη και ετοιμάζουμε πασχαλινά καλαθάκια για ανθρώπους και οικογένειες που στηρίζουμε.",
-      "en": "We are collecting items and preparing Easter baskets for the people and families we support.",
-      "de": "Wir sammeln Sachspenden und bereiten Osterkoerbchen fuer die Menschen und Familien vor, die wir unterstuetzen."
+    "progress": {
+      "stages": [
+        {
+          "label": {
+            "el": "Σχεδιασμός και αποτύπωση αναγκών",
+            "en": "Planning and needs assessment",
+            "de": "Planung und Bedarfserfassung"
+          },
+          "value": 80
+        },
+        {
+          "label": {
+            "el": "Προμήθειες υλικών και εργαλείων",
+            "en": "Procurement of materials and tools",
+            "de": "Beschaffung von Materialien und Werkzeugen"
+          },
+          "value": 80
+        },
+        {
+          "label": {
+            "el": "Κρίσιμες επισκευές και αποκαταστάσεις",
+            "en": "Critical repairs and restorations",
+            "de": "Kritische Reparaturen und Wiederherstellungen"
+          },
+          "value": 90
+        },
+        {
+          "label": {
+            "el": "Ανακαίνιση εσωτερικών χώρων",
+            "en": "Renovation of interior spaces",
+            "de": "Renovierung der Innenraeume"
+          },
+          "value": 90
+        },
+        {
+          "label": {
+            "el": "Ανακαίνιση εξωτερικών χώρων",
+            "en": "Renovation of exterior areas",
+            "de": "Renovierung der Aussenbereiche"
+          },
+          "value": 0
+        },
+        {
+          "label": {
+            "el": "Τελικές ρυθμίσεις και επιχειρησιακή ετοιμότητα",
+            "en": "Final setup and operational readiness",
+            "de": "Abschliessende Einrichtung und betriebliche Einsatzbereitschaft"
+          },
+          "value": 50
+        }
+      ]
     }
   },
   {
     "status": "active",
     "pillar": "human",
+    "start_date": "2025-09-01",
+    "end_date": "2026-06-15",
     "title": {
       "el": "Μαθήματα ελληνικής γλώσσας σε ενήλικες",
       "en": "Greek language lessons for adults",
@@ -42,8 +82,13 @@
     }
   },
   {
-    "status": "active",
+    "status": "future",
     "pillar": "human",
+    "resource_status": {
+      "financial": false,
+      "material": true,
+      "human": false
+    },
     "title": {
       "el": "Δημιουργία freeshop ρούχων και παπουτσιών",
       "en": "Creation of a freeshop for clothes and shoes",

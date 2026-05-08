@@ -1,0 +1,18 @@
+{
+  "date": "YYYY-MM-DD",
+  "pillars": [
+    "human"
+  ],
+  "thumbnail": "images/actions-blurred/history/YYYY/YYYY-MM-DD-action-slug/COVER.webp",
+  "galleryManifest": "data/galleries/YYYY-MM-DD-action-slug.json",
+  "title": {
+    "el": "Δραστηριότητες για παιδιά στο κέντρο λειτουργίας μας",
+    "en": "Activities for children at our activity centre",
+    "de": "Aktivitaeten fuer Kinder in unserem Aktivitaetszentrum"
+  },
+  "description": {
+    "el": "",
+    "en": "",
+    "de": ""
+  }
+}

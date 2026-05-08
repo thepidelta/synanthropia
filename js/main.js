@@ -14,11 +14,15 @@ const i18n = {
     actions_intro_body: "Εδώ μπορείτε να δείτε τις δράσεις μας, τις τρέχουσες πρωτοβουλίες και το ιστορικό των ήδη υλοποιημένων παρεμβάσεων.",
     actions_tab_current_short: "Τρέχουσες",
     actions_tab_history_short: "Ιστορικό",
+    actions_tab_planned_short: "Προγραμματισμένες",
     actions_tab_current: "Τρέχουσες δράσεις",
     actions_tab_history: "Ιστορικό δράσεων",
+    actions_tab_planned: "Προγραμματισμένες δράσεις",
     actions_current_intro: "Εδώ συγκεντρώνουμε πρωτοβουλίες που εξελίσσονται τώρα ή ετοιμάζονται άμεσα και χρειάζονται στήριξη, συμμετοχή ή υλικά μέσα.",
     actions_history_intro: "Χρονολογική προβολή των δράσεων που έχουν ήδη υλοποιηθεί.",
+    actions_planned_intro: "Εδώ παρουσιάζονται δράσεις που έχουν αποφασιστεί και προγραμματιστεί, αλλά δεν έχουν ξεκινήσει ακόμη.",
     current_actions_empty: "Δεν υπάρχουν ακόμη τρέχουσες δράσεις σε αυτή την ενότητα.",
+    planned_actions_empty: "Δεν υπάρχουν ακόμη προγραμματισμένες δράσεις σε αυτή την ενότητα.",
     nav_home: "Αρχική",
     nav_about: "Σχετικά με εμάς",
     nav_actions: "Δράσεις",
@@ -141,27 +145,45 @@ const i18n = {
     project_group_active: "Ενεργά",
     project_group_future: "Μελλοντικά",
     project_group_completed: "Ολοκληρωμένα",
+    project_progress_label: "Πρόοδος",
+    project_stages_label: "Στάδια",
+    project_funding_label: "Χρηματοδότηση",
+    project_funding_pending: "Δεν έχουν οριστεί ακόμη στοιχεία χρηματοδότησης.",
+    project_resources_label: "Κατάσταση πόρων",
+    project_resource_financial: "Οικονομικοί πόροι",
+    project_resource_material: "Υλικοί πόροι",
+    project_resource_human: "Ανθρώπινοι πόροι",
+    project_resource_available: "Διαθέσιμοι",
+    project_resource_pending: "Σε εκκρεμότητα",
     project_finance: "Κάλυψη",
     timeline_no_items: "Δεν υπάρχουν καταχωρήσεις σε αυτή την κατηγορία.",
     timeline_no_media: "Δεν έχουν προστεθεί φωτογραφίες για αυτή τη δράση.",
     timeline_open_carousel: "Προβολή φωτογραφιών",
+    timeline_view_stats: "Προβολή στατιστικών",
+    timeline_hide_stats: "Απόκρυψη στατιστικών",
     timeline_prev: "Προηγούμενη φωτογραφία",
     timeline_next: "Επόμενη φωτογραφία",
     timeline_close: "Κλείσιμο",
     pillar_map_human: "Άνθρωπος",
     pillar_map_animals: "Ζώα",
-    pillar_map_environment: "Περιβάλλον"
+    pillar_map_environment: "Περιβάλλον",
+    footer_copyright_rest: "Συνανθρωπιά | AMKE",
+    footer_details_line: "Συνανθρωπιά Αστική Μη Κερδοσκοπική Εταιρεία | info@synanthropia.org | +30 690 903 6452 | Μεταλλωρύχων 12, Άγιος Κωνσταντίνος Λαυρεωτικής, 19500"
   },
   en: {
     org_name: "SYNANTHROPIA",
     actions_intro_body: "Here you can view our actions, current initiatives, and the history of interventions that have already been carried out.",
     actions_tab_current_short: "Current",
     actions_tab_history_short: "History",
+    actions_tab_planned_short: "Planned",
     actions_tab_current: "Current actions",
     actions_tab_history: "Action history",
+    actions_tab_planned: "Planned actions",
     actions_current_intro: "This tab gathers initiatives that are currently in progress or being prepared for immediate launch and need support, participation, or donated items.",
     actions_history_intro: "A chronological view of actions that have already been carried out, helping us track continuity and preserve the record of our work.",
+    actions_planned_intro: "This tab presents actions that have been decided and scheduled but have not started yet.",
     current_actions_empty: "There are no current actions in this section yet.",
+    planned_actions_empty: "There are no planned actions in this section yet.",
     nav_home: "Home",
     nav_about: "About us",
     nav_actions: "Actions",
@@ -284,27 +306,45 @@ const i18n = {
     project_group_active: "Active",
     project_group_future: "Upcoming",
     project_group_completed: "Completed",
+    project_progress_label: "Progress",
+    project_stages_label: "Stages",
+    project_funding_label: "Funding",
+    project_funding_pending: "Funding details have not been set yet.",
+    project_resources_label: "Resource status",
+    project_resource_financial: "Financial resources",
+    project_resource_material: "Material resources",
+    project_resource_human: "Human resources",
+    project_resource_available: "Available",
+    project_resource_pending: "Pending",
     project_finance: "Coverage",
     timeline_no_items: "No entries found in this category.",
     timeline_no_media: "No photos have been added for this action.",
     timeline_open_carousel: "View photos",
+    timeline_view_stats: "View stats",
+    timeline_hide_stats: "Hide stats",
     timeline_prev: "Previous photo",
     timeline_next: "Next photo",
     timeline_close: "Close",
     pillar_map_human: "People",
     pillar_map_animals: "Animals",
-    pillar_map_environment: "Environment"
+    pillar_map_environment: "Environment",
+    footer_copyright_rest: "Synanthropia | NPO",
+    footer_details_line: "Synanthropia Civil Non-Profit Company | info@synanthropia.org | +30 690 903 6452 | Metallorychon 12, Agios Konstantinos Lavreotikis, 19500"
   },
   de: {
     org_name: "SYNANTHROPIA",
     actions_intro_body: "Hier koennen Sie unsere Aktionen, aktuelle Initiativen und den Verlauf bereits umgesetzter Massnahmen sehen.",
     actions_tab_current_short: "Aktuell",
     actions_tab_history_short: "Verlauf",
+    actions_tab_planned_short: "Geplant",
     actions_tab_current: "Aktuelle Aktionen",
     actions_tab_history: "Aktionsverlauf",
+    actions_tab_planned: "Geplante Aktionen",
     actions_current_intro: "Hier sammeln wir Initiativen, die aktuell laufen oder unmittelbar vorbereitet werden und Unterstuetzung, Beteiligung oder Sachspenden brauchen.",
     actions_history_intro: "Eine chronologische Ansicht der bereits umgesetzten Aktionen, damit wir die Kontinuitaet und das Archiv unserer Arbeit nachvollziehen koennen.",
+    actions_planned_intro: "Hier werden Aktionen angezeigt, die beschlossen und geplant sind, aber noch nicht begonnen haben.",
     current_actions_empty: "In diesem Bereich gibt es noch keine aktuellen Aktionen.",
+    planned_actions_empty: "In diesem Bereich gibt es noch keine geplanten Aktionen.",
     nav_home: "Start",
     nav_about: "Ueber uns",
     nav_actions: "Aktionen",
@@ -427,16 +467,30 @@ const i18n = {
     project_group_active: "Aktiv",
     project_group_future: "Geplant",
     project_group_completed: "Abgeschlossen",
+    project_progress_label: "Fortschritt",
+    project_stages_label: "Phasen",
+    project_funding_label: "Finanzierung",
+    project_funding_pending: "Finanzierungsdetails wurden noch nicht festgelegt.",
+    project_resources_label: "Ressourcenstatus",
+    project_resource_financial: "Finanzielle Ressourcen",
+    project_resource_material: "Materielle Ressourcen",
+    project_resource_human: "Personelle Ressourcen",
+    project_resource_available: "Verfuegbar",
+    project_resource_pending: "Ausstehend",
     project_finance: "Deckung",
     timeline_no_items: "Keine Eintraege in dieser Kategorie.",
     timeline_no_media: "Fuer diese Aktion wurden noch keine Fotos hinzugefuegt.",
     timeline_open_carousel: "Fotos anzeigen",
+    timeline_view_stats: "Statistiken anzeigen",
+    timeline_hide_stats: "Statistiken ausblenden",
     timeline_prev: "Vorheriges Foto",
     timeline_next: "Naechstes Foto",
     timeline_close: "Schliessen",
     pillar_map_human: "Menschen",
     pillar_map_animals: "Tiere",
-    pillar_map_environment: "Umwelt"
+    pillar_map_environment: "Umwelt",
+    footer_copyright_rest: "Synanthropia | gemeinnuetzige Organisation",
+    footer_details_line: "Synanthropia Zivilrechtliche gemeinnuetzige Gesellschaft | info@synanthropia.org | +30 690 903 6452 | Metallorychon 12, Agios Konstantinos Lavreotikis, 19500"
   }
 };
 
@@ -445,7 +499,7 @@ const state = {
   actions: [],
   projects: [],
   actionsTab: "current",
-  timelineFilter: "all",
+  timelineFilters: ["all"],
   visibleActions: [],
   galleryCache: {},
   carouselItems: [],
@@ -472,6 +526,121 @@ const formatDate = (isoDate, lang) => {
     month: "short",
     year: "numeric"
   });
+};
+
+const parseIsoDate = (value) => {
+  if (!value) {
+    return null;
+  }
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+};
+
+const getDateDrivenProgress = (item, now = new Date()) => {
+  const startRaw = item.start_date || item.startDate;
+  const endRaw = item.end_date || item.endDate;
+  const start = parseIsoDate(startRaw);
+  const end = parseIsoDate(endRaw);
+
+  if (!start || !end || end <= start) {
+    return null;
+  }
+
+  const ratio = (now.getTime() - start.getTime()) / (end.getTime() - start.getTime());
+  const pct = Math.round(ratio * 100);
+  return Math.max(0, Math.min(100, pct));
+};
+
+const clampPercent = (value) => {
+  if (!Number.isFinite(value)) {
+    return null;
+  }
+  return Math.max(0, Math.min(100, Math.round(value)));
+};
+
+const getStageDrivenProgress = (item, lang) => {
+  const stages = item?.progress?.stages;
+  if (!Array.isArray(stages) || !stages.length) {
+    return null;
+  }
+
+  const normalizedStages = stages
+    .map((stage) => {
+      const value = clampPercent(stage?.value);
+      if (value === null) {
+        return null;
+      }
+      const label = typeof stage?.label === "string"
+        ? stage.label
+        : stage?.label?.[lang] || stage?.label?.el || "";
+
+      return { label, value };
+    })
+    .filter(Boolean);
+
+  if (!normalizedStages.length) {
+    return null;
+  }
+
+  const total = normalizedStages.reduce((sum, stage) => sum + stage.value, 0);
+  const percent = clampPercent(total / normalizedStages.length);
+
+  return {
+    mode: "stage",
+    percent,
+    stages: normalizedStages
+  };
+};
+
+const getProjectProgress = (item, lang) => {
+  const stageDriven = getStageDrivenProgress(item, lang);
+  if (stageDriven) {
+    return stageDriven;
+  }
+
+  const dateDrivenPercent = getDateDrivenProgress(item);
+  if (dateDrivenPercent === null) {
+    return null;
+  }
+
+  return {
+    mode: "date",
+    percent: dateDrivenPercent,
+    stages: []
+  };
+};
+
+const getResourceStatus = (item, lang) => {
+  const source = item.resource_status || item.resourceStatus;
+  if (!source || typeof source !== "object") {
+    return null;
+  }
+
+  const keys = ["financial", "material", "human"];
+  const items = keys
+    .filter((key) => typeof source[key] === "boolean")
+    .map((key) => ({
+      key,
+      ready: source[key],
+      label: i18n[lang][`project_resource_${key}`] || i18n[defaultLang][`project_resource_${key}`] || key
+    }));
+
+  if (!items.length) {
+    return null;
+  }
+
+  const readyCount = items.filter((itemStatus) => itemStatus.ready).length;
+  const percent = Math.round((readyCount / items.length) * 100);
+
+  return {
+    items,
+    percent
+  };
+};
+
+const getDisplayDate = (item, lang) => {
+  const customDate = item.dateLabel?.[lang] || item.dateLabel?.el || "";
+  return customDate || formatDate(item.date, lang);
 };
 
 const getInitialLanguage = () => {
@@ -636,6 +805,29 @@ const getItemPillars = (item) => {
   return [];
 };
 
+const getImpactLabel = (metric, lang) => {
+  if (typeof metric?.label === "string") {
+    return metric.label;
+  }
+  if (metric?.label?.[lang]) {
+    return metric.label[lang];
+  }
+  return metric?.label?.el || metric?.key || "";
+};
+
+const getItemImpact = (item, lang) => {
+  if (!Array.isArray(item?.impact) || !item.impact.length) {
+    return [];
+  }
+
+  return item.impact
+    .filter((metric) => metric && metric.value !== undefined && metric.value !== null)
+    .map((metric) => ({
+      value: metric.value,
+      label: getImpactLabel(metric, lang)
+    }));
+};
+
 const getActionCacheKey = (item) => {
   const sourceTitle = item.title?.el || item.title?.en || item.title?.de || "untitled";
   return `${item.date}-${sourceTitle}`;
@@ -680,7 +872,10 @@ const renderTimeline = () => {
   const filtered = state.actions
     .filter((item) => {
       const pillars = getItemPillars(item);
-      return state.timelineFilter === "all" || pillars.includes(state.timelineFilter);
+      if (state.timelineFilters.includes("all") || !state.timelineFilters.length) {
+        return true;
+      }
+      return pillars.some((pillar) => state.timelineFilters.includes(pillar));
     })
     .sort((a, b) => new Date(b.date) - new Date(a.date));
 
@@ -709,12 +904,14 @@ const renderTimeline = () => {
       return `
         <article class="timeline-item">
           <div class="timeline-meta">
-            <span class="timeline-date">${formatDate(item.date, state.lang)}</span>
+            <span class="timeline-date">${getDisplayDate(item, state.lang)}</span>
             <div class="timeline-tags">${tags}</div>
           </div>
           ${thumb ? `<img class="timeline-thumb" src="${thumb}" alt="${title}" loading="lazy" />` : ""}
           <h3 class="timeline-title">${title}</h3>
-          <button class="timeline-open-btn" type="button" data-action-index="${index}">${openHint}</button>
+          <div class="timeline-actions-row">
+            <button class="timeline-open-btn" type="button" data-action-index="${index}">${openHint}</button>
+          </div>
           <p>${description}</p>
         </article>
       `;
@@ -888,57 +1085,146 @@ const wireTimelineCarousel = () => {
 };
 
 const renderProjects = () => {
-  const target = document.getElementById("project-columns");
-  if (!target) {
+  const targets = document.querySelectorAll(".project-columns[data-project-groups]");
+  if (!targets.length) {
     return;
   }
 
-  const groupsAttr = target.dataset.projectGroups;
-  const hideGroupHeadings = target.dataset.hideGroupHeadings === "true";
-  const groups = groupsAttr
-    ? groupsAttr.split(",").map((group) => group.trim()).filter(Boolean)
-    : ["active", "future", "completed"];
+  targets.forEach((target) => {
+    const useTimelineStyleCards = target.dataset.cardStyle === "timeline";
+    const groupsAttr = target.dataset.projectGroups;
+    const hideGroupHeadings = target.dataset.hideGroupHeadings === "true";
+    const groups = groupsAttr
+      ? groupsAttr.split(",").map((group) => group.trim()).filter(Boolean)
+      : ["active", "future", "completed"];
 
-  const html = groups
-    .map((group) => {
-      const groupItems = state.projects.filter((item) => item.status === group);
-      if (!groupItems.length) {
-        return "";
-      }
+    const html = groups
+      .map((group) => {
+        const groupItems = state.projects.filter((item) => item.status === group);
+        if (!groupItems.length) {
+          return "";
+        }
 
-      const cards = groupItems
-        .map((item) => {
-          const title = item.title?.[state.lang] || item.title?.el || "";
-          const summary = item.summary?.[state.lang] || item.summary?.el || "";
-          const hasFinance = Number.isFinite(item.budget) && item.budget > 0 && Number.isFinite(item.raised);
-          const pct = hasFinance ? Math.min(100, Math.round((item.raised / item.budget) * 100)) : null;
+        const cards = groupItems
+          .map((item) => {
+            const title = item.title?.[state.lang] || item.title?.el || "";
+            const summary = item.summary?.[state.lang] || item.summary?.el || "";
+            const hasFinance = Number.isFinite(item.budget) && item.budget > 0 && Number.isFinite(item.raised);
+            const pct = hasFinance ? Math.min(100, Math.round((item.raised / item.budget) * 100)) : null;
+            const progress = getProjectProgress(item, state.lang);
+            const resourceStatus = getResourceStatus(item, state.lang);
+            const pillars = getItemPillars(item);
+            const tags = pillars
+              .map((pillar) => {
+                const pillarLabel = i18n[state.lang][`pillar_map_${pillar}`] || pillar;
+                return `<span class="timeline-tag ${timelineTagClass(pillar)}">${pillarLabel}</span>`;
+              })
+              .join("");
 
-          return `
-            <article class="project-card">
-              <h4>${title}</h4>
-              ${summary ? `<p>${summary}</p>` : ""}
-              ${hasFinance ? `
-              <div class="progress-bar">
-                <div class="progress-fill" style="width:${pct}%"></div>
-              </div>
-              <div class="progress-meta">${i18n[state.lang].project_finance}: ${pct}% (${fmtCurrency(item.raised, state.lang)} / ${fmtCurrency(item.budget, state.lang)})</div>
-              ` : ""}
-            </article>
-          `;
-        })
-        .join("");
+            if (useTimelineStyleCards) {
+              const metaLabel = group === "active" || group === "future"
+                ? ""
+                : i18n[state.lang][`project_group_${group}`];
+              const canShowProgress = group === "active" && progress !== null;
+              const canShowFunding = group === "future";
+              const fundingPercent = hasFinance ? pct : null;
+              const canShowResources = group === "future" && resourceStatus !== null;
 
-      return `
-        <section class="project-column">
-          ${hideGroupHeadings ? "" : `<h3>${i18n[state.lang][`project_group_${group}`]}</h3>`}
-          <div class="project-stack">${cards || ""}</div>
-        </section>
-      `;
-    })
-    .join("");
+              return `
+              <article class="timeline-item">
+                <div class="timeline-meta">
+                  ${metaLabel ? `<span class="timeline-date">${metaLabel}</span>` : ""}
+                  <div class="timeline-tags">${tags}</div>
+                </div>
+                <h3 class="timeline-title">${title}</h3>
+                ${canShowProgress ? `
+                <div class="current-progress-row">
+                  <span class="current-progress-label">${i18n[state.lang].project_progress_label}</span>
+                  <span class="current-progress-value">${progress.percent}%</span>
+                </div>
+                <div class="progress-bar current-progress-bar">
+                  <div class="progress-fill" style="width:${progress.percent}%"></div>
+                </div>
+                ${progress.stages.length ? `
+                <details class="current-progress-details">
+                  <summary class="current-progress-summary">
+                    <span class="current-progress-summary-icon" aria-hidden="true"></span>
+                    <span class="current-progress-summary-text">${i18n[state.lang].project_stages_label}</span>
+                  </summary>
+                  <div class="current-progress-stages" aria-label="${i18n[state.lang].project_stages_label}">
+                    ${progress.stages.map((stage) => `
+                      <div class="current-progress-stage">
+                        <div class="current-progress-stage-head">
+                          <span class="current-progress-stage-label">${stage.label}</span>
+                          <span class="current-progress-stage-value">${stage.value}%</span>
+                        </div>
+                        <div class="current-progress-stage-track">
+                          <span class="current-progress-stage-fill" style="width:${stage.value}%"></span>
+                        </div>
+                      </div>
+                    `).join("")}
+                  </div>
+                </details>
+                ` : ""}
+                ` : ""}
+                ${canShowFunding ? `
+                <div class="current-progress-row">
+                  <span class="current-progress-label">${canShowResources ? i18n[state.lang].project_resources_label : i18n[state.lang].project_funding_label}</span>
+                  <span class="current-progress-value">${canShowResources ? `${resourceStatus.percent}%` : fundingPercent !== null ? `${fundingPercent}%` : "-"}</span>
+                </div>
+                ${canShowResources ? `
+                <div class="progress-bar current-progress-bar">
+                  <div class="progress-fill" style="width:${resourceStatus.percent}%"></div>
+                </div>
+                <div class="resource-status-list">
+                  ${resourceStatus.items.map((entry) => `
+                    <div class="resource-status-item ${entry.ready ? "is-ready" : "is-pending"}">
+                      <span class="resource-status-dot" aria-hidden="true"></span>
+                      <span class="resource-status-label">${entry.label}</span>
+                      <span class="resource-status-value">${entry.ready ? i18n[state.lang].project_resource_available : i18n[state.lang].project_resource_pending}</span>
+                    </div>
+                  `).join("")}
+                </div>
+                ` : fundingPercent !== null ? `
+                <div class="progress-bar current-progress-bar">
+                  <div class="progress-fill" style="width:${fundingPercent}%"></div>
+                </div>
+                <div class="progress-meta">${i18n[state.lang].project_finance}: ${fundingPercent}% (${fmtCurrency(item.raised, state.lang)} / ${fmtCurrency(item.budget, state.lang)})</div>
+                ` : `<p class="timeline-empty-media">${i18n[state.lang].project_funding_pending}</p>`}
+                ` : ""}
+                ${summary ? `<p>${summary}</p>` : ""}
+              </article>
+            `;
+            }
 
-  const emptyKey = target.dataset.emptyKey || "timeline_no_items";
-  target.innerHTML = html || `<p class="timeline-empty-media">${i18n[state.lang][emptyKey] || i18n[defaultLang][emptyKey] || ""}</p>`;
+            return `
+              <article class="project-card">
+                <h4>${title}</h4>
+                ${tags ? `<div class="timeline-tags">${tags}</div>` : ""}
+                ${summary ? `<p>${summary}</p>` : ""}
+                ${hasFinance ? `
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width:${pct}%"></div>
+                </div>
+                <div class="progress-meta">${i18n[state.lang].project_finance}: ${pct}% (${fmtCurrency(item.raised, state.lang)} / ${fmtCurrency(item.budget, state.lang)})</div>
+                ` : ""}
+              </article>
+            `;
+          })
+          .join("");
+
+        return `
+          <section class="project-column">
+            ${hideGroupHeadings ? "" : `<h3>${i18n[state.lang][`project_group_${group}`]}</h3>`}
+            <div class="project-stack">${cards || ""}</div>
+          </section>
+        `;
+      })
+      .join("");
+
+    const emptyKey = target.dataset.emptyKey || "timeline_no_items";
+    target.innerHTML = html || `<p class="timeline-empty-media">${i18n[state.lang][emptyKey] || i18n[defaultLang][emptyKey] || ""}</p>`;
+  });
 };
 
 const renderActionsTabs = () => {
@@ -1041,14 +1327,55 @@ const wireActiveNavLink = () => {
 };
 
 const wireTimelineFilters = () => {
-  document.querySelectorAll(".filter-btn").forEach((btn) => {
+  const buttons = Array.from(document.querySelectorAll(".filter-btn"));
+  if (!buttons.length) {
+    return;
+  }
+
+  const selectableFilters = buttons
+    .map((btn) => btn.dataset.filter || "all")
+    .filter((filter) => filter !== "all");
+
+  const syncFilterButtons = () => {
+    buttons.forEach((btn) => {
+      const filter = btn.dataset.filter || "all";
+      const isActive = state.timelineFilters.includes(filter);
+      btn.classList.toggle("active", isActive);
+      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+  };
+
+  syncFilterButtons();
+
+  buttons.forEach((btn) => {
     btn.addEventListener("click", () => {
-      state.timelineFilter = btn.dataset.filter || "all";
+      const filter = btn.dataset.filter || "all";
+      const nextFilters = new Set(state.timelineFilters);
 
-      document.querySelectorAll(".filter-btn").forEach((candidate) => {
-        candidate.classList.toggle("active", candidate === btn);
-      });
+      if (filter === "all") {
+        nextFilters.clear();
+        nextFilters.add("all");
+      } else {
+        nextFilters.delete("all");
+        if (nextFilters.has(filter)) {
+          nextFilters.delete(filter);
+        } else {
+          nextFilters.add(filter);
+        }
 
+        const selectedNonAll = Array.from(nextFilters).filter((value) => value !== "all");
+        if (selectedNonAll.length === selectableFilters.length) {
+          nextFilters.clear();
+          nextFilters.add("all");
+        }
+
+        if (!nextFilters.size) {
+          nextFilters.add("all");
+        }
+      }
+
+      state.timelineFilters = Array.from(nextFilters);
+      syncFilterButtons();
       renderTimeline();
     });
   });

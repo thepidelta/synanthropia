@@ -18,7 +18,7 @@
       } catch (error) {}
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=20260410-1" />
+  <link rel="stylesheet" href="css/style.css?v=20260418-16" />
 </head>
 <body>
   <header class="site-header" id="home">
@@ -54,15 +54,23 @@
         </div>
 
         <div class="actions-tabs" role="tablist" aria-label="Actions views">
-          <button class="actions-tab-btn active" id="actions-tab-current" type="button" role="tab" aria-selected="true" aria-controls="actions-panel-current" data-tab="current" data-i18n="actions_tab_current_short">Τρέχουσες</button>
           <button class="actions-tab-btn" id="actions-tab-history" type="button" role="tab" aria-selected="false" aria-controls="actions-panel-history" data-tab="history" data-i18n="actions_tab_history_short">Ιστορικό</button>
+          <button class="actions-tab-btn active" id="actions-tab-current" type="button" role="tab" aria-selected="true" aria-controls="actions-panel-current" data-tab="current" data-i18n="actions_tab_current_short">Τρέχουσες</button>
+          <button class="actions-tab-btn" id="actions-tab-planned" type="button" role="tab" aria-selected="false" aria-controls="actions-panel-planned" data-tab="planned" data-i18n="actions_tab_planned_short">Προγραμματισμένες</button>
         </div>
 
         <section class="actions-tab-panel active" id="actions-panel-current" role="tabpanel" aria-labelledby="actions-tab-current">
           <div class="actions-panel-head">
             <p data-i18n="actions_current_intro">Εδώ συγκεντρώνουμε πρωτοβουλίες που εξελίσσονται τώρα ή ετοιμάζονται άμεσα και χρειάζονται στήριξη, συμμετοχή ή υλικά μέσα.</p>
           </div>
-          <div class="project-columns" id="project-columns" data-project-groups="active,future" data-empty-key="current_actions_empty" data-hide-group-headings="true"></div>
+          <div class="project-columns" id="project-columns" data-project-groups="active" data-empty-key="current_actions_empty" data-hide-group-headings="true" data-card-style="timeline"></div>
+        </section>
+
+        <section class="actions-tab-panel" id="actions-panel-planned" role="tabpanel" aria-labelledby="actions-tab-planned" hidden>
+          <div class="actions-panel-head">
+            <p data-i18n="actions_planned_intro">Εδώ παρουσιάζονται δράσεις που έχουν αποφασιστεί και προγραμματιστεί, αλλά δεν έχουν ξεκινήσει ακόμη.</p>
+          </div>
+          <div class="project-columns" id="project-columns-planned" data-project-groups="future" data-empty-key="planned_actions_empty" data-hide-group-headings="true" data-card-style="timeline"></div>
         </section>
 
         <section class="actions-tab-panel" id="actions-panel-history" role="tabpanel" aria-labelledby="actions-tab-history" hidden>
@@ -84,11 +92,11 @@
   </main>
 
   <footer class="site-footer">
-    <p>&copy; <span id="year"></span> Συνανθρωπιά | AMKE</p>
-    <p>Συνανθρωπιά Αστική Μη Κερδοσκοπική Εταιρεία | info@synanthropia.org | +30 690 903 6452 | Θυμάρι Παλαιάς Φώκαιας, συμβολή Σόλωνος και Σεφέρη, Τ.Κ. 19013</p>
+    <p>&copy; <span id="year"></span> <span data-i18n="footer_copyright_rest">Συνανθρωπιά | AMKE</span></p>
+    <p data-i18n="footer_details_line">Συνανθρωπιά Αστική Μη Κερδοσκοπική Εταιρεία | info@synanthropia.org | +30 690 903 6452 | Μεταλλωρύχων 12, Άγιος Κωνσταντίνος Λαυρεωτικής, 19500</p>
   </footer>
 
-  <script src="js/main.js?v=20260411-1"></script>
+  <script src="js/main.js?v=20260418-17"></script>
 </body>
 </html>
 
